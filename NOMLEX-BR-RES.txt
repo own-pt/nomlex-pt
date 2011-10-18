@@ -1,12 +1,3 @@
-;;; NOMLEX_BR
-;;; Created by Valeria de Paiva, June 2011
-;;; This is a small lexicon of norminalizations/deverbals in Brazilian Portuguese
-;;; We keep the English Lisp-like structure of the original NOMLEX, freely available from
-;;; http://nlp.cs.nyu.edu/nomlex/ and add a hopefully useful `gloss' in the style or WordNet.
-;;; At the moment there are issues with diacritical encodings and the structure is possibly 
-;;; not the best one for Portuguese.
-
-
 (NOM       :ORTH "abandono"  :PLURAL **
                                 :VERB "abandonar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -21,7 +12,7 @@
                                                                        (PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-				:"O abandono de criancas sempre existiu e nenhuma medida adotada conseguiu resolver a situacao."				   
+				:"O abandono de crianças sempre existiu e nenhuma medida adotada conseguiu resolver a situação."				   
 (NOM       :ORTH "aviltamento"    :VERB "aviltar"
                                 :PLURAL **
                                 :NOM-TYPE ((VERB-NOM))
@@ -52,9 +43,10 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))
                                             (NOM-POSSING :NOM-SUBC ((P-POSSING :PVAL ("of"))))))
-***(NOM       :ORTH "absentee"     :PLURAL "absentees"
+
+(NOM       :ORTH "abstenção"    :PLURAL "abstenções"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "absent"
+                                :VERB "abster"
                                 :NOM-TYPE ((SUBJECT))
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
                                 :OBJ-ATTRIBUTE ((NHUMAN)
@@ -62,6 +54,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((NONE)))
                                             (NOM-NP-PP :OBJECT ((NONE))
                                                        :PVAL ("from"))))
+
 (NOM       :ORTH "absorcao"   :VERB "absorver"
                                 :PLURAL "absorptions"
                                 :PLURAL-FREQ "8:924 plur:sing"
@@ -215,8 +208,9 @@
                                                                 "with"))
                                               (NOM-NP :OBJECT ((PP-OF)))
                                               (NOM-INTRANS)))
-***(NOM       :ORTH "accomplishment"  :PLURAL "accomplishments"
-                                   :VERB "accomplish"
+
+(NOM       :ORTH "realização"  :PLURAL "realizações"
+                                   :VERB "realizar"
                                    :NOUN ((RARE-NOM))
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((DET-POSS))
@@ -224,6 +218,7 @@
                                    :OBJ-ATTRIBUTE ((NOT-COMMUNICATOR))
                                    :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                 (PP-OF)))))
+
 (NOM       :ORTH "acreditacao"  :VERB "creditar"
                                   :PLURAL "accreditations"
                                   :PLURAL-FREQ "5: 284 plur:sing"
@@ -248,8 +243,8 @@
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "accrual"      :PLURAL *NONE*
-                                :VERB "accrue"
+(NOM       :ORTH "recolhimento" :PLURAL *NONE*
+                                :VERB "recolher"
                                 :NOM-TYPE ((VERB-NOM))
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -261,7 +256,8 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-PP :PVAL ("to"))))
-(NOM       :ORTH "acumulacao"  :VERB "acumular"
+
+(NOM       :ORTH "acumulação"  :VERB "acumular"
                                  :PLURAL "accumulations"
                                  :PLURAL-FREQ "80:907 plur:sing"
                                  :FEATURES ((VCOLLECTIVE)
@@ -294,8 +290,9 @@
                                                              :PVAL ("of"))
                                             (NOM-NP :OBJECT ((PP :PVAL ("against"))
                                                              (PP-OF)))))
-***(NOM       :ORTH "achievement"  :VERB "achieve"
-                                :PLURAL "achievements"
+
+(NOM       :ORTH "realização"  :VERB "realizar"
+                                :PLURAL "realizações"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (PP-OF)
@@ -303,6 +300,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
+
 (NOM       :ORTH "agradecimento"  :VERB "agradecer"
                                     :PLURAL "acknowledgements"
                                     :PLURAL-FREQ "not rare"
@@ -336,8 +334,8 @@
                                                           :PVAL ("from")
                                                           :PVAL2 ("for")
                                                           :NOM-ROLE-FOR-PVAL2 ((N-N-MOD)))))
-***(NOM       :ORTH "acquittal"    :VERB "acquit"
-                                :PLURAL "acquittals"
+(NOM       :ORTH "absolvição"   :VERB "absolver"
+                                :PLURAL "absolvições"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -353,6 +351,7 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
+
 (NOM       :ORTH "acao"       :PLURAL "actions"
                                 :VERB "atuar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -448,8 +447,8 @@
                                                               "to"
                                                               "with")
                                                        :REQUIRED ((SUBJECT)))))
-***(NOM       :ORTH "addressee"    :VERB "address"
-                                :PLURAL "addressees"
+(NOM       :ORTH "destinatário" :VERB "destinar"
+                                :PLURAL "destinatários"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -459,6 +458,8 @@
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
                                 :OBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-NP)))
+
+
 ***(NOM       :ORTH "addressee2"   :VERB "address"
                                 :PLURAL "addressees"
                                 :PLURAL-FREQ "not rare"
@@ -15370,7 +15371,8 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "trabalho"         :PLURAL ""
+
+(NOM       :ORTH "trabalho"     :PLURAL "trabalhos"
                                 :PLURAL-FREQ "6:57402 plur:sing"
                                 :VERB "trabalhar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -15392,8 +15394,9 @@
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-P-ING-SC :PVAL ("toward"))
                                             (NOM-TO-INF-SC)))
-(NOM       :ORTH "trabalhador"       :VERB "trabalhar"
-                                :PLURAL "workers"
+
+(NOM       :ORTH "trabalhador"  :VERB "trabalhar"
+                                :PLURAL "trabalhadores"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))
                                             (NOM-PP :PVAL ("among"
@@ -15409,7 +15412,8 @@
                                                            "with")
                                                     :PVAL-NOM ("on")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-(NOM       :ORTH "escritor"       :PLURAL "writers"
+
+(NOM       :ORTH "escritor"     :PLURAL "escritores"
                                 :VERB "escrever"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
