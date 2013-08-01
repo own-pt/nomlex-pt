@@ -1,18 +1,21 @@
-(NOM       :ORTH "abandono"  :PLURAL **
-                                :VERB "abandonar"
-                                :NOM-TYPE ((VERB-NOM))
-                                :VERB-SUBJ ((DET-POSS))
-                                :SUBJ-ATTRIBUTE ((COMMUNICATOR))
-                                :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
-                                                             (PP-OF)))
-                                            (NOM-NP-PP :OBJECT ((DET-POSS)
-                                                                (PP-OF))
-                                                       :PVAL ("for" "to"))
-                                            (NOM-NP-TO-INF-OC :OBJECT ((DET-POSS)
-                                                                       (PP-OF)))
-                                            (NOM-NP-AS-NP :OBJECT ((DET-POSS)
-                                                                   (PP-OF)))))
-				:"O abandono de crianças sempre existiu e nenhuma medida adotada conseguiu resolver a situação."				   
+(NOM  :ORTH "abandono"  :PLURAL **
+      :VERB "abandonar"
+      :NOM-TYPE ((VERB-NOM))
+      :VERB-SUBJ ((DET-POSS))
+      :SUBJ-ATTRIBUTE ((COMMUNICATOR))
+      :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
+				   (PP-OF)))
+		  (NOM-NP-PP :OBJECT ((DET-POSS)
+				      (PP-OF))
+			     :PVAL ("for" "to"))
+		  (NOM-NP-TO-INF-OC :OBJECT ((DET-POSS)
+					     (PP-OF)))
+		  (NOM-NP-AS-NP :OBJECT ((DET-POSS)
+					 (PP-OF))))
+      :GLOSS "O abandono de crianças sempre existiu e nenhuma medida adotada
+              conseguiu resolver a situação.")
+
+
 (NOM       :ORTH "aviltamento"    :VERB "aviltar"
                                 :PLURAL **
                                 :NOM-TYPE ((VERB-NOM))
