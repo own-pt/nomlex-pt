@@ -1,4 +1,4 @@
-﻿(NOM  :ORTH "abandono"  :PLURAL nil
+(NOM  :ORTH "abandono"  :PLURAL nil
       :VERB "abandonar"
       :NOM-TYPE ((VERB-NOM))
       :VERB-SUBJ ((DET-POSS))
@@ -1355,7 +1355,7 @@ admittance
                                             (NOM-INTRANS)
                                             (NOM-P-NP-TO-INF-VC :PVAL ("for"
                                                                        "to"))))
-(NOM       :ORTH "aparencia"   :VERB "aparecer"
+(NOM       :ORTH "aparência"   :VERB "aparecer"
                                 :PLURAL "appearances"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -1809,7 +1809,7 @@ montagem
                                             (NOM-NP-TO-INF-OC :OBJECT ((DET-POSS)
                                                                        (PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)))))
-(NOM       :ORTH "assistencia"   :VERB "assistir"
+(NOM       :ORTH "assistência"   :VERB "assistir"
                                 :PLURAL nil
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP :PVAL ("from"))
@@ -4161,6 +4161,7 @@ montagem
                                              (NOM-PP :PVAL ("about" "on" "with")
                                                      :PVAL-NOM ("about" "on"))
                                              (NOM-INTRANS-RECIP)))
+
 (NOM       :ORTH "conversão"   :PLURAL "conversions"
 	   :VERB "converter"
 	   :NOM-TYPE ((VERB-NOM))
@@ -15127,7 +15128,7 @@ montagem
                                                            "to"))
                                             (NOM-INTRANS)))
 
-(NOM  :ORTH "ameaca"       
+(NOM  :ORTH "ameaça"       
       :VERB "ameaçar"
       :PLURAL "threats"
       :PLURAL-FREQ "not rare"

@@ -58,4 +58,21 @@
 	(if expand 
 	    (progn 
 	      (report-rel verb verb-senses out)
-	      (report-rel noum noum-senses out))))))))
+	      (report-rel noum noum-senses out)))))))
+
+
+(defun report-1 (norms filename)
+  (with-open-file (out filename :direction :output :if-exists :supersede)
+    (dolist (n norms)
+      (let* ((verb (getf (cdr n) :VERB))
+	     (noum (getf (cdr n) :ORTH))
+	     (verb-senses (get-senses verb :lst '(!wn30:VerbSynset)))
+	     (noum-senses (get-senses noum))
+	     (verb-size (length verb-senses))
+	     (noum-size (length noum-senses)))
+	(format out "; ~a:~a, ~a:~a~%" verb verb-size noum noum-size)
+	(if (equal verb-size 0)
+	    (format out "~s~%" `(synset ? ,verb)))
+	(if (equal noum-size 0)
+	    (format out "~s~%" `(synset ? ,noum)))))))
+
