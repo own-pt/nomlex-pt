@@ -1,4 +1,4 @@
-(NOM  :ORTH "abandono"  :PLURAL **
+﻿(NOM  :ORTH "abandono"  :PLURAL **
       :VERB "abandonar"
       :NOM-TYPE ((VERB-NOM))
       :VERB-SUBJ ((DET-POSS))
@@ -12,23 +12,20 @@
 					     (PP-OF)))
 		  (NOM-NP-AS-NP :OBJECT ((DET-POSS)
 					 (PP-OF))))
-      :GLOSS "O abandono de crian�as sempre existiu e nenhuma medida adotada
-              conseguiu resolver a situa��o.")
+      :GLOSS "O abandono de criancas sempre existiu e nenhuma medida adotada
+              conseguiu resolver a situacao.")
 
 
-(NOM :ORTH "aviltamento"    
-     :VERB "aviltar"
-     :PLURAL **
-     :NOM-TYPE ((VERB-NOM))
-     :VERB-SUBJ ((NOT-PP-BY)
-		 (DET-POSS))
-     :SUBJ-ATTRIBUTE ((COMMUNICATOR))
-     :OBJ-ATTRIBUTE ((COMMUNICATOR))
-     :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
-				  (N-N-MOD)
-				  (PP-OF)))))
-
-
+(NOM       :ORTH "aviltamento"    :VERB "aviltar"
+                                :PLURAL **
+                                :NOM-TYPE ((VERB-NOM))
+                                :VERB-SUBJ ((NOT-PP-BY)
+                                            (DET-POSS))
+                                :SUBJ-ATTRIBUTE ((COMMUNICATOR))
+                                :OBJ-ATTRIBUTE ((COMMUNICATOR))
+                                :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
+                                                             (N-N-MOD)
+                                                             (PP-OF)))))
 (NOM       :ORTH "diminuicao"    :VERB "diminuir"
                                 :PLURAL ""
                                 :PLURAL-FREQ "2:136 plur:sing"
@@ -50,7 +47,7 @@
                                                              (PP-OF)))
                                             (NOM-POSSING :NOM-SUBC ((P-POSSING :PVAL ("of"))))))
 
-(NOM       :ORTH "absten��o"    :PLURAL "absten��es"
+(NOM       :ORTH "abstencao"    :PLURAL "abstencões"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "abster"
                                 :NOM-TYPE ((SUBJECT))
@@ -215,7 +212,7 @@
                                               (NOM-NP :OBJECT ((PP-OF)))
                                               (NOM-INTRANS)))
 
-(NOM       :ORTH "realiza��o"  :PLURAL "realiza��es"
+(NOM       :ORTH "realizacao"  :PLURAL "realizacões"
                                    :VERB "realizar"
                                    :NOUN ((RARE-NOM))
                                    :NOM-TYPE ((VERB-NOM))
@@ -241,7 +238,7 @@
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-(NOM       :ORTH "acrescimo"    :VERB "acrescentar"
+(NOM       :ORTH "acréscimo"    :VERB "acrescentar"
                                 :PLURAL "accretions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -263,7 +260,7 @@
                                                              (PP-OF)))
                                             (NOM-PP :PVAL ("to"))))
 
-(NOM       :ORTH "acumula��o"  :VERB "acumular"
+(NOM       :ORTH "acumulacao"  :VERB "acumular"
                                  :PLURAL "accumulations"
                                  :PLURAL-FREQ "80:907 plur:sing"
                                  :FEATURES ((VCOLLECTIVE)
@@ -297,8 +294,8 @@
                                             (NOM-NP :OBJECT ((PP :PVAL ("against"))
                                                              (PP-OF)))))
 
-(NOM       :ORTH "realiza��o"  :VERB "realizar"
-                                :PLURAL "realiza��es"
+(NOM       :ORTH "realizacao"  :VERB "realizar"
+                                :PLURAL "realizacoes"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (PP-OF)
@@ -340,8 +337,8 @@
                                                           :PVAL ("from")
                                                           :PVAL2 ("for")
                                                           :NOM-ROLE-FOR-PVAL2 ((N-N-MOD)))))
-(NOM       :ORTH "absolvi��o"   :VERB "absolver"
-                                :PLURAL "absolvi��es"
+(NOM       :ORTH "absolvicao"   :VERB "absolver"
+                                :PLURAL "absolvicoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -453,8 +450,8 @@
                                                               "to"
                                                               "with")
                                                        :REQUIRED ((SUBJECT)))))
-(NOM       :ORTH "destinat�rio" :VERB "destinar"
-                                :PLURAL "destinat�rios"
+(NOM       :ORTH "destinatario" :VERB "destinar"
+                                :PLURAL "destinatarios"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -466,8 +463,8 @@
                                 :VERB-SUBC ((NOM-NP)))
 
 
-***(NOM       :ORTH "addressee2"   :VERB "address"
-                                :PLURAL "addressees"
+***(NOM       :ORTH "endereco"   :VERB "enderecar"
+                                :PLURAL "enderecos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((IND-OBJ))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -481,9 +478,9 @@
                                                                 (PP-OF))
                                                        :PVAL ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "adjournment"  :PLURAL "adjournments"
+***(NOM       :ORTH "adiamento"  :PLURAL "adiamentos"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "adjourn"
+                                :VERB "adiar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :N-N-MOD-NO-OTHER-OBJ ((SUBJECT))
                                 :VERB-SUBJ ((DET-POSS)
@@ -577,6 +574,7 @@
                                             (NOM-PP :PVAL ("of" "to"))
                                             (NOM-NP-PP :OBJECT ((DET-POSS)
                                                                 (N-N-MOD)
+admittance
                                                                 (PP-OF))
                                                        :PVAL ("into" "in" "to"))
                                             (NOM-ING-SC :NOM-SUBC ((P-ING-SC :PVAL ("about"
@@ -587,8 +585,8 @@
                                                              (PP :PVAL ("from"))
                                                              (PP-OF)))
                                             (NOM-PP-THAT-S :PVAL1 ("to"))))
-***(NOM       :ORTH "admittance"   :VERB "admit"
-                                :PLURAL "admittances"
+***(NOM       :ORTH "reconhecimento"   :VERB "reconhecer"
+                                :PLURAL ""
                                 :PLURAL-FREQ "1:62 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -642,7 +640,7 @@
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (N-N-MOD)
-                                            (DET-POSS))
+                                            (DET-POSadmittanceS))
                                 :VERB-SUBC ((NOM-NUNITP-TO-RANGE :SUBJECT ((DET-POSS)
                                                                            (N-N-MOD)
                                                                            (PP-OF))
@@ -853,7 +851,7 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "agreement"    :PLURAL "agreements"
+***(NOM       :ORTH "consentimento"    :PLURAL "consentir"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "agree"
                                 :NOUN ((RESULT))
@@ -922,9 +920,9 @@
                                             (NOM-P-POSSING :PVAL ("in"))
                                             (NOM-NP-P-POSSING :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("in"))))
-***(NOM       :ORTH "ailment"      :PLURAL "ailments"
+***(NOM       :ORTH "padecimento"      :PLURAL ""
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "ail"
+                                :VERB "padecer"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -934,7 +932,7 @@
                                                     :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 (NOM       :ORTH "alienacao"   :PLURAL "alienations"
-                                :VERB "alienar"
+                             ailment   :VERB "alienar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
                                 :VERB-SUBJ ((DET-POSS)
@@ -1013,8 +1011,8 @@
                                             (NOM-NP-TO-NP :OBJECT ((DET-POSS)
                                                                    (N-N-MOD)
                                                                    (PP-OF)))))
-***(NOM       :ORTH "allotment"    :PLURAL "allotments"
-                                :VERB "allot"
+***(NOM       :ORTH "loteamento"    :PLURAL "loteamento"
+                                :VERB "lotear"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -1079,8 +1077,8 @@
                                              (NOM-PP :PVAL ("with")
                                                      :ALTERNATES T)
                                              (NOM-INTRANS-RECIP)))
-***(NOM       :ORTH "amazement"    :VERB "amaze"
-                                :PLURAL "amazements"
+***(NOM       :ORTH "assombracao"    :VERB "assombrar"
+                                :PLURAL "assombracoes"
                                 :PLURAL-FREQ "1:505 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -1090,8 +1088,8 @@
                                                                       (PP-OF)))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "amendment"    :VERB "amend"
-                                :PLURAL "amendments"
+***(NOM       :ORTH "aperfeicoamento"    :VERB "aperfeicoar"
+                                :PLURAL "aperfeicoamentos"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("to")))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -1107,14 +1105,16 @@
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
+
+
                                  :OBJ-ATTRIBUTE ((NOT-COMMUNICATOR))
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (N-N-MOD)
                                                               (PP-OF))
                                                      :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                  :OBJECT ((N-N-MOD)))))))
-***(NOM       :ORTH "amusement"    :VERB "amuse"
-                                :PLURAL "amusements"
+***(NOM       :ORTH "divertimento"    :VERB "divertir"
+                                :PLURAL "divertimentos"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -1338,8 +1338,8 @@
                                             (NOM-P-ING-SC :SUBJECT ((DET-POSS)
                                                                     (PP-OF))
                                                           :PVAL ("for"))))
-***(NOM       :ORTH "appointee"    :VERB "appoint"
-                                :PLURAL "appointees"
+***(NOM       :ORTH "nomeado"    :VERB "nomear"
+                                :PLURAL "nomeados"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((PP-OF)
@@ -1439,9 +1439,9 @@
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                  :VERB-SUBC ((NOM-THAT-S)
                                              (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "approach"     :PLURAL "approaches"
+***(NOM       :ORTH "abordagem"     :PLURAL "abordagens"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "approach"
+                                :VERB "abordar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :DET-POSS-NO-OTHER-OBJ ((SUBJECT))
                                 :VERB-SUBJ ((DET-POSS)
@@ -1643,14 +1643,15 @@
                                             (NOM-TO-INF-SC)
                                             (NOM-INTRANS)))
 
-***(NOM       :ORTH "aspiration2"  :PLURAL "aspirations"
+***(NOM       :ORTH "respiracao"  :PLURAL "respiracaoes"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "aspirate"
+                                :VERB "respirar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF)))))
 
+abordagem
 (NOM       :ORTH "assassinato"  :VERB "assassinar"
                                   :PLURAL "assassinations"
                                   :NOM-TYPE ((VERB-NOM))
@@ -1660,9 +1661,9 @@
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-***(NOM       :ORTH "assembly"     :PLURAL "assemblies"
+***(NOM       :ORTH "montagem"     :PLURAL "montagens"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "assemble"
+                                :VERB "montar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
@@ -1681,6 +1682,7 @@
                                 :NOM-TYPE ((VERB-NOM))
                                 :DET-POSS-NO-OTHER-OBJ ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((SUBJECT))
+montagem
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
                                             (PP-OF))
@@ -1817,8 +1819,8 @@
                                                     :NOT ((AND1 :SUBJECT ((DET-POSS)
                                                                           (N-N-MOD))
                                                                 :OBJECT ((PP-OF)))))))
-***(NOM       :ORTH "astonishment"  :VERB "astonish"
-                                 :PLURAL "astonishments"
+***(NOM       :ORTH "estupefacao"  :VERB "estupefar"
+                                 :PLURAL ""
                                  :PLURAL-FREQ "1:555 plur:sing"
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((PP :PVAL ("at" "over")))
@@ -1861,6 +1863,7 @@
                                 :PLURAL "attacks"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
+estupefacao
                                 :VERB-SUBJ ((N-N-MOD)
                                             (PP-OF)
                                             (DET-POSS))
@@ -1912,8 +1915,8 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP :PVAL ("at"))))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "attendee"     :VERB "attend"
-                                :PLURAL "attendees"
+***(NOM       :ORTH "participante"     :VERB "participar"
+                                :PLURAL "participantes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((SUBJECT))
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
@@ -1980,11 +1983,12 @@
                                             (DET-POSS))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
+
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "average"      :VERB "average"
-                                :PLURAL "averages"
+***(NOM       :ORTH "rateio"      :VERB "ratear"
+                                :PLURAL ""
                                 :PLURAL-FREQ "not-rare"
                                 :FEATURES ((V-NUNIT :OBJECT T))
                                 :NOM-TYPE ((VERB-NOM))
@@ -1996,8 +2000,8 @@
                                 :VERB-SUBC ((NOM-ADVP)
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "avoidance"    :VERB "avoid"
-                                :PLURAL "avoidances"
+***(NOM       :ORTH "evitacao"    :VERB "evitar"
+                                :PLURAL ""
                                 :PLURAL-FREQ "1:483 plural:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -2005,8 +2009,8 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-ING-SC)))
-***(NOM       :ORTH "avowal"       :VERB "avow"
-                                :PLURAL "avowals"
+***(NOM       :ORTH "confissao"       :VERB "confessar"
+                                :PLURAL "confissoes"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -2015,7 +2019,7 @@
                                             (NOM-NP-NP :OBJECT ((PP-OF))
                                                        :IND-OBJ ((IND-OBJ-TO)))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "banishment"   :VERB "banish"
+***(NOM       :ORTH "banimento"   :VERB "banir"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -2058,9 +2062,9 @@
                                                               (N-N-MOD)
                                                               (PP-OF))
                                                     :OBJECT ((PP :PVAL ("against"))))))
-***(NOM       :ORTH "beneficiary"  :PLURAL "beneficiaries"
+***(NOM       :ORTH "beneficiario"  :PLURAL "beneficiarios"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "benefit"
+                                :VERB "beneficiar"
                                 :NOM-TYPE ((OBJECT))
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :VERB-SUBJ ((DET-POSS)
@@ -2071,8 +2075,8 @@
                                 :OBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-INTRANS :ALTERNATES T)
                                             (NOM-NP)))
-***(NOM       :ORTH "bereavement"  :VERB "bereave"
-                                :PLURAL "bereavements"
+***(NOM       :ORTH "privacao"  :VERB "privar"
+                                :PLURAL "privacoes"
                                 :PLURAL-FREQ "10:369 plur:sing"
                                 :VERB-SUBJ ((DET-POSS))
                                 :VERB-SUBC ((NOM-NP-PP :OBJECT ((DET-POSS))
@@ -2097,8 +2101,8 @@
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "betrothal"    :VERB "betroth"
-                                :PLURAL "betrothals"
+***(NOM       :ORTH "noivado"    :VERB "noivar"
+                                :PLURAL "noivados"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -2141,7 +2145,7 @@
                                 :NOUN ((RARE-NOM)
                                        (RESULT))
                                 :VERB-SUBJ ((PP :PVAL ("from"))
-                                            (NOT-PP-BY)
+                           straightforward                 (NOT-PP-BY)
                                             (N-N-MOD)
                                             (DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -2193,11 +2197,11 @@
                                                        :PVAL ("from" "with"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "boiler"       :PLURAL "boilers"
-                                :VERB "boil"
+***(NOM       :ORTH "fervedor"       :PLURAL "fervedores"
+                                :VERB "ferver"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
-                                :VERB-SUBC ((NOM-INTRANS)
+                                :fervedorVERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "bombardeamento"  :VERB "bombardear"
@@ -2219,8 +2223,8 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "breaker"      :VERB "break"
-                                :PLURAL "breakers"
+***(NOM       :ORTH "quebrador"      :VERB "quebrar"
+                                :PLURAL "quebradores"
                                 :NOUN ((EXISTS))
                                 :NOM-TYPE ((SUBJECT))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -2241,8 +2245,8 @@
                                                        :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :PVAL ("with"))))
-***(NOM       :ORTH "buffer"       :VERB "buff"
-                                :PLURAL "buffers"
+***(NOM       :ORTH "amortecedor"       :VERB "amortecer"
+                                :PLURAL "amortecedores"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
@@ -2266,8 +2270,8 @@
                                                                   "upon"
                                                                   "over"))
                                             (NOM-NP-FOR-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "burglary"     :VERB "burgle"
-                                :PLURAL "burglaries"
+***(NOM       :ORTH "arrombamento"     :VERB "arrombar"
+                                :PLURAL "arrombamentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -2290,8 +2294,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "butchery"     :VERB "butcher"
-                                :PLURAL "butcheries"
+***(NOM       :ORTH "massacre"     :VERB "massacrar"
+                                :PLURAL "massacres"
                                 :PLURAL-FREQ "not entered"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -2425,8 +2429,8 @@
                                             (NOM-NP-P-POSSING :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("about"))
                                             (NOM-FOR-TO-INF)))
-***(NOM       :ORTH "caller"       :PLURAL "callers"
-                                :VERB "call"
+***(NOM       :ORTH "visitante"       :PLURAL "visitantes"
+                                :VERB "visitar"
                                 :NOUN ((EXISTS))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -2441,8 +2445,8 @@
                                                            "via"
                                                            "upon")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "campaign"     :VERB "campaign"
-                                :PLURAL "campaigns"
+***(NOM       :ORTH "esforco"     :VERB "esforcar"
+                                :PLURAL "esforcos"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -2495,8 +2499,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "catcher"      :PLURAL "catchers"
-                                :VERB "catch"
+***(NOM       :ORTH "receptor"      :PLURAL "receptores"
+                                :VERB "receptar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
@@ -2630,7 +2634,7 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "charter"      :VERB "chart"
+***(NOM       :ORTH "fretamento"      :VERB "fretar"
                                 :PLURAL "charters"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -2921,8 +2925,8 @@
                                                              (PP-OF))
                                                     :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                 :OBJECT ((N-N-MOD)))))))
-***(NOM       :ORTH "comeback"     :VERB "come"
-                                :PLURAL "comebacks"
+***(NOM       :ORTH "regresso"     :VERB "regressar"
+                                :PLURAL "regressos"
                                 :PLURAL-FREQ "32:506 plur:sing"
                                 :NOM-TYPE ((VERB-PART :ADVAL ("back")))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -3197,8 +3201,8 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "compliance"   :VERB "comply"
-                                :PLURAL "compliances"
+***(NOM       :ORTH "contentamento"   :VERB "contentar"
+                                :PLURAL "contentamentos"
                                 :PLURAL-FREQ "9:1293 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -3271,7 +3275,7 @@
                                               (NOM-NP :SUBJECT ((DET-POSS))
                                                       :OBJECT ((PP-OF)))))
 (NOM       :ORTH "compressao"  :VERB "comprimir"
-                                :PLURAL "compressions"
+   compreensao                             :PLURAL "compressions"
                                 :PLURAL-FREQ "9:549 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -3439,7 +3443,7 @@
                                               (DET-POSS))
                                   :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                   :VERB-SUBC ((NOM-PP :PVAL ("to"))))
-(NOM       :ORTH "conditionador"  :VERB "conditionar"
+(NOM       :ORTH "condicionador"  :VERB "condicionar"
                                 :PLURAL "conditioners"
                                 :NOM-TYPE ((SUBJECT))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -3453,7 +3457,7 @@
                                 :VERB "conduzir"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
-                                            (N-N-MOD))
+                                            (N-dN-MOD))
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-NP :SUBJECT ((PP :PVAL ("by")))
                                                     :OBJECT ((PP-OF)))
@@ -3500,7 +3504,7 @@
                                                              (PP-OF)))
                                             (NOM-PP :PVAL ("to"))
                                             (NOM-P-ING-SC :PVAL ("to"))
-                                            (NOM-S)
+                                            (NOdM-S)
                                             (NOM-PP-THAT-S :PVAL1 ("to"))))
 (NOM       :ORTH "configuracao"  :VERB "configurar"
                                   :PLURAL "configurations"
@@ -3580,7 +3584,7 @@
                                    :VERB-SUBC ((NOM-NP-PP :OBJECT ((PP-OF))
                                                           :PVAL ("for" "on"))
                                                (NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "congregacao  :PLURAL "congregations"
+(NOM       :ORTH "congregacao"  :PLURAL "congregations"
                                  :PLURAL-FREQ "rare"
                                  :VERB "congregar"
                                  :NOUN ((EXISTS))
@@ -3683,8 +3687,8 @@
                                                                 (PP-OF))
                                                        :PVAL ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "consignment"  :VERB "consign"
-                                :PLURAL "consignments"
+***(NOM       :ORTH "mandato"  :VERB "mandar"
+                                :PLURAL "mandatos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -3952,8 +3956,8 @@
                                                         :PVAL ("for"
                                                                "toward"
                                                                "to"))))
-***(NOM       :ORTH "contrivances"  :VERB "contrive"
-                                 :PLURAL "contrivanceses"
+***(NOM       :ORTH "equipamento"  :VERB "equipar"
+                                 :PLURAL "equipamentos"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((OBJECT))
                                  :NOUN ((RESULT))
@@ -4055,8 +4059,8 @@
                                                                    (PP-OF))
                                                           :PVAL ("into" "to")
                                                           :PVAL2 ("from"))))                                                  :PVAL2 ("from"))))
-***(NOM       :ORTH "conveyance"   :VERB "convey"
-                                :PLURAL "conveyances"
+***(NOM       :ORTH "conducao"   :VERB "conduzir"
+                                :PLURAL "conducoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -4148,8 +4152,8 @@
                                             (NOM-NP-PP :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :PVAL ("with"))))
-***(NOM       :ORTH "corrosion"    :VERB "corrode"
-                                :PLURAL "corrosions"
+***(NOM       :ORTH "corrosao"    :VERB "corroer"
+                                :PLURAL "corrosoes"
                                 :PLURAL-FREQ "not found"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -4184,8 +4188,8 @@
                                                        :IND-OBJ ((IND-OBJ-TO)))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "countdown"    :VERB "count"
-                                :PLURAL *NONE*
+***(NOM       :ORTH "contagem"    :VERB "contar"
+                                :PLURAL "contagens"
                                 :PLURAL-FREQ "not found"
                                 :NOM-TYPE ((VERB-PART :ADVAL ("down")))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -4530,7 +4534,7 @@
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "definicao   :PLURAL "definitions"
+(NOM       :ORTH "definicao"   :PLURAL "definitions"
                                 :VERB "definir"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -4596,7 +4600,7 @@
                                                             "over"))
                                              (NOM-INTRANS)))
 (NOM       :ORTH "entrega"     :VERB "entregar"
-                                :PLURAL "deliveries"
+                            straightforward    :PLURAL "deliveries"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -4638,8 +4642,8 @@
                                             (NOM-NP-P-ING-OC :OBJECT ((DET-POSS)
                                                                       (PP-OF))
                                                              :PVAL ("into"))))
-***(NOM       :ORTH "demand"       :VERB "demand"
-                                :PLURAL "demands"
+***(NOM       :ORTH "demanda"       :VERB "demandar"
+                                :PLURAL "demandas"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -4754,8 +4758,8 @@
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP :PVAL ("against"))
                                                               (PP-OF)))))
-***(NOM       :ORTH "depiction"    :VERB "depict"
-                                :PLURAL "depictions"
+***(NOM       :ORTH "retratacao"    :VERB "retratar"
+                                :PLURAL "retratacoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -4832,8 +4836,10 @@
                                             (SUBJ-OBJ-ALT))
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((NOT-PP-BY)
+retratacao
                                              (N-N-MOD)
                                              (DET-POSS))
+
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                  :VERB-SUBC ((NOM-PP-PP :SUBJECT ((DET-POSS)
                                                                   (N-N-MOD)
@@ -4876,8 +4882,8 @@
                                                        :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :IND-OBJ ((IND-OBJ-OTHER :PVAL ("by"))))))
-***(NOM       :ORTH "derailment"   :VERB "derail"
-                                :PLURAL "derailments"
+***(NOM       :ORTH "descarrilhamento"   :VERB "descarrilhar"
+                                :PLURAL "descarrilhamentos"
                                 :PLURAL-FREQ "1:31 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -4889,8 +4895,8 @@
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "deregulation"  :VERB "deregulate"
-                                 :PLURAL "deregulations"
+***(NOM       :ORTH "desregulamentacao"  :VERB "desregular"
+                                 :PLURAL "desregulamentacoes"
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
@@ -4939,7 +4945,7 @@
                                             (NOM-INTRANS)))
 (NOM       :ORTH "descricao"  :PLURAL "descriptions"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "descriver"
+                                :VERB "descrever"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -5018,8 +5024,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "designer"     :PLURAL "designers"
-                                :VERB "design"
+***(NOM       :ORTH "desenhista"     :PLURAL "desenhistas"
+                                :VERB "desenhar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
@@ -5362,7 +5368,7 @@
                                                             "over"
                                                             "with"))
                                              (NOM-INTRANS)))
-(NOM       :ORTH "desaparencimento"  :VERB "desaparecer"
+(NOM       :ORTH "desaparecimento"  :VERB "desaparecer"
                                   :PLURAL "disappearances"
                                   :PLURAL-FREQ "not rarre"
                                   :NOM-TYPE ((VERB-NOM))
@@ -5581,8 +5587,8 @@
                                   :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-***(NOM       :ORTH "dispersal"    :VERB "disperse"
-                                :PLURAL "dispersals"
+***(NOM       :ORTH "descarga"    :VERB "descargar"
+                                :PLURAL "descargas"
                                 :PLURAL-FREQ "rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -5617,7 +5623,7 @@
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "displacement"  :VERB "displace"
+***(NOM       :ORTH "deslocacao"  :VERB "deslocar"
                                  :PLURAL *NONE*
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
@@ -5626,8 +5632,8 @@
                                  :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (PP-OF)))))
-***(NOM       :ORTH "disposal"     :VERB "dispose"
-                                :PLURAL "disposals"
+***(NOM       :ORTH "cessao"     :VERB "ceder"
+                                :PLURAL "cessoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -5815,7 +5821,7 @@
                                                     :OBJECT ((DET-POSS)
                                                              (PP-OF))
                                                     :PASSIVE-NOM T)))
-(NOM       :ORTH "distribucao"  :PLURAL "distributions"
+(NOM       :ORTH "distribuicao"  :PLURAL "distributions"
                                  :VERB "distribuir"
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((DET-POSS)
@@ -5995,8 +6001,8 @@
                                                                        :PVAL ("about"))))
                                             (NOM-S :NOM-SUBC ((SENT :THAT-S T)))
                                             (NOM-NP :OBJECT ((PP :PVAL ("about"))))))
-***(NOM       :ORTH "downing"      :VERB "down"
-                                :PLURAL "downings"
+***(NOM       :ORTH "descida"      :VERB "descer"
+                                :PLURAL "descidas"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -6038,8 +6044,8 @@
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-***(NOM       :ORTH "driver"       :VERB "drive"
-                                :PLURAL "drivers"
+***(NOM       :ORTH "condutor"       :VERB "conduzir"
+                                :PLURAL "condutores"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
@@ -6323,7 +6329,7 @@
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                  :VERB-SUBC ((NOM-PP :PVAL ("on" "upon"))
                                              (NOM-INTRANS)))
-***(NOM       :ORTH "endangerment"  :VERB "endanger"
+***(NOM       :ORTH "amedrontamento"  :VERB "amedrontar"
                                  :PLURAL *NONE*
                                  :PLURAL-FREQ *NONE*
                                  :NOM-TYPE ((VERB-NOM))
@@ -6377,7 +6383,7 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "enforcement"  :VERB "enforce"
+***(NOM       :ORTH "cumprimento"  :VERB "cumprir"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -6386,7 +6392,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-**(NOM       :ORTH "engajemento"   :PLURAL "engagements"
+**(NOM       :ORTH "engajamento"   :PLURAL "engagements"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "engajar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6510,8 +6516,8 @@
                                                        :PVAL ("to"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "entertainment"  :VERB "entertain"
-                                  :PLURAL "entertainments"
+***(NOM       :ORTH "entretenimento"  :VERB "entreter"
+                                  :PLURAL "entretenimentos"
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
                                   :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -6527,8 +6533,8 @@
                                                                          (PP-OF))
                                                                 :PVAL ("with"))
                                               (NOM-P-POSSING :PVAL ("with"))))
-**(NOM       :ORTH "entitlement"  :VERB "entitle"
-                                :PLURAL "entitlements"
+**(NOM       :ORTH "privilegio"  :VERB "privilegiar"
+                                :PLURAL "privilegios"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD))
@@ -6569,7 +6575,7 @@
                                                     :OBJECT ((PP :PVAL ("into"
                                                                         "in"))))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "involvimento"  :VERB "involver"
+(NOM       :ORTH "envolvimento"  :VERB "envolver"
                                 :PLURAL "envelopments"
                                 :PLURAL-FREQ "not-entered")
 (NOM       :ORTH "equacao"     :PLURAL "equations"
@@ -6637,8 +6643,8 @@
                                                            "to"
                                                            "with")
                                                     :PVAL-NOM ("from"))))
-***(NOM       :ORTH "espousal"     :VERB "espouse"
-                                :PLURAL "none"
+***(NOM       :ORTH "adesao"     :VERB "aderir"
+                                :PLURAL "adesoes"
                                 :PLURAL-FREQ "0:43 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -6686,8 +6692,8 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "evacuee"      :VERB "evacuate"
-                                :PLURAL "evacuees"
+***(NOM       :ORTH "evacuado"      :VERB "evacuar"
+                                :PLURAL "evacuados"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((OBJECT))
@@ -6839,8 +6845,8 @@
                                                        :PVAL ("for" "with"))
                                             (NOM-PP :PVAL ("up to" "with"))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "excision"     :VERB "excise"
-                                :PLURAL "excisions"
+***(NOM       :ORTH "excisao"     :VERB "excisar"
+                                :PLURAL "excisoes"
                                 :PLURAL-FREQ "8:67 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -7098,8 +7104,8 @@
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (N-N-MOD)
                                                               (PP-OF)))))
-***(NOM       :ORTH "exploration"  :PLURAL "explorations"
-                                :VERB "explore"
+***(NOM       :ORTH "busca"  :PLURAL "buscas"
+                                :VERB "buscar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
@@ -7528,7 +7534,7 @@
                                             (NOM-PP :PVAL ("between"))
                                             (NOM-INTRANS)))
 
-(NOM       :ORTH "forbearance"  :VERB "forbear"
+(NOM       :ORTH "paciencia"  :VERB "pacientar"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -7597,9 +7603,9 @@
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "franchisee"   :PLURAL "franchisees"
+***(NOM       :ORTH "franqueado"   :PLURAL "franqueados"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "franchise"
+                                :VERB "franquear"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
@@ -7726,8 +7732,8 @@
                                                            "with")
                                                     :PVAL-NOM ("from")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "grower"       :PLURAL "growers"
-                                :VERB "grow"
+***(NOM       :ORTH "cultivador"       :PLURAL "cultivadores"
+                                :VERB "cultivar"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -7839,7 +7845,7 @@
                                 :VERB-SUBC ((NOM-TO-INF-SC)
                                             (NOM-PP :PVAL ("about" "over"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "hesitation"   :VERB "hesitate"
+***(NOM       :ORTH "indecisao"   :VERB "decidir"
                                 :PLURAL "hesitations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -7854,8 +7860,8 @@
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "hindrances"   :VERB "hinder"
-                                :PLURAL "hindranceses"
+***(NOM       :ORTH "impedimento"   :VERB "impedir"
+                                :PLURAL "impedimentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -7899,9 +7905,9 @@
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "honoree"      :PLURAL "honorees"
+***(NOM       :ORTH "homenageado"      :PLURAL "homenageados"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "honor"
+                                :VERB "homenagear"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD))
@@ -8181,8 +8187,8 @@
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "improvement"  :VERB "improve"
-                                :PLURAL "improvements"
+***(NOM       :ORTH "melhoramento"  :VERB "melhorar"
+                                :PLURAL "melhoramentos"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -8362,8 +8368,8 @@
                                             (NOM-WH-S)
                                             (NOM-HOW-S)
                                             (NOM-PP-WH-S :PVAL1 ("to"))))
-***(NOM       :ORTH "indictment"   :VERB "indict"
-                                :PLURAL "indictments"
+***(NOM       :ORTH "acusamento"   :VERB "acusar"
+                                :PLURAL "acusamentos"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -8552,6 +8558,7 @@
                                             (NOM-INTRANS :ALTERNATES T)))
 (NOM       :ORTH "heranca"  :VERB "herdar"
                                 :PLURAL "inheritances"
+
                                 :PLURAL-FREQ "28:1245 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -8573,7 +8580,7 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP :PVAL ("to"))
                                                              (PP-OF)))))
-(NOM       :ORTH "initiacao"   :VERB "iniciar"
+(NOM       :ORTH "iniciacao"   :VERB "iniciar"
                                 :PLURAL "initiations"
                                 :PLURAL-FREQ "7:433 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -8626,7 +8633,7 @@
                                             (PP-OF))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-INTRANS)))
-***(NOM       :ORTH "inquiry"      :VERB "inquire"
+***(NOM       :ORTH "averiguacao"      :VERB "averiguar"
                                 :PLURAL "inquiries"
                                 :SPELLING "American"
                                 :PLURAL-FREQ "not rare"
@@ -8712,8 +8719,8 @@
                                                                    "in"
                                                                    "under"))
                                              (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "installment"  :VERB "install"
-                                :PLURAL "installments"
+***(NOM       :ORTH "prestacao"  :VERB "prestar"
+                                :PLURAL "prestacoes"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -8753,8 +8760,8 @@
                                  :VERB-SUBC ((NOM-NP-TO-INF-OC :OBJECT ((DET-POSS)
                                                                         (PP :PVAL ("to")))
                                                                :OPTIONAL ((OBJECT)))))
-***(NOM       :ORTH "insulation"   :VERB "insulate"
-                                :PLURAL "insulations"
+***(NOM       :ORTH "ilhamento"   :VERB "ilhar"
+                                :PLURAL "ilhamentos"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((SING-ONLY)
                                        (RESULT))
@@ -8840,9 +8847,9 @@
                                     :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                                  (PP-OF)))
                                                 (NOM-INTRANS)))
-***(NOM       :ORTH "intention"    :PLURAL "intentions"
+***(NOM       :ORTH "intencao"    :PLURAL "intencoes"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "intend"
+                                :VERB "intentar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (PP-OF))
@@ -8864,9 +8871,9 @@
                                                               (PP-OF))
                                                     :PVAL ("with"))
                                             (NOM-INTRANS-RECIP)))
-***(NOM       :ORTH "internee"     :PLURAL "internees"
+***(NOM       :ORTH "internado"     :PLURAL "internados"
                                 :PLURAL-FREQ "rare"
-                                :VERB "intern"
+                                :VERB "internar"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((DET-POSS)
                                             (NOT-PP-BY))
@@ -9133,9 +9140,9 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***before(NOM       :ORTH "irritation"   :PLURAL "irritations"
+***before(NOM       :ORTH "inflamacao"   :PLURAL "inflamacoes"
                                 :PLURAL-FREQ "not rare"
-                                :VERB "irritate"
+                                :VERB "inflamar"
                                 :NOUN ((RESULT))
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("of")))
                                 :NOM-TYPE ((VERB-NOM))
@@ -9341,8 +9348,8 @@
                                                               "on"))
                                             (NOM-P-WH-S :SUBJECT ((DET-POSS))
                                                         :PVAL ("into"))))
-***(NOM       :ORTH "layer"        :VERB "lay"
-                                :PLURAL "layers"
+***(NOM       :ORTH "cobertura"        :VERB "cobrir"
+                                :PLURAL "coberturas"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
@@ -9408,9 +9415,9 @@
                                                           :IND-OBJ ((IND-OBJ-TO)
                                                                     (DET-POSS)))))
 
-***(NOM       :ORTH "lessee"       :PLURAL "lessees"
+***(NOM       :ORTH "locatario"       :PLURAL "locatarios"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "lease"
+                                :VERB "locar"
                                 :NOM-TYPE ((IND-OBJ))
                                 :FEATURES ((SUBJ-IND-OBJ-ALT))
                                 :VERB-SUBJ ((DET-POSS)
@@ -9444,9 +9451,9 @@
                                 :OBJ-ATTRIBUTE ((NOT-NHUMAN))
                                 :VERB-SUBC ((NOM-NP-TO-NP :OBJECT ((N-N-MOD)
                                                                    (PP-OF)))))
-***(NOM       :ORTH "lift-off"     :PLURAL "lift-offs"
+***(NOM       :ORTH "arranque"     :PLURAL "arranques"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "lift"
+                                :VERB "arrancar"
                                 :NOM-TYPE ((VERB-PART))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
@@ -9590,8 +9597,8 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "maker"        :PLURAL "makers"
-                                :VERB "make"
+***(NOM       :ORTH "fabricante"        :PLURAL "fabricantes"
+                                :VERB "fabricar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
@@ -9653,8 +9660,8 @@
                                                               (PP-OF)))
                                              (NOM-NP-PP :OBJECT ((PP-OF))
                                                         :PVAL ("for" "from"))))
-***(NOM       :ORTH "marketer"     :VERB "market"
-                                :PLURAL "marketers"
+***(NOM       :ORTH "negociante"     :VERB "negociar"
+                                :PLURAL "negociantes"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
@@ -9731,8 +9738,8 @@
                                             (NOM-NP-AS-NP)
                                             (NOM-NP-PP-AS-NP :OBJECT ((PP-OF))
                                                              :PVAL1 ("to"))))
-***(NOM       :ORTH "merger"       :VERB "merge"
-                                :PLURAL "mergers"
+***(NOM       :ORTH "juncao"       :VERB "juntar"
+                                :PLURAL "juncoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -9780,8 +9787,8 @@
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-PP :PVAL ("to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "miscalculation"  :VERB "miscalculate"
-                                   :PLURAL "miscalculations"
+***(NOM       :ORTH "engano"  :VERB "enganar"
+                                   :PLURAL "enganos"
                                    :PLURAL-FREQ "not rare"
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((N-N-MOD)
@@ -9793,7 +9800,7 @@
                                                (NOM-PP :PVAL ("by")
                                                        :PVAL-NOM ("of" "by")
                                                        :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "mismanagement"  :VERB "mismanage"
+***(NOM       :ORTH "desgoverno"  :VERB "desgovernar"
                                   :PLURAL *NONE*
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((PP-OF)
@@ -9801,8 +9808,8 @@
                                   :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-***(NOM       :ORTH "misrepresentation"  :VERB "misrepresent"
-                                      :PLURAL "misrepresentations"
+***(NOM       :ORTH "deturpacao"  :VERB "deturpar"
+                                      :PLURAL "deturpacao"
                                       :PLURAL-FREQ "25:283"
                                       :NOM-TYPE ((VERB-NOM))
                                       :VERB-SUBJ ((DET-POSS))
@@ -10099,7 +10106,7 @@
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "navigacao"   :VERB "navigar"
+(NOM       :ORTH "navegacao"   :VERB "navegar"
                                 :PLURAL "navigations"
                                 :PLURAL-FREQ "20:664 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -10137,7 +10144,7 @@
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "negotiacao"  :VERB "negociar"
+(NOM       :ORTH "negociacao"  :VERB "negociar"
                                 :PLURAL "negotiations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -10179,8 +10186,8 @@
                                             (NOM-NP-TO-INF-OC :OBJECT ((PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-***(NOM       :ORTH "nominee"      :VERB "nominate"
-                                :PLURAL "nominees"
+***(NOM       :ORTH "nomeado"      :VERB "nomear"
+                                :PLURAL "nomeado"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -10464,8 +10471,8 @@
                                                                     (N-N-MOD)
                                                                     (PP-OF)
                                                                     (NOT-PP-BY)))))
-***(NOM       :ORTH "overpayment"  :VERB "overpay"
-                                :PLURAL "overpayments"
+***(NOM       :ORTH "sobrepagamento"  :VERB "sobrepagar"
+                                :PLURAL "sobrepagamentos"
                                 :PLURAL-FREQ "not rare"
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -10478,8 +10485,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "owner"        :VERB "own"
-                                :PLURAL "owners"
+***(NOM       :ORTH "possuidor"        :VERB "possuir"
+                                :PLURAL "possuidores"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
@@ -10704,8 +10711,8 @@
 
 
 
-***(NOM       :ORTH "pitcher"      :PLURAL "pitchers"
-                                :VERB "pitch"
+***(NOM       :ORTH "reservatorio"      :PLURAL "reservatorios"
+                                :VERB "reservar"
                                 :NOUN ((EXISTS))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))))
@@ -10927,8 +10934,8 @@
                                             (NOM-FOR-TO-INF :SUBJECT ((DET-POSS)
                                                                       (N-N-MOD)))
                                             (NOM-TO-INF-SC :SUBJECT ((DET-POSS)))))
-***(NOM       :ORTH "prepayment"   :VERB "prepay"
-                                :PLURAL "prepayments"
+***(NOM       :ORTH "pré-pagamento"   :VERB "pré-pagar"
+                                :PLURAL "pré-pagamentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -10994,7 +11001,7 @@
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (N-N-MOD)
                                                               (PP-OF)))))
-(NOM       :ORTH "presunção"  :VERB "presumir"
+(NOM       :ORTH "presuncao"  :VERB "presumir"
                                 :PLURAL "presumptions"
                                 :PLURAL-FREQ "not rare"
                                 :VERB-SUBJ ((N-N-MOD)
@@ -11004,7 +11011,7 @@
                                 :DET-POSS-NO-OTHER-OBJ ((SUBJECT))
                                 :VERB-SUBC ((NOM-S)
                                             (NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "prevenção"   :VERB "prevenir"
+(NOM       :ORTH "prevencao"   :VERB "prevenir"
                                 :PLURAL "preventions"
                                 :PLURAL-FREQ "2: 1379 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11031,7 +11038,7 @@
                                                              (PP-OF)))
                                             (NOM-NP-PP :OBJECT ((PP-OF))
                                                        :PVAL ("in" "on"))))
-(NOM       :ORTH "privatização"  :VERB "privatizar"
+(NOM       :ORTH "privatizacao"  :VERB "privatizar"
                                   :PLURAL "privatizations"
                                   :PLURAL-FREQ "21:806 plur:sing"
                                   :FEATURES ((SUBJ-OBJ-ALT))
@@ -11044,7 +11051,7 @@
                                                                (PP-OF))
                                                       :REQUIRED ((SUBJECT)))
                                               (NOM-INTRANS :ALTERNATES T)))
-***(NOM       :ORTH "probação"    :VERB "probate"
+***(NOM       :ORTH "provacao"    :VERB "provar"
                                 :PLURAL "probations"
                                 :PLURAL-FREQ "not found"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11053,7 +11060,7 @@
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "proclamação"  :VERB "proclamar"
+(NOM       :ORTH "proclamacao"  :VERB "proclamar"
                                  :PLURAL "proclamations"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -11073,7 +11080,7 @@
                                                         :PVAL ("to"))
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
-(NOM       :ORTH "procreação"  :VERB "procrear"
+(NOM       :ORTH "procriacao"  :VERB "procriar"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -11081,7 +11088,7 @@
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-**(NOM       :ORTH "procuração"  :VERB "procurar"
+**(NOM       :ORTH "procuracao"  :VERB "procurar"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -11103,7 +11110,7 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "produção"   :PLURAL "productions"
+(NOM       :ORTH "producao"   :PLURAL "productions"
                                 :VERB "produzir"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -11118,7 +11125,7 @@
                                                                 (N-N-MOD)
                                                                 (PP-OF))
                                                        :PVAL ("from" "out of"))))
-(NOM       :ORTH "profissão"   :VERB "professar"
+(NOM       :ORTH "profissao"   :VERB "professar"
                                 :PLURAL "professions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11135,7 +11142,7 @@
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-PP :PVAL ("p-dir"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "proibição"  :PLURAL "prohibitions"
+(NOM       :ORTH "proibicao"  :PLURAL "prohibitions"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "proibir"
                                 :NOUN ((RESULT))
@@ -11158,7 +11165,7 @@
                                                                                       "on"
                                                                                       "of"
                                                                                       "upon"))))))
-(NOM       :ORTH "projeção"   :VERB "projectar"
+(NOM       :ORTH "projecao"   :VERB "projectar"
                                 :PLURAL "projections"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -11178,7 +11185,7 @@
                                             (NOM-PP :PVAL ("from" "through"))
                                             (NOM-S)
                                             (NOM-NP-AT-NUNITP-PRED :OBJECT ((PP-OF)))))
-(NOM       :ORTH "proliferação"  :VERB "proliferar"
+(NOM       :ORTH "proliferacao"  :VERB "proliferar"
                                   :PLURAL "proliferations"
                                   :PLURAL-FREQ "4:733 plur:sing"
                                   :FEATURES ((SUBJ-OBJ-ALT))
@@ -11205,7 +11212,7 @@
                                                           :IND-OBJ ((IND-OBJ-TO)))
                                             (NOM-NP :OBJECT ((PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "promoção"    :VERB "promover"
+(NOM       :ORTH "promocao"    :VERB "promover"
                                 :PLURAL "promotions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -11244,7 +11251,7 @@
                                                              "on"))
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-(NOM       :ORTH "propagação"  :VERB "propagar"
+(NOM       :ORTH "propagacao"  :VERB "propagar"
                                 :PLURAL "propagations"
                                 :PLURAL-FREQ "2:274  plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -11264,8 +11271,8 @@
                                 :VERB-SUBJ ((N-N-MOD))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "proposal"     :VERB "propor"
-                                :PLURAL "proposals"
+(NOM       :ORTH "oferecimento"     :VERB "oferecer"
+                                :PLURAL "oferecimentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -11280,7 +11287,7 @@
                                                     :PVAL ("to"))
                                             (NOM-POSSING :SUBJECT ((DET-POSS)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "proposição"  :VERB "propor"
+(NOM       :ORTH "proposicao"  :VERB "propor"
                                 :PLURAL "propositions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11294,7 +11301,7 @@
                                                        :PVAL ("for" "to")
                                                        :PVAL-NOM ("to"))
                                             (NOM-THAT-S)))
-***(NOM       :ORTH "prosecução"  :VERB "processar"
+***(NOM       :ORTH "prosecucao"  :VERB "processar"
                                 :PLURAL "prosecutions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11311,7 +11318,7 @@
                                             (NOM-NP-P-ING-OC :OBJECT ((DET-POSS)
                                                                       (PP-OF))
                                                              :PVAL ("for"))))
-(NOM       :ORTH "prostituição"  :VERB "prostituir-se"
+(NOM       :ORTH "prostituicao"  :VERB "prostituir-se"
                                  :PLURAL *NONE*
                                  :PLURAL-FREQ "0:417 plur:sing"
                                  :NOM-TYPE ((VERB-NOM))
@@ -11324,7 +11331,7 @@
                                                         :OBJECT ((PP-OF))
                                                         :PVAL ("to"))
                                              (NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "proteção"   :VERB "protejer"
+(NOM       :ORTH "protecao"   :VERB "protejer"
                                 :PLURAL "protections"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -11355,8 +11362,8 @@
                                                            "to"
                                                            "over"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "provider"     :PLURAL "providers"
-                                :VERB "provide"
+***(NOM       :ORTH "provedor"     :PLURAL "provedores"
+                                :VERB "prover"
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
@@ -11372,7 +11379,7 @@
                                                                    :PVAL ("with"))))
                                             (NOM-NP-P-ING-SC :OBJECT ((PP-OF))
                                                              :PVAL ("for"))))
-(NOM       :ORTH "provisão"    :VERB "providenciar"
+(NOM       :ORTH "provisao"    :VERB "providenciar"
                                 :PLURAL "provisions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11396,7 +11403,7 @@
                                                                   "for"))
                                             (NOM-FOR-TO-INF)
                                             (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "provocação"  :VERB "provocar"
+(NOM       :ORTH "provocacao"  :VERB "provocar"
                                 :PLURAL "provocations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11426,7 +11433,7 @@
 (NOM       :ORTH "bomba"      :VERB "bombear"
                                 :PLURAL *NONE*
                                 :PLURAL-FREQ "not found")
-(NOM       :ORTH "punição"   :PLURAL "punishments"
+(NOM       :ORTH "punicao"   :PLURAL "punishments"
                                 :VERB "punir"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -11464,7 +11471,7 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "qualificação"  :VERB "qualificar"
+(NOM       :ORTH "qualificacao"  :VERB "qualificar"
                                   :PLURAL "qualifications"
                                   :PLURAL-FREQ "not rare"
                                   :NOM-TYPE ((VERB-NOM))
@@ -11508,7 +11515,7 @@
                                             (NOM-INTRANS-RECIP)
                                             (NOM-P-POSSING :PVAL ("about"
                                                                   "over"))))
-(NOM       :ORTH "questão"     :VERB "questionar"
+(NOM       :ORTH "questao"     :VERB "questionar"
                                 :PLURAL "questions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11525,7 +11532,7 @@
                                             (NOM-NP-P-POSSING :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("about"
                                                                      "on"))))
-***(NOM       :ORTH "quotação"    :PLURAL "quotations"
+***(NOM       :ORTH "quotacao"    :PLURAL "quotations"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "quotar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11557,7 +11564,7 @@
                                             (NOM-NP :OBJECT ((PP :PVAL ("against"
                                                                         "with"))))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "radiação"    :PLURAL "radiations"
+(NOM       :ORTH "radiacao"    :PLURAL "radiations"
                                 :VERB "radiar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -11565,7 +11572,7 @@
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((PP-OF)))
                                             (NOM-PP :PVAL ("from" "out of"))))
-(NOM       :ORTH "radiopasteurização"  :VERB "radiopasteurizar"
+(NOM       :ORTH "radiopasteurizacao"  :VERB "radiopasteurizar"
                                         :PLURAL "radiopasteurizations"
                                         :PLURAL-FREQ "not found"
                                         :NOM-TYPE ((VERB-NOM))
@@ -11583,9 +11590,9 @@
                                                              (PP-OF)))
                                             (NOM-NP-PP :OBJECT ((PP-OF))
                                                        :PVAL ("for"))))
-***(NOM       :ORTH "raillery"     :PLURAL "railleries"
+***(NOM       :ORTH "brincadeira"     :PLURAL "brincadeiras"
                                 :PLURAL-FREQ "not entered"
-                                :VERB "rail"
+                                :VERB "brincar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -11594,8 +11601,8 @@
                                                        :PVAL2 ("about" "for")
                                                        :PVAL-NOM ("against"
                                                                   "at"))))
-***(NOM       :ORTH "rancher"      :VERB "ranch"
-                                :PLURAL "ranchers"
+***(NOM       :ORTH "lavrador"      :VERB "lavrar"
+                                :PLURAL "lavradores"
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))))
@@ -11627,7 +11634,7 @@
                                                          :PVAL ("to"))
                                             (NOM-NUNITP-FROM-RANGE :SUBJECT ((N-N-MOD)
                                                                              (PP-OF)))))
-(NOM       :ORTH "ratificação"  :VERB "ratificar"
+(NOM       :ORTH "ratificacao"  :VERB "ratificar"
                                  :PLURAL "ratifications"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -11635,7 +11642,7 @@
                                  :OBJ-ATTRIBUTE ((NOT-COMMUNICATOR))
                                  :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
-(NOM       :ORTH "re-eleição"  :VERB "re-eleger"
+(NOM       :ORTH "re-eleicao"  :VERB "re-eleger"
                                 :PLURAL "re-elections"
                                 :PLURAL-FREQ "not found"
                                 :FEATURES ((V-NUNIT :PVAL ("by")))
@@ -11660,7 +11667,7 @@
                                                                    :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "reencenação"  :VERB "re-encenar"
+(NOM       :ORTH "reencenacao"  :VERB "re-encenar"
                                  :PLURAL "re-enactments"
                                  :PLURAL-FREQ "9:68 plur:sing"
                                  :NOM-TYPE ((VERB-NOM))
@@ -11685,7 +11692,7 @@
                                                            "with"
                                                            "p-dir"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "reação"     :VERB "reagir"
+(NOM       :ORTH "reacao"     :VERB "reagir"
                                 :PLURAL "reactions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -11728,7 +11735,7 @@
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))
                                              (NOM-INTRANS)))
-(NOM       :ORTH "realização"  :PLURAL "realizations"
+(NOM       :ORTH "realizacao"  :PLURAL "realizations"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "realizar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11758,8 +11765,8 @@
                                                             "out of"
                                                             "p-loc"))
                                              (NOM-INTRANS)))
-***(NOM       :ORTH "reappraisal"  :VERB "reappraise"
-                                :PLURAL "reappraisals"
+***(NOM       :ORTH "re-apreciacao"  :VERB "reapreciar"
+                                :PLURAL "re-apreciacoes"
                                 :PLURAL-FREQ "6:135   plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -11792,7 +11799,7 @@
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-(NOM       :ORTH "re-avaliação"  :VERB "re-avaliar"
+(NOM       :ORTH "re-avaliacao"  :VERB "re-avaliar"
                                  :PLURAL "reassessments"
                                  :PLURAL-FREQ "not-rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -11807,7 +11814,7 @@
                                              (NOM-NP :OBJECT ((DET-POSS)
                                                               (N-N-MOD)
                                                               (PP-OF)))))
-(NOM       :ORTH "reafirmação"  :VERB "reafirmar"
+(NOM       :ORTH "reafirmacao"  :VERB "reafirmar"
                                 :PLURAL "reassurances"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11832,7 +11839,7 @@
                                 :VERB-SUBC ((NOM-PP :PVAL ("against")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "refutação"     :VERB "refutar"
+(NOM       :ORTH "refutacao"     :VERB "refutar"
                                 :PLURAL "rebuttals"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11844,7 +11851,7 @@
                                             (NOM-NP-PP :OBJECT ((PP-OF))
                                                        :PVAL ("on" "with"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "recapitalização"  :VERB "recapitalizar"
+(NOM       :ORTH "recapitalizacao"  :VERB "recapitalizar"
                                      :PLURAL "recapitalizations"
                                      :PLURAL-FREQ "1:1 plur:sing"
                                      :NOM-TYPE ((VERB-NOM))
@@ -11882,7 +11889,7 @@
                                                                     (IND-OBJ-FOR)))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "recognição"  :VERB "reconhecer"
+(NOM       :ORTH "recognicao"  :VERB "reconhecer"
                                 :PLURAL "recognitions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -11896,7 +11903,7 @@
                                                        :PVAL ("for"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "recoleção"  :VERB "recollect"
+***(NOM       :ORTH "recolecao"  :VERB "recollect"
                                  :PLURAL "recollections"
                                  :PLURAL-FREQ "not rare"
                                  :VERB-SUBJ ((PP-OF)
@@ -11904,12 +11911,14 @@
                                  :SUBJ-ATTRIBUTE ((NHUMAN))
                                  :DET-POSS-NO-OTHER-OBJ ((SUBJECT))
                                  :VERB-SUBC ((NOM-NP-AS-NP :OBJECT ((PP-OF)))
+
                                              (NOM-WH-S)
                                              (NOM-HOW-S)
                                              (NOM-THAT-S)
+
                                              (NOM-POSSING)
                                              (NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "recomendação"  :PLURAL "recommendations"
+(NOM       :ORTH "recomendacao"  :PLURAL "recommendations"
                                    :PLURAL-FREQ "not rare"
                                    :VERB "recomendar"
                                    :NOUN ((RESULT))
@@ -11959,7 +11968,7 @@
                                                                 :OBJECT ((DET-POSS)
                                                                          (PP-OF))
                                                                 :PVAL1 ("to"))))
-(NOM       :ORTH "reconciliação"  :VERB "reconciliar"
+(NOM       :ORTH "reconciliacao"  :VERB "reconciliar"
                                    :PLURAL "reconciliations"
                                    :PLURAL-FREQ "not rare"
                                    :NOM-TYPE ((VERB-NOM))
@@ -11982,7 +11991,7 @@
                                                                 (N-N-MOD)
                                                                 (PP-OF)))
                                                (NOM-INTRANS-RECIP)))
-(NOM       :ORTH "reconsideração"  :VERB "reconsiderar"
+(NOM       :ORTH "reconsideracao"  :VERB "reconsiderar"
                                     :PLURAL "reconsiderations"
                                     :PLURAL-FREQ "3:94 plur:sing"
                                     :NOM-TYPE ((VERB-NOM))
@@ -11999,7 +12008,7 @@
                                                 (NOM-THAT-S)
                                                 (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                        (PP-OF)))))
-(NOM       :ORTH "reconstrução"  :VERB "reconstruir"
+(NOM       :ORTH "reconstrucao"  :VERB "reconstruir"
                                    :PLURAL "reconstructions"
                                    :PLURAL-FREQ "not rare"
                                    :NOUN ((RARE-NOUN)
@@ -12031,8 +12040,8 @@
                                                               "for"
                                                               "on"))
                                             (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "recorder"     :VERB "record"
-                                :PLURAL "recorders"
+***(NOM       :ORTH "gravador"     :VERB "gravar"
+                                :PLURAL "gravadores"
                                 :NOUN ((RARE-NOUN))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP-PP :PVAL ("at"
@@ -12046,7 +12055,7 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "recuperação"     :PLURAL "recoveries"
+(NOM       :ORTH "recuperacao"     :PLURAL "recoveries"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "recuperar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12093,7 +12102,7 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "redenção"   :VERB "redimir"
+(NOM       :ORTH "redencao"   :VERB "redimir"
                                 :PLURAL "redemptions"
                                 :PLURAL-FREQ "25:597 sing:plur,  12:25 nom:plur"
                                 :NOUN ((RESULT))
@@ -12112,8 +12121,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "redeployment"  :VERB "redeploy"
-                                 :PLURAL "redeployments"
+***(NOM       :ORTH "re-afectacao"  :VERB "reafectar"
+                                 :PLURAL ""
                                  :PLURAL-FREQ "1:61 plr:sing"
                                  :FEATURES ((SUBJ-OBJ-ALT))
                                  :NOM-TYPE ((VERB-NOM))
@@ -12126,8 +12135,8 @@
                                                               (N-N-MOD)
                                                               (PP-OF)))
                                              (NOM-INTRANS :ALTERNATES T)))
-***(NOM       :ORTH "redevelopment"  :VERB "redevelop"
-                                  :PLURAL "redevelopments"
+***(NOM       :ORTH "redesenvolvimento"  :VERB "redesenvolver"
+                                  :PLURAL "redesenvolvimentos"
                                   :PLURAL-FREQ "4:380 plur:sing"
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
@@ -12137,8 +12146,8 @@
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-***(NOM       :ORTH "rediscovery"  :VERB "rediscover"
-                                :PLURAL "rediscoveries"
+***(NOM       :ORTH "redescoberta"  :VERB "redescobrir"
+                                :PLURAL "redescobertas"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -12152,7 +12161,7 @@
                                                        :PVAL ("through"))
                                             (NOM-HOW-S)
                                             (NOM-THAT-S)))
-(NOM       :ORTH "redução"    :VERB "reduzir"
+(NOM       :ORTH "reducao"    :VERB "reduzir"
                                 :PLURAL "reductions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -12178,8 +12187,8 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "referee2"     :VERB "refer"
-                                :PLURAL "referees"
+***(NOM       :ORTH "julgador"     :VERB "julgar"
+                                :PLURAL "julgadores"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((IND-OBJ))
                                 :NOUN ((RARE-NOUN)
@@ -12190,8 +12199,8 @@
                                                        :PVAL ("for" "to")
                                                        :PVAL-NOM ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "referral"     :VERB "refer"
-                                :PLURAL "referrals"
+***(NOM       :ORTH "encaminhamento"     :VERB "encaminhar"
+                                :PLURAL "encaminhamentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -12214,7 +12223,7 @@
                                                        :PVAL ("from" "with"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "reflexão"   :PLURAL "reflections"
+(NOM       :ORTH "reflexao"   :PLURAL "reflections"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "refletir"
                                 :NOUN ((RESULT))
@@ -12245,7 +12254,7 @@
                                             (NOM-P-WH-S :SUBJECT ((DET-POSS)
                                                                   (PP-OF))
                                                         :PVAL ("on"))))
-(NOM       :ORTH "refrigeração"  :VERB "refrigerar"
+(NOM       :ORTH "refrigeracao"  :VERB "refrigerar"
                                   :PLURAL "refrigerations"
                                   :PLURAL-FREQ "not found"
                                   :NOM-TYPE ((VERB-NOM))
@@ -12257,7 +12266,8 @@
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-(NOM       :ORTH "rejeição"      :VERB "rejeitar"
+(NOM       :ORTH "rejeicao"      :VERB "rejeitar"
+
                                 :PLURAL "refusals"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12309,7 +12319,7 @@
                                                            :OBJECT ((PP-OF)))
                                              (NOM-AS-NP :SUBJECT ((DET-POSS)))
                                              (NOM-TO-INF-SC :SUBJECT ((DET-POSS)))))
-(NOM       :ORTH "regressão"   :VERB "regredir"
+(NOM       :ORTH "regressao"   :VERB "regredir"
                                 :PLURAL "regressions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12317,7 +12327,7 @@
                                 :VERB-SUBC ((NOM-PP :PVAL ("into" "to"))
                                             (NOM-NP :OBJECT ((PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "regulação"   :VERB "regularizar"
+(NOM       :ORTH "regulacao"   :VERB "regularizar"
                                 :PLURAL "regulations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -12330,7 +12340,7 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "rehabilitação"  :VERB "rehabilitar"
+(NOM       :ORTH "rehabilitacao"  :VERB "rehabilitar"
                                    :PLURAL "rehabilitations"
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((N-N-MOD)
@@ -12373,7 +12383,7 @@
                                                          :PVAL ("for"))
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-(NOM       :ORTH "reforço"  :VERB "reforçar"
+(NOM       :ORTH "reforco"  :VERB "reforcar"
                                   :PLURAL "reinforcements"
                                   :PLURAL-FREQ "not rare"
                                   :NOM-TYPE ((VERB-NOM))
@@ -12386,8 +12396,8 @@
                                                          :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-***(NOM       :ORTH "reinstatement"  :VERB "reinstate"
-                                  :PLURAL "reinstatements"
+***(NOM       :ORTH "reintegracao"  :VERB "reintegrar"
+                                  :PLURAL "reintegracoes"
                                   :PLURAL-FREQ "not-rare"
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
@@ -12433,7 +12443,7 @@
                                                               "from"))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-(NOM       :ORTH "relação"     :VERB "relacionar"
+(NOM       :ORTH "relacao"     :VERB "relacionar"
                                 :PLURAL "relations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -12447,7 +12457,7 @@
                                                              (PP-OF)))
                                             (NOM-INTRANS :SUBJECT ((DET-POSS)))
                                             (NOM-PP :PVAL ("to" "with"))))
-(NOM       :ORTH "relaxação"   :VERB "relaxar"
+(NOM       :ORTH "relaxacao"   :VERB "relaxar"
                                 :PLURAL "relaxations"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -12485,7 +12495,7 @@
                                                           :PVAL ("to"))
                                                (NOM-NP :OBJECT ((DET-POSS)
                                                                 (PP-OF)))))
-(NOM       :ORTH "relocação"   :VERB "relocar"
+(NOM       :ORTH "relocacao"   :VERB "relocar"
                                 :PLURAL "relocations"
                                 :PLURAL-FREQ "14:548 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -12511,13 +12521,13 @@
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "remainder"    :PLURAL "remainders"
+***(NOM       :ORTH "restante"    :PLURAL "restantes"
                                 :PLURAL-FREQ "24:1707 plur:sing"
-                                :VERB "remain"
+                                :VERB "restar"
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("of")))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)))
-(NOM       :ORTH "observação"       :VERB "observar"
+(NOM       :ORTH "observacao"       :VERB "observar"
                                 :PLURAL "remarks"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12552,7 +12562,7 @@
                                             (NOM-NP-TO-INF-OC :OBJECT ((PP :PVAL ("to"))))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "remoção"     :VERB "remover"
+(NOM       :ORTH "remocao"     :VERB "remover"
                                 :PLURAL "removals"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12583,7 +12593,7 @@
                                                     :PVAL-NOM ("at"
                                                                "in"
                                                                "with"))))
-(NOM       :ORTH "renovação"      :VERB "renovar"
+(NOM       :ORTH "renovacao"      :VERB "renovar"
                                 :PLURAL "renewals"
                                 :PLURAL-FREQ "29: 1004  plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12599,8 +12609,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "renovation"   :VERB "renovate"
-                                :PLURAL "renovations"
+***(NOM       :ORTH "reforma"   :VERB "reformar"
+                                :PLURAL "reformas"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((V-NUNIT :PVAL ("for")))
                                 :NOM-TYPE ((VERB-NOM))
@@ -12635,7 +12645,7 @@
                                             (NOM-NP :OBJECT ((PP-OF)
                                                              (N-N-MOD))
                                                     :ALTERNATES-OPT T)))
-(NOM       :ORTH "reorganização"  :VERB "reorganizarS"
+(NOM       :ORTH "reorganizacao"  :VERB "reorganizarS"
                                    :PLURAL "reorganizations"
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((DET-POSS))
@@ -12649,7 +12659,7 @@
                                                                 (N-N-MOD)
                                                                 (PP-OF)))
                                                (NOM-INTRANS)))
-(NOM       :ORTH "reparação"   :VERB "reparar"
+(NOM       :ORTH "reparacao"   :VERB "reparar"
                                 :PLURAL "reparations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12691,7 +12701,7 @@
                                             (NOM-INTRANS)
                                             (NOM-PP :PVAL ("for" "of" "with")
                                                     :PVAL-NOM ("of" "for"))))
-(NOM       :ORTH "repetição"   :VERB "repitir"
+(NOM       :ORTH "repeticao"   :VERB "repitir"
                                 :PLURAL "repetitions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12720,8 +12730,8 @@
                                                                           (N-N-MOD))
                                                                 :OBJECT ((N-N-MOD)))))
                                             (NOM-WORDS :WORDS ((PP-OF)))))
-***(NOM       :ORTH "replacement"  :PLURAL "replacements"
-                                :VERB "replace"
+***(NOM       :ORTH "reposicionamento"  :PLURAL "reposicionamentos"
+                                :VERB "reposicionar"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -12785,7 +12795,7 @@
                                                     :PVAL-NOM ("about" "for")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-POSSING)))
-(NOM       :ORTH "representação"  :VERB "representar"
+(NOM       :ORTH "representacao"  :VERB "representar"
                                    :PLURAL "representations"
                                    :PLURAL-FREQ "not rare"
                                    :NOM-TYPE ((VERB-NOM))
@@ -12829,7 +12839,7 @@
                                                (NOM-NP :OBJECT ((DET-POSS)
                                                                 (N-N-MOD)
                                                                 (PP-OF)))))
-(NOM       :ORTH "repressão"   :VERB "reprimir"
+(NOM       :ORTH "repressao"   :VERB "reprimir"
                                 :PLURAL "repressions"
                                 :PLURAL-FREQ "26:676 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12847,7 +12857,7 @@
                                                        :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :PVAL ("from"))))
-(NOM       :ORTH "reprodução"  :VERB "reproduzir"
+(NOM       :ORTH "reproducao"  :VERB "reproduzir"
                                  :PLURAL "reproductions"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -12872,7 +12882,7 @@
                                                        :PVAL ("for"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "repulsão"    :VERB "repel"
+***(NOM       :ORTH "repulsao"    :VERB "repel"
                                 :PLURAL "repulsions"
                                 :PLURAL-FREQ "4:66 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12913,8 +12923,8 @@
                                 :VERB-SUBC ((NOM-THAT-S)
                                             (NOM-S-SUBJUNCT)
                                             (NOM-PP-THAT-S :PVAL1 ("from"))))
-***(NOM       :ORTH "requital"     :VERB "requite"
-                                :PLURAL "requitals"
+***(NOM       :ORTH "retribuicao"     :VERB "retribuir"
+                                :PLURAL "retribuicoes"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -12983,7 +12993,7 @@
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "resignação"  :VERB "resignar-se"
+(NOM       :ORTH "resignacao"  :VERB "resignar-se"
                                 :PLURAL "resignations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -13011,7 +13021,7 @@
                                                                    (N-N-MOD)
                                                                    (PP :PVAL ("from"))
                                                                    (PP-OF)))))
-(NOM       :ORTH "resolução"   :PLURAL "resolutions"
+(NOM       :ORTH "resolucao"   :PLURAL "resolutions"
                                 :VERB "resolver"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -13057,8 +13067,8 @@
                                             (NOM-HOW-S :NOM-SUBC ((P-WH :HOW-S T
                                                                         :PVAL ("for"))))
                                             (NOM-NP :OBJECT ((PP :PVAL ("for"))))))
-***(NOM       :ORTH "restatement"  :VERB "restate"
-                                :PLURAL "restatements"
+***(NOM       :ORTH "atualizacao"  :VERB "atualizar"
+                                :PLURAL "atualizacoes"
                                 :PLURAL-FREQ "6:74 plu:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -13073,7 +13083,7 @@
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))
                                             (NOM-THAT-S)))
-(NOM       :ORTH "restituição"  :VERB "restituir"
+(NOM       :ORTH "restituicao"  :VERB "restituir"
                                 :PLURAL "restitutions"
                                 :PLURAL-FREQ "2:187 plur:sing"
                                 :FEATURES ((V-NUNIT :OBJECT T))
@@ -13089,7 +13099,7 @@
                                                                 (PP-OF))
                                                        :PVAL ("for" "to")
                                                        :OPTIONAL ((OBJECT)))))
-(NOM       :ORTH "restoração"  :PLURAL "restorations"
+(NOM       :ORTH "restoracao"  :PLURAL "restorations"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "restorar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13110,7 +13120,7 @@
                                                                      (PP-OF))
                                                             :ADVAL ("back")
                                                             :PVAL ("to"))))
-(NOM       :ORTH "restrição"  :VERB "restringir"
+(NOM       :ORTH "restricao"  :VERB "restringir"
                                 :PLURAL "restrictions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -13124,7 +13134,7 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "resumpção"   :VERB "resume"
+***(NOM       :ORTH "resumpcao"   :VERB "resume"
                                 :PLURAL "resumptions"
                                 :PLURAL-FREQ "1:320 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -13139,8 +13149,8 @@
                                                                    (PP-OF))
                                                          :ALTERNATES T)
                                             (NOM-ING-SC)))
-***(NOM       :ORTH "retailer"     :PLURAL "retailers"
-                                :VERB "retail"
+***(NOM       :ORTH "retalhista"     :PLURAL "retalhistas"
+                                :VERB "retalhar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
@@ -13152,7 +13162,7 @@
                                                               "for"
                                                               "through"
                                                               "under"))))
-(NOM       :ORTH "retaliação"  :VERB "retaliar"
+(NOM       :ORTH "retaliacao"  :VERB "retaliar"
                                 :PLURAL "retaliations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13161,7 +13171,7 @@
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-PP :PVAL ("against"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "retardação"  :VERB "retardar"
+(NOM       :ORTH "retardacao"  :VERB "retardar"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -13173,7 +13183,7 @@
                                                          :OBJECT ((DET-POSS)
                                                                   (PP-OF))
                                                          :NOM-SUBC ((ADJP)))))
-(NOM       :ORTH "retenção"    :VERB "reter"
+(NOM       :ORTH "retencao"    :VERB "reter"
                                 :PLURAL "retentions"
                                 :PLURAL-FREQ "10:811 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13250,8 +13260,8 @@
                                             (NOM-THAT-S)
                                             (NOM-PP :PVAL ("to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "retrenchment"  :VERB "retrench"
-                                 :PLURAL "retrenchments"
+***(NOM       :ORTH "cerceamento"  :VERB "cercear"
+                                 :PLURAL "cerceamentos"
                                  :PLURAL-FREQ "3:70 plur:sing"
                                  :FEATURES ((SUBJ-OBJ-ALT))
                                  :NOM-TYPE ((VERB-NOM))
@@ -13269,7 +13279,7 @@
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))
                                              (NOM-INTRANS :ALTERNATES T)))
-(NOM       :ORTH "recuperação"    :VERB "recuperar"
+(NOM       :ORTH "recuperacao"    :VERB "recuperar"
                                 :PLURAL "retrievals"
                                 :PLURAL-FREQ "10:503 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13310,7 +13320,7 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "reunificação"  :PLURAL *NONE*
+(NOM       :ORTH "reunificacao"  :PLURAL *NONE*
                                   :PLURAL-FREQ "not found"
                                   :VERB "reunificar"
                                   :NOM-TYPE ((VERB-NOM))
@@ -13327,7 +13337,7 @@
                                               (NOM-NP-AS-NP :SUBJECT ((NONE))
                                                             :OBJECT ((DET-POSS)
                                                                      (PP-OF)))))
-(NOM       :ORTH "reunião"      :VERB "reunir"
+(NOM       :ORTH "reuniao"      :VERB "reunir"
                                 :PLURAL "reunions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13339,7 +13349,7 @@
                                 :VERB-SUBC ((NOM-PP :PVAL ("with"))
                                             (NOM-INTRANS-RECIP)
                                             (NOM-AS-NP)))
-(NOM       :ORTH "revelação"   :VERB "revelar"
+(NOM       :ORTH "revelacao"   :VERB "revelar"
                                 :PLURAL "revelations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13365,8 +13375,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "revelry"      :VERB "revel"
-                                :PLURAL "revelries"
+***(NOM       :ORTH "festejo"      :VERB "festejar"
+                                :PLURAL "festejos"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -13375,8 +13385,8 @@
                                 :VERB-SUBC ((NOM-PP :SUBJECT ((PP-OF))
                                                     :PVAL ("in"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "reversal"     :VERB "reverse"
-                                :PLURAL "reversals"
+***(NOM       :ORTH "reversao"     :VERB "reverter"
+                                :PLURAL "reversoes"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -13386,7 +13396,7 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS :ALTERNATES T)))
-(NOM       :ORTH "revisão"       :VERB "revisar"
+(NOM       :ORTH "revisao"       :VERB "revisar"
                                 :PLURAL "reviews"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13400,8 +13410,8 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "revision"     :PLURAL "revisions"
-                                :VERB "revise"
+***(NOM       :ORTH "remodelacao"     :PLURAL "remodelacoes"
+                                :VERB "remodelar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD))
@@ -13430,7 +13440,7 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-PP :PVAL ("from"))))
-(NOM       :ORTH "revolução"   :VERB "revoltar"
+(NOM       :ORTH "revolucao"   :VERB "revoltar"
                                 :PLURAL "revolutions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -13439,7 +13449,7 @@
                                 :VERB-SUBC ((NOM-PP :PVAL ("against"))
                                             (NOM-INTRANS)))
 
-(NOM       :ORTH "revolução"   :VERB "revolver"
+(NOM       :ORTH "revolucao"   :VERB "revolver"
                                 :PLURAL "revolutions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -13453,8 +13463,8 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "rivalry"      :VERB "rival"
-                                :PLURAL "rivalries"
+***(NOM       :ORTH "concorrencia"      :VERB "concorrer"
+                                :PLURAL "concorrencias"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP :PVAL ("among" "between"))
@@ -13496,7 +13506,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "rotação"     :VERB "rodar"
+(NOM       :ORTH "rotacao"     :VERB "rodar"
                                 :PLURAL "rotations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13507,14 +13517,14 @@
                                             (NOM-PP :SUBJECT ((DET-POSS)
                                                               (PP-OF))
                                                     :PVAL ("around"))))
-(NOM       :ORTH "esfregação"       :VERB "esfregar"
+(NOM       :ORTH "esfregacao"       :VERB "esfregar"
                                 :PLURAL "rubbers"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "rule"         :VERB "rule"
-                                :PLURAL "rules"
+***(NOM       :ORTH "regulamento"         :VERB "regulamentar"
+                                :PLURAL "regulamentos"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF :FREQ ("rare"))
@@ -13566,7 +13576,7 @@
                                                            "for"
                                                            "over"
                                                            "through"))))
-(NOM       :ORTH "satisfação"  :VERB "satisfazer"
+(NOM       :ORTH "satisfacao"  :VERB "satisfazer"
                                  :PLURAL "satisfactions"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -13583,7 +13593,7 @@
                                                        :PASSIVE-NOM T)
                                              (NOM-EXTRAP-NP-S :OBJECT ((DET-POSS)
                                                                        (PP :PVAL ("to"))))))
-(NOM       :ORTH "saturação"   :VERB "saturatar"
+(NOM       :ORTH "saturacao"   :VERB "saturatar"
                                 :PLURAL "saturations"
                                 :PLURAL-FREQ "6:271 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13603,7 +13613,7 @@
                                 :VERB-SUBC ((NOM-NP-AS-NP :OBJECT ((PP-OF)))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "segregação"  :VERB "segregar"
+(NOM       :ORTH "segregacao"  :VERB "segregar"
                                 :PLURAL "segregations"
                                 :PLURAL-FREQ "1:416 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -13620,12 +13630,13 @@
                                                                    :PVAL ("from"))))
                                             (NOM-PP :PVAL ("into" "from")
                                                     :ALTERNATES T
+
                                                     :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                 :PVAL ("from"))))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "seleção"    :PLURAL "selections"
+(NOM       :ORTH "selecao"    :PLURAL "selections"
                                 :VERB "selecionar"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -13669,7 +13680,7 @@
                                 :VERB-SUBC ((NOM-S)
                                             (NOM-NP-ING-OC :OBJECT ((PP-OF)))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "separação"   :VERB "separar"
+(NOM       :ORTH "separacao"   :VERB "separar"
                                 :PLURAL "separations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -13713,8 +13724,8 @@
                                                              :OBJECT ((PP :PVAL ("to"))
                                                                       (PP-OF)))
                                             (NOM-AS-NP :SUBJECT ((DET-POSS)))))
-***(NOM       :ORTH "settlement"   :VERB "settle"
-                                :PLURAL "settlements"
+***(NOM       :ORTH "colonizacao"   :VERB "colonizar"
+                                :PLURAL "colonizacoes"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -13735,7 +13746,7 @@
                                                          :OBJECT ((DET-POSS)
                                                                   (PP-OF)))
                                             (NOM-ADVP :SUBJECT ((DET-POSS)))))
-(NOM       :ORTH "separação"    :VERB "separar"
+(NOM       :ORTH "separacao"    :VERB "separar"
                                 :PLURAL "severances"
                                 :PLURAL-FREQ "1:151  plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13894,7 +13905,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "socialização"  :VERB "socializar"
+(NOM       :ORTH "socializacao"  :VERB "socializar"
                                   :PLURAL *NONE*
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
@@ -13905,8 +13916,8 @@
                                                                (N-N-MOD)
                                                                (PP-OF)))
                                               (NOM-NP-TO-INF-OC)))
-***(NOM       :ORTH "soldiery"     :VERB "soldier"
-                                :PLURAL "soldieries"
+***(NOM       :ORTH "armada"     :VERB "armar"
+                                :PLURAL "armadas"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RARE-NOUN))
@@ -13916,7 +13927,7 @@
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-PP :PVAL ("in"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "solicitação"  :VERB "solicitar"
+(NOM       :ORTH "solicitacao"  :VERB "solicitar"
                                  :PLURAL "solicitations"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -13930,7 +13941,7 @@
                                              (NOM-NP-PP :OBJECT ((PP-OF))
                                                         :PVAL ("for" "from"))
                                              (NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "solução"     :VERB "resolver"
+(NOM       :ORTH "solucao"     :VERB "resolver"
                                 :PLURAL "solutions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -13938,8 +13949,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP :PVAL ("to"))
                                                              (PP-OF)))))
-***(NOM       :ORTH "speaker"      :VERB "speak"
-                                :PLURAL "speakers"
+***(NOM       :ORTH "falante"      :VERB "falar"
+                                :PLURAL "falantes"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF :FREQ ("5/50 BNC"))))
                                             (NOM-PP :PVAL ("at"
@@ -13957,7 +13968,7 @@
                                                                "to")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "especialização"  :VERB "especializar"
+(NOM       :ORTH "especializacao"  :VERB "especializar"
                                    :PLURAL "specializations"
                                    :PLURAL-FREQ "not rare"
                                    :NOM-TYPE ((VERB-NOM))
@@ -13972,7 +13983,7 @@
                                                (NOM-PP :PVAL ("for" "in"))
                                                (NOM-NP :OBJECT ((N-N-MOD)
                                                                 (PP-OF)))))
-(NOM       :ORTH "especificação"  :PLURAL "specifications"
+(NOM       :ORTH "especificacao"  :PLURAL "specifications"
                                   :PLURAL-FREQ "not rare"
                                   :VERB "especificar"
                                   :NOM-TYPE ((VERB-NOM))
@@ -13987,7 +13998,7 @@
                                               (NOM-WH-S :NOM-SUBC ((P-WH :PVAL ("of")
                                                                          :WHERE-WHEN-S T
                                                                          :WH-S T)))))
-(NOM       :ORTH "especulação"  :VERB "especular"
+(NOM       :ORTH "especulacao"  :VERB "especular"
                                 :PLURAL "speculations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -14042,7 +14053,7 @@
                                 :VERB-SUBC ((NOM-PART)
                                             (NOM-PART-NP :OBJECT ((PP-OF)))
                                             (NOM-PART-PP :PVAL ("off" "into"))))
-(NOM       :ORTH "estabilização"  :VERB "estabilizar"
+(NOM       :ORTH "estabilizacao"  :VERB "estabilizar"
                                   :PLURAL *NONE*
                                   :FEATURES ((SUBJ-OBJ-ALT))
                                   :NOM-TYPE ((VERB-NOM))
@@ -14052,8 +14063,8 @@
                                                                (N-N-MOD)
                                                                (PP-OF)))
                                               (NOM-INTRANS :ALTERNATES T)))
-***(NOM       :ORTH "starvation"   :VERB "starve"
-                                :PLURAL "starvations"
+***(NOM       :ORTH "inanicao"   :VERB "inanir"
+                                :PLURAL ""
                                 :PLURAL-FREQ "1:466 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -14083,8 +14094,8 @@
                                             (NOM-NP-P-ING-OC :OBJECT ((DET-POSS)
                                                                       (PP-OF))
                                                              :PVAL ("into"))))
-***(NOM       :ORTH "statement"    :VERB "state"
-                                :PLURAL "statements"
+***(NOM       :ORTH "homologacao"    :VERB "homologar"
+                                :PLURAL "homologacoes"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -14096,7 +14107,7 @@
                                                     :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "esterilização"  :VERB "esterilizar"
+(NOM       :ORTH "esterilizacao"  :VERB "esterilizar"
                                   :PLURAL "sterilizations"
                                   :PLURAL-FREQ "6:168 plur:sing"
                                   :VERB-SUBJ ((N-N-MOD)
@@ -14113,8 +14124,8 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "storage"      :VERB "store"
-                                :PLURAL "storages"
+***(NOM       :ORTH "armazenagem"      :VERB "armazenar"
+                                :PLURAL "armazenagens"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -14141,7 +14152,7 @@
                                                               "with"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "storing"      :VERB "store"
+***(NOM       :ORTH "armazenamento"      :VERB "armazenar"
                                 :PLURAL *NONE*
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -14173,7 +14184,7 @@
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF)))))
-(NOM       :ORTH "subdivisão"  :VERB "subdividir"
+(NOM       :ORTH "subdivisao"  :VERB "subdividir"
                                 :PLURAL "subdivisions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14190,7 +14201,7 @@
                                                                 (N-N-MOD)
                                                                 (PP-OF))
                                                        :PVAL ("among" "into"))))
-(NOM       :ORTH "submissão"   :VERB "submiter"
+(NOM       :ORTH "submissao"   :VERB "submiter"
                                 :PLURAL "submissions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14233,7 +14244,7 @@
                                                      :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
-(NOM       :ORTH "substituição"  :VERB "substituir"
+(NOM       :ORTH "substituicao"  :VERB "substituir"
                                  :PLURAL "substitutions"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((VERB-NOM))
@@ -14242,7 +14253,7 @@
                                                                  (PP-OF))
                                                         :PVAL ("for" "with"))
                                              (NOM-PP :PVAL ("for"))))
-(NOM       :ORTH "subtração"  :VERB "subtrair"
+(NOM       :ORTH "subtracao"  :VERB "subtrair"
                                 :PLURAL "subtractions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14273,7 +14284,7 @@
                                             (NOM-P-ING-SC :PVAL ("at"
                                                                  "in"
                                                                  "with"))))
-(NOM       :ORTH "successão"   :PLURAL "successions"
+(NOM       :ORTH "successao"   :PLURAL "successions"
                                 :VERB "suceder"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -14301,7 +14312,7 @@
                                                     :PVAL-NOM ("to"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "sugestão"   :VERB "sugerir"
+(NOM       :ORTH "sugestao"   :VERB "sugerir"
                                 :PLURAL "suggestions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -14335,7 +14346,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "supervisão"  :VERB "supervisionar"
+(NOM       :ORTH "supervisao"  :VERB "supervisionar"
                                 :PLURAL "supervisions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -14388,7 +14399,7 @@
                                                              (PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-(NOM       :ORTH "supressão"  :VERB "suprimir"
+(NOM       :ORTH "supressao"  :VERB "suprimir"
                                 :PLURAL "suppressions"
                                 :PLURAL-FREQ "4: 486 plur:sin"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14443,7 +14454,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "suspensão"   :VERB "suspender"
+(NOM       :ORTH "suspensao"   :VERB "suspender"
                                 :PLURAL "suspensions"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -14528,15 +14539,15 @@
                                                                     "on"
                                                                     "for"
                                                                     "to"))))
-***(NOM       :ORTH "takeout"      :PLURAL "takeouts"
+***(NOM       :ORTH "retirada"      :PLURAL "retiradas"
                                 :PLURAL-FREQ "not-entered"
-                                :VERB "take"
+                                :VERB "retirar"
                                 :NOM-TYPE ((VERB-PART))
                                 :VERB-SUBC ((NOM-PART-NP :SUBJECT ((NONE))
                                                          :OBJECT ((N-N-MOD)
                                                                   (PP-OF)))))
-***(NOM       :ORTH "takeover"     :VERB "take"
-                                :PLURAL "takeovers"
+***(NOM       :ORTH "captacao"     :VERB "captar"
+                                :PLURAL "captacoes"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((V-NUNIT :PVAL ("for")))
                                 :NOM-TYPE ((VERB-PART :ADVAL ("over")))
@@ -14584,7 +14595,7 @@
                                                            "to"
                                                            "with"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "taxação"     :VERB "taxar"
+(NOM       :ORTH "taxacao"     :VERB "taxar"
                                 :PLURAL "taxations"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14596,8 +14607,8 @@
                                                              (N-N-MOD)
                                                              (PP :PVAL ("on"))
                                                              (PP-OF)))))
-***(NOM       :ORTH "professor"      :PLURAL "teachers"
-                                :VERB "teach"
+***(NOM       :ORTH "professor"      :PLURAL "professores"
+                                :VERB "professar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
@@ -14605,7 +14616,7 @@
                                             (NOM-NP-TO-NP :OBJECT ((N-N-MOD))
                                                           :IND-OBJ ((DET-POSS)
                                                                     (N-N-MOD)))))
-(NOM       :ORTH "tentação"   :PLURAL "temptations"
+(NOM       :ORTH "tentacao"   :PLURAL "temptations"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "tentar"
                                 :NOUN ((RESULT))
@@ -14634,7 +14645,7 @@
                                                            "to")
                                                     :PVAL-NOM ("to")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-(NOM       :ORTH "terminação"  :VERB "terminar"
+(NOM       :ORTH "terminacao"  :VERB "terminar"
                                 :PLURAL "terminations"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -14689,7 +14700,7 @@
                                                            "under"
                                                            "to"))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "testimonio"  :VERB "testemunhar"
+(NOM       :ORTH "testemunho"  :VERB "testemunhar"
                                 :PLURAL "testimonials"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14709,8 +14720,8 @@
                                                            "under"
                                                            "to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "testimony"    :VERB "testify"
-                                :PLURAL "testimonies"
+***(NOM       :ORTH "depoimento"    :VERB "depor"
+                                :PLURAL "depoimentos"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RARE-NOUN)
@@ -14769,7 +14780,7 @@
                                 :VERB-SUBJ ((DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "comércio"        :VERB "comerciar"
+(NOM       :ORTH "comercio"        :VERB "comerciar"
                                 :PLURAL "trades"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14809,9 +14820,9 @@
                                                            "with")
                                                     :PVAL-NOM ("in" "for")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "trainee"      :PLURAL "trainees"
+***(NOM       :ORTH "estagiario"      :PLURAL "estagiarios"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "train"
+                                :VERB "estagiar"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
@@ -14822,7 +14833,7 @@
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-NP-TO-INF-OC :NOM-SUBC ((P-ING :PVAL ("in")
                                                                                 :AC T)))))
-(NOM       :ORTH "transação"  :PLURAL "transactions"
+(NOM       :ORTH "transacao"  :PLURAL "transactions"
                                 :VERB "transacionar"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -14831,7 +14842,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "transação"  :PLURAL "transactions"
+(NOM       :ORTH "transacao"  :PLURAL "transactions"
                                 :VERB "transar"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -14854,7 +14865,7 @@
                                                               "into"
                                                               "to"))
                                             (NOM-NP-PP-PP :PVAL ("from"))))
-(NOM       :ORTH "transformação"  :VERB "transformar"
+(NOM       :ORTH "transformacao"  :VERB "transformar"
                                    :PLURAL "transformations"
                                    :PLURAL-FREQ "not rare"
                                    :NOM-TYPE ((VERB-NOM))
@@ -14878,7 +14889,7 @@
                                                                 (PP-OF)))
                                                (NOM-PP :PVAL ("into"))
                                                (NOM-INTRANS)))
-***(NOM       :ORTH "transfusão"  :VERB "transfuse"
+***(NOM       :ORTH "transfusao"  :VERB "transfuse"
                                 :PLURAL "transfusions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14890,7 +14901,7 @@
                                                        :PVAL ("into" "to"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "translação"  :VERB "transladar"
+(NOM       :ORTH "translacao"  :VERB "transladar"
                                 :PLURAL "translations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14922,7 +14933,7 @@
                                             (NOM-INTRANS)
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-(NOM       :ORTH "translação"  :VERB "traduzir"
+(NOM       :ORTH "translacao"  :VERB "traduzir"
                                 :PLURAL "translations"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14955,7 +14966,7 @@
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
 
-(NOM       :ORTH "transmissão"  :VERB "transmitir"
+(NOM       :ORTH "transmissao"  :VERB "transmitir"
                                  :PLURAL "transmissions"
                                  :NOM-TYPE ((VERB-NOM))
                                  :NOUN ((RESULT))
@@ -15007,7 +15018,7 @@
                                                        :PVAL-NOM ("with"))
                                             (NOM-NP-ADVP :OBJECT ((DET-POSS)
                                                                   (PP-OF)))))
-(NOM       :ORTH "trapaça"     :VERB "trapacear"
+(NOM       :ORTH "trapaca"     :VERB "trapacear"
                                 :PLURAL "trickeries"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -15021,9 +15032,9 @@
                                                               "with")
                                                        :PVAL-NOM ("with"))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "trustee"      :PLURAL "trustees"
+***(NOM       :ORTH "administrador"      :PLURAL "administradores"
                                 :PLURAL-FREQ "not-rare"
-                                :VERB "entrust"
+                                :VERB "administrar"
                                 :NOM-TYPE ((IND-OBJ))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD)
@@ -15032,8 +15043,8 @@
                                                        :PVAL ("on" "with")
                                                        :PVAL-NOM ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "turn"         :VERB "turn"
-                                :PLURAL "turns"
+***(NOM       :ORTH "volta"         :VERB "voltar"
+                                :PLURAL "voltas"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("at")))
@@ -15074,7 +15085,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "unificação"  :VERB "unificar"
+(NOM       :ORTH "unificacao"  :VERB "unificar"
                                 :PLURAL "unifications"
                                 :PLURAL-FREQ "not found"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -15091,7 +15102,7 @@
                                                          :ALTERNATES T)
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-(NOM       :ORTH "urbanização"  :VERB "urbanizar"
+(NOM       :ORTH "urbanizacao"  :VERB "urbanizar"
                                  :PLURAL *NONE*
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
@@ -15124,7 +15135,7 @@
                                             (NOM-NP-PP :OBJECT ((PP-OF :FREQ ("rare")))
                                                        :PVAL ("on" "for")
                                                        :PVAL-NOM ("for"))))
-(NOM       :ORTH "utilização"  :VERB "utilizar"
+(NOM       :ORTH "utilizacao"  :VERB "utilizar"
                                 :PLURAL "utilizations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -15140,8 +15151,8 @@
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "utterance"    :VERB "utter"
-                                :PLURAL "utterances"
+***(NOM       :ORTH "sentenca"    :VERB "sentenciar"
+                                :PLURAL "sentencas"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
                                 :VERB-SUBJ ((PP-OF)
@@ -15150,7 +15161,7 @@
                                 :OBJ-ATTRIBUTE ((NOT-NHUMAN))
                                 :VERB-SUBC ((NOM-NP-PP :PVAL ("to"))
                                             (NOM-NP)))
-(NOM       :ORTH "avaliação"    :VERB "avaliar"
+(NOM       :ORTH "avaliacao"    :VERB "avaliar"
                                 :PLURAL "valuations"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((V-NUNIT :PVAL ("above"
@@ -15181,7 +15192,7 @@
                                                              (PP-OF))
                                                     :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                 :OBJECT ((N-N-MOD)))))))
-(NOM       :ORTH "variação"    :PLURAL "variations"
+(NOM       :ORTH "variacao"    :PLURAL "variations"
                                 :VERB "variar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :N-N-MOD-NO-OTHER-OBJ ((SUBJECT))
@@ -15214,7 +15225,7 @@
                                                                       :OBJECT ((DET-POSS)
                                                                                (PP-OF))
                                                                       :PVAL ("by"))))
-(NOM       :ORTH "ventilação"  :VERB "ventilar"
+(NOM       :ORTH "ventilacao"  :VERB "ventilar"
                                 :PLURAL "ventilations"
                                 :PLURAL-FREQ "1:589 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -15225,7 +15236,7 @@
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "verificação"  :VERB "verificar"
+(NOM       :ORTH "verificacao"  :VERB "verificar"
                                  :PLURAL "verifications"
                                  :PLURAL-FREQ "5:381 plur:sing"
                                  :NOM-TYPE ((VERB-NOM))
@@ -15262,7 +15273,7 @@
                                                                 (PP-OF))
                                                        :PVAL ("from" "of")
                                                        :PVAL-NOM ("from"))))
-(NOM       :ORTH "violação"    :VERB "violar"
+(NOM       :ORTH "violacao"    :VERB "violar"
                                 :PLURAL "violations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -15286,8 +15297,8 @@
                                                               (N-N-MOD)))
                                             (NOM-ADVP :SUBJECT ((DET-POSS)
                                                                 (N-N-MOD)))))
-***(NOM       :ORTH "waiter"       :VERB "wait"
-                                :PLURAL "waiters"
+***(NOM       :ORTH "atendente"       :VERB "atender"
+                                :PLURAL "atendentes"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)))
@@ -15360,7 +15371,7 @@
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "retirada"   :VERB "retirar"
+(NOM       :ORTH "saque"   :VERB "sacar"
                                 :PLURAL "withdrawals"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -15402,26 +15413,26 @@
                                             (NOM-TO-INF-SC)))
 
 (NOM       :ORTH "trabalhador"  :VERB "trabalhar"
-	   :PLURAL "trabalhadores"
-	   :NOM-TYPE ((SUBJECT))
-	   :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))
-		       (NOM-PP :PVAL ("among"
-				      "against"
-				      "around"
-				      "at"
-				      "from"
-				      "in"
-				      "for"
-				      "on"
-				      "through"
-				      "toward"
-				      "with")
-			       :PVAL-NOM ("on")
-			       :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
+                                :PLURAL "trabalhadores"
+                                :NOM-TYPE ((SUBJECT))
+                                :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))
+                                            (NOM-PP :PVAL ("among"
+                                                           "against"
+                                                           "around"
+                                                           "at"
+                                                           "from"
+                                                           "in"
+                                                           "for"
+                                                           "on"
+                                                           "through"
+                                                           "toward"
+                                                           "with")
+                                                    :PVAL-NOM ("on")
+                                                    :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
 
 (NOM       :ORTH "escritor"     :PLURAL "escritores"
-	   :VERB "escrever"
-	   :NOM-TYPE ((SUBJECT))
-	   :VERB-SUBC ((NOM-INTRANS)
-		       (NOM-NP :OBJECT ((N-N-MOD)
-					(PP-OF)))))
+                                :VERB "escrever"
+                                :NOM-TYPE ((SUBJECT))
+                                :VERB-SUBC ((NOM-INTRANS)
+                                            (NOM-NP :OBJECT ((N-N-MOD)
+                                                             (PP-OF)))))
