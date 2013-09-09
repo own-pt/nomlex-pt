@@ -1,4 +1,5 @@
-﻿(NOM  :ORTH "abandono"  :PLURAL **
+﻿(NOM  :ORTH "abandono"
+      :PLURAL NIL
       :VERB "abandonar"
       :NOM-TYPE ((VERB-NOM))
       :VERB-SUBJ ((DET-POSS))
@@ -12,12 +13,11 @@
 					     (PP-OF)))
 		  (NOM-NP-AS-NP :OBJECT ((DET-POSS)
 					 (PP-OF))))
-      :GLOSS "O abandono de criancas sempre existiu e nenhuma medida adotada
-              conseguiu resolver a situacao.")
+      :GLOSS "O abandono de criancas sempre existiu e nenhuma medida adotada conseguiu resolver a situacao.")
 
 
 (NOM       :ORTH "aviltamento"    :VERB "aviltar"
-                                :PLURAL **
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY)
                                             (DET-POSS))
@@ -38,7 +38,7 @@
                                                              (PP-OF)))
                                             (NOM-INTRANS :ALTERNATES T)))
 (NOM       :ORTH "abolicao"    :VERB "abolir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -198,7 +198,7 @@
                                                          :OPTIONAL ((OBJECT)))
                                               (NOM-POSSING :SUBJECT ((DET-POSS)))))
 (NOM       :ORTH "acompanhamento"  :VERB "acompanhar"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
                                   :VERB-SUBC ((NOM-NP-PP :OBJECT ((DET-POSS)
@@ -246,7 +246,7 @@
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "recolhimento" :PLURAL *NONE*
+(NOM       :ORTH "recolhimento" :PLURAL NIL
                                 :VERB "recolher"
                                 :NOM-TYPE ((VERB-NOM))
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -382,7 +382,7 @@
                                             (NOM-TO-INF-SC :SUBJECT ((DET-POSS)
                                                                      (PP-OF)))))
 (NOM       :ORTH "ativacao"   :VERB "ativar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -463,7 +463,7 @@
                                 :VERB-SUBC ((NOM-NP)))
 
 
-***(NOM       :ORTH "endereco"   :VERB "enderecar"
+(NOM       :ORTH "endereco"   :VERB "enderecar"
                                 :PLURAL "enderecos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((IND-OBJ))
@@ -478,7 +478,7 @@
                                                                 (PP-OF))
                                                        :PVAL ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "adiamento"  :PLURAL "adiamentos"
+(NOM       :ORTH "adiamento"  :PLURAL "adiamentos"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "adiar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -530,7 +530,7 @@
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "administracao"  :PLURAL *NONE*
+(NOM       :ORTH "administracao"  :PLURAL NIL
                                    :VERB "administrar"
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((DET-POSS)
@@ -585,7 +585,7 @@ admittance
                                                              (PP :PVAL ("from"))
                                                              (PP-OF)))
                                             (NOM-PP-THAT-S :PVAL1 ("to"))))
-***(NOM       :ORTH "reconhecimento"   :VERB "reconhecer"
+(NOM       :ORTH "reconhecimento"   :VERB "reconhecer"
                                 :PLURAL ""
                                 :PLURAL-FREQ "1:62 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -756,7 +756,7 @@ admittance
                                                                        (PP-OF))
                                                               :PVAL ("about"
                                                                      "on"))))
-***(NOM       :ORTH "advisor"      :PLURAL "advisors"
+(NOM       :ORTH "advisor"      :PLURAL "advisors"
                                 :VERB "advise"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
@@ -777,7 +777,7 @@ admittance
                                                               :PVAL ("about"
                                                                      "on"))))
 (NOM       :ORTH "aeracao"     :VERB "aerar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -851,7 +851,7 @@ admittance
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "consentimento"    :PLURAL "consentir"
+(NOM       :ORTH "consentimento"    :PLURAL "consentir"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "agree"
                                 :NOUN ((RESULT))
@@ -908,7 +908,7 @@ admittance
                                                                    "on"
                                                                    "upon"
                                                                    "over"))))
-(NOM       :ORTH "ajuda"          :PLURAL *NONE*
+(NOM       :ORTH "ajuda"          :PLURAL NIL
                                 :VERB "ajudar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -920,7 +920,7 @@ admittance
                                             (NOM-P-POSSING :PVAL ("in"))
                                             (NOM-NP-P-POSSING :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("in"))))
-***(NOM       :ORTH "padecimento"      :PLURAL ""
+(NOM       :ORTH "padecimento"      :PLURAL ""
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "padecer"
                                 :NOUN ((RESULT))
@@ -932,7 +932,7 @@ admittance
                                                     :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 (NOM       :ORTH "alienacao"   :PLURAL "alienations"
-                             ailment   :VERB "alienar"
+                               :VERB "alienar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
                                 :VERB-SUBJ ((DET-POSS)
@@ -1011,7 +1011,7 @@ admittance
                                             (NOM-NP-TO-NP :OBJECT ((DET-POSS)
                                                                    (N-N-MOD)
                                                                    (PP-OF)))))
-***(NOM       :ORTH "loteamento"    :PLURAL "loteamento"
+(NOM       :ORTH "loteamento"    :PLURAL "loteamento"
                                 :VERB "lotear"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -1060,7 +1060,7 @@ admittance
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-**(NOM       :ORTH "amalgamacao"  :VERB "amalgamar"
+(NOM       :ORTH "amalgamacao"  :VERB "amalgamar"
                                  :PLURAL "amalgamations"
                                  :PLURAL-FREQ "not rare"
                                  :FEATURES ((SUBJ-OBJ-ALT))
@@ -1077,7 +1077,7 @@ admittance
                                              (NOM-PP :PVAL ("with")
                                                      :ALTERNATES T)
                                              (NOM-INTRANS-RECIP)))
-***(NOM       :ORTH "assombracao"    :VERB "assombrar"
+(NOM       :ORTH "assombracao"    :VERB "assombrar"
                                 :PLURAL "assombracoes"
                                 :PLURAL-FREQ "1:505 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -1088,7 +1088,7 @@ admittance
                                                                       (PP-OF)))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "aperfeicoamento"    :VERB "aperfeicoar"
+(NOM       :ORTH "aperfeicoamento"    :VERB "aperfeicoar"
                                 :PLURAL "aperfeicoamentos"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("to")))
@@ -1100,7 +1100,7 @@ admittance
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "amortizacao"  :VERB "amortizar"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
@@ -1113,7 +1113,7 @@ admittance
                                                               (PP-OF))
                                                      :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                  :OBJECT ((N-N-MOD)))))))
-***(NOM       :ORTH "divertimento"    :VERB "divertir"
+(NOM       :ORTH "divertimento"    :VERB "divertir"
                                 :PLURAL "divertimentos"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -1131,7 +1131,7 @@ admittance
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
-                                :VERB-SUBC ((NOM-PP-HOW-TO-INF :PVAL1 *NONE*)
+                                :VERB-SUBC ((NOM-PP-HOW-TO-INF :PVAL1 NIL)
                                             (NOM-HOW-S)
                                             (NOM-WH-S)
                                             (NOM-THAT-S)
@@ -1212,8 +1212,9 @@ admittance
                                                              (N-N-MOD)
                                                              (PP :PVAL ("to"))))
                                             (NOM-EXTRAP-NP-S :OBJECT ((DET-POSS)))))
-*(NOM       :ORTH "anulacao"    :VERB "anular"
-                                :PLURAL *NONE*
+
+(NOM       :ORTH "anulacao"    :VERB "anular"
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -1301,7 +1302,7 @@ admittance
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-AS-NP)))
 (NOM       :ORTH "pacificacao"  :VERB "pacificar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -1338,7 +1339,7 @@ admittance
                                             (NOM-P-ING-SC :SUBJECT ((DET-POSS)
                                                                     (PP-OF))
                                                           :PVAL ("for"))))
-***(NOM       :ORTH "nomeado"    :VERB "nomear"
+(NOM       :ORTH "nomeado"    :VERB "nomear"
                                 :PLURAL "nomeados"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
@@ -1400,7 +1401,7 @@ admittance
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "apreciacao"  :PLURAL *NONE*
+(NOM       :ORTH "apreciacao"  :PLURAL NIL
                                  :VERB "apreciar"
                                  :NOM-TYPE ((VERB-NOM))
                                  :DET-POSS-NO-OTHER-OBJ ((SUBJECT))
@@ -1439,7 +1440,7 @@ admittance
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                  :VERB-SUBC ((NOM-THAT-S)
                                              (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "abordagem"     :PLURAL "abordagens"
+(NOM       :ORTH "abordagem"     :PLURAL "abordagens"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "abordar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -1466,7 +1467,7 @@ admittance
                                                               :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("about"
                                                                      "on"))))
-(NOM       :ORTH "apropriacao"  :PLURAL *NONE*
+(NOM       :ORTH "apropriacao"  :PLURAL NIL
                                   :VERB "apropriar-se"
                                   :NOM-TYPE ((VERB-NOM))
                                   :DET-POSS-NO-OTHER-OBJ ((SUBJECT))
@@ -1576,7 +1577,7 @@ admittance
                                                        :PVAL ("for" "on"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-(NOM       :ORTH "arranjo"  :PLURAL *NONE*
+(NOM       :ORTH "arranjo"  :PLURAL NIL
                                  :VERB "arranjar"
                                  :NOUN ((RESULT))
                                  :NOUN-SUBC ((NOUN-PP :PVAL ("about" "with")))
@@ -1643,7 +1644,7 @@ admittance
                                             (NOM-TO-INF-SC)
                                             (NOM-INTRANS)))
 
-***(NOM       :ORTH "respiracao"  :PLURAL "respiracaoes"
+(NOM       :ORTH "respiracao"  :PLURAL "respiracaoes"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "respirar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -1651,7 +1652,7 @@ admittance
                                 :SUBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF)))))
 
-abordagem
+; abordagem
 (NOM       :ORTH "assassinato"  :VERB "assassinar"
                                   :PLURAL "assassinations"
                                   :NOM-TYPE ((VERB-NOM))
@@ -1661,7 +1662,7 @@ abordagem
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-***(NOM       :ORTH "montagem"     :PLURAL "montagens"
+(NOM       :ORTH "montagem"     :PLURAL "montagens"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "montar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -1737,7 +1738,7 @@ montagem
                                                                        (PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)))))
 (NOM       :ORTH "assistencia"   :VERB "assistir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP :PVAL ("from"))
                                             (PP-OF)
@@ -1819,7 +1820,7 @@ montagem
                                                     :NOT ((AND1 :SUBJECT ((DET-POSS)
                                                                           (N-N-MOD))
                                                                 :OBJECT ((PP-OF)))))))
-***(NOM       :ORTH "estupefacao"  :VERB "estupefar"
+(NOM       :ORTH "estupefacao"  :VERB "estupefar"
                                  :PLURAL ""
                                  :PLURAL-FREQ "1:555 plur:sing"
                                  :NOM-TYPE ((VERB-NOM))
@@ -1829,7 +1830,7 @@ montagem
                                              (NOM-NP :OBJECT ((DET-POSS)
                                                               (PP-OF)))))
 (NOM       :ORTH "expiacao"    :VERB "expiar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -1915,7 +1916,7 @@ estupefacao
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP :PVAL ("at"))))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "participante"     :VERB "participar"
+(NOM       :ORTH "participante"     :VERB "participar"
                                 :PLURAL "participantes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((SUBJECT))
@@ -1926,7 +1927,7 @@ estupefacao
                                                              (PP :PVAL ("at"))
                                                              (PP-OF)))))
 (NOM       :ORTH "atencao"    :VERB "atender"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -1977,7 +1978,7 @@ estupefacao
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
 (NOM       :ORTH "automacao"   :VERB "automatizar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -1987,7 +1988,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "rateio"      :VERB "ratear"
+(NOM       :ORTH "rateio"      :VERB "ratear"
                                 :PLURAL ""
                                 :PLURAL-FREQ "not-rare"
                                 :FEATURES ((V-NUNIT :OBJECT T))
@@ -2000,7 +2001,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-ADVP)
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "evitacao"    :VERB "evitar"
+(NOM       :ORTH "evitacao"    :VERB "evitar"
                                 :PLURAL ""
                                 :PLURAL-FREQ "1:483 plural:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2009,7 +2010,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-ING-SC)))
-***(NOM       :ORTH "confissao"       :VERB "confessar"
+(NOM       :ORTH "confissao"       :VERB "confessar"
                                 :PLURAL "confissoes"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2019,8 +2020,8 @@ estupefacao
                                             (NOM-NP-NP :OBJECT ((PP-OF))
                                                        :IND-OBJ ((IND-OBJ-TO)))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "banimento"   :VERB "banir"
-                                :PLURAL *NONE*
+(NOM       :ORTH "banimento"   :VERB "banir"
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -2062,7 +2063,7 @@ estupefacao
                                                               (N-N-MOD)
                                                               (PP-OF))
                                                     :OBJECT ((PP :PVAL ("against"))))))
-***(NOM       :ORTH "beneficiario"  :PLURAL "beneficiarios"
+(NOM       :ORTH "beneficiario"  :PLURAL "beneficiarios"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "beneficiar"
                                 :NOM-TYPE ((OBJECT))
@@ -2075,7 +2076,7 @@ estupefacao
                                 :OBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-INTRANS :ALTERNATES T)
                                             (NOM-NP)))
-***(NOM       :ORTH "privacao"  :VERB "privar"
+(NOM       :ORTH "privacao"  :VERB "privar"
                                 :PLURAL "privacoes"
                                 :PLURAL-FREQ "10:369 plur:sing"
                                 :VERB-SUBJ ((DET-POSS))
@@ -2101,7 +2102,7 @@ estupefacao
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "noivado"    :VERB "noivar"
+(NOM       :ORTH "noivado"    :VERB "noivar"
                                 :PLURAL "noivados"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2111,7 +2112,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-NP-TO-NP :OBJECT ((PP-OF))
                                                           :IND-OBJ ((IND-OBJ-TO)))))
 (NOM       :ORTH "melhora"   :VERB "melhorar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (NOT-PP-BY))
@@ -2167,7 +2168,7 @@ estupefacao
                                                                        (PP :PVAL ("to")))
                                                               :PVAL ("for"))))
 (NOM       :ORTH "culpado"        :VERB "culpar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -2197,7 +2198,7 @@ estupefacao
                                                        :PVAL ("from" "with"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "fervedor"       :PLURAL "fervedores"
+(NOM       :ORTH "fervedor"       :PLURAL "fervedores"
                                 :VERB "ferver"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -2223,7 +2224,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "quebrador"      :VERB "quebrar"
+(NOM       :ORTH "quebrador"      :VERB "quebrar"
                                 :PLURAL "quebradores"
                                 :NOUN ((EXISTS))
                                 :NOM-TYPE ((SUBJECT))
@@ -2245,7 +2246,7 @@ estupefacao
                                                        :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :PVAL ("with"))))
-***(NOM       :ORTH "amortecedor"       :VERB "amortecer"
+(NOM       :ORTH "amortecedor"       :VERB "amortecer"
                                 :PLURAL "amortecedores"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -2270,7 +2271,7 @@ estupefacao
                                                                   "upon"
                                                                   "over"))
                                             (NOM-NP-FOR-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "arrombamento"     :VERB "arrombar"
+(NOM       :ORTH "arrombamento"     :VERB "arrombar"
                                 :PLURAL "arrombamentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2294,7 +2295,7 @@ estupefacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "massacre"     :VERB "massacrar"
+(NOM       :ORTH "massacre"     :VERB "massacrar"
                                 :PLURAL "massacres"
                                 :PLURAL-FREQ "not entered"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2429,7 +2430,7 @@ estupefacao
                                             (NOM-NP-P-POSSING :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("about"))
                                             (NOM-FOR-TO-INF)))
-***(NOM       :ORTH "visitante"       :PLURAL "visitantes"
+(NOM       :ORTH "visitante"       :PLURAL "visitantes"
                                 :VERB "visitar"
                                 :NOUN ((EXISTS))
                                 :NOM-TYPE ((SUBJECT))
@@ -2445,7 +2446,7 @@ estupefacao
                                                            "via"
                                                            "upon")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "esforco"     :VERB "esforcar"
+(NOM       :ORTH "esforco"     :VERB "esforcar"
                                 :PLURAL "esforcos"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2499,7 +2500,7 @@ estupefacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "receptor"      :PLURAL "receptores"
+(NOM       :ORTH "receptor"      :PLURAL "receptores"
                                 :VERB "receptar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -2634,7 +2635,7 @@ estupefacao
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "fretamento"      :VERB "fretar"
+(NOM       :ORTH "fretamento"      :VERB "fretar"
                                 :PLURAL "charters"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -2778,7 +2779,7 @@ estupefacao
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                  :VERB-SUBC ((NOM-PP :PVAL ("with"))))
 (NOM       :ORTH "co-optacao"  :VERB "co-optar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD))
@@ -2807,14 +2808,14 @@ estupefacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 (NOM       :ORTH "cogeneracao"  :VERB "cogenerar"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
                                  :OBJ-ATTRIBUTE ((NOT-NHUMAN))
                                  :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
-***(NOM       :ORTH "coesao"     :VERB "cohere"
+(NOM       :ORTH "coesao"     :VERB "cohere"
                                 :PLURAL "cohesions"
                                 :PLURAL-FREQ "1:473 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -2879,7 +2880,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-PP :PVAL ("with"))
                                             (NOM-INTRANS-RECIP)))
 (NOM       :ORTH "colusao"    :VERB "coludir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP :PVAL ("between"
                                                        "amongst"
@@ -2925,7 +2926,7 @@ estupefacao
                                                              (PP-OF))
                                                     :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                 :OBJECT ((N-N-MOD)))))))
-***(NOM       :ORTH "regresso"     :VERB "regressar"
+(NOM       :ORTH "regresso"     :VERB "regressar"
                                 :PLURAL "regressos"
                                 :PLURAL-FREQ "32:506 plur:sing"
                                 :NOM-TYPE ((VERB-PART :ADVAL ("back")))
@@ -2965,7 +2966,7 @@ estupefacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "comeco"  :VERB "comecar"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :NOUN ((RESULT))
                                  :VERB-SUBJ ((NOT-PP-BY)
@@ -3172,8 +3173,8 @@ estupefacao
                                                                 :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
                                             (NOM-INTRANS)
                                             (NOM-S)))
-***(NOM       :ORTH "complaisance"  :VERB "comply"
-                                 :PLURAL *NONE*
+(NOM       :ORTH "complaisance"  :VERB "comply"
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :NOUN ((RARE-NOM))
                                  :VERB-SUBJ ((NOT-PP-BY)
@@ -3194,14 +3195,14 @@ estupefacao
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-NP)))
 (NOM       :ORTH "acabamento"   :VERB "acabar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOUN ((RARE-NOUN))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "contentamento"   :VERB "contentar"
+(NOM       :ORTH "contentamento"   :VERB "contentar"
                                 :PLURAL "contentamentos"
                                 :PLURAL-FREQ "9:1293 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -3231,7 +3232,7 @@ estupefacao
                                                         :OBJECT ((PP-OF))
                                                         :PVAL ("with"))))
 (NOM       :ORTH "comportamento"  :VERB "comportar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (PP-OF)
@@ -3263,7 +3264,7 @@ estupefacao
                                                        :PVAL ("from" "out of"))
                                             (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
 (NOM       :ORTH "compreensao"  :VERB "compreender"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((NOT-PP-BY)
                                               (PP-OF)
@@ -3323,7 +3324,7 @@ estupefacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "concentracao"  :VERB "concentrar"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOUN ((RARE-NOUN))
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
@@ -3435,7 +3436,7 @@ estupefacao
                                                                     (PP-OF))
                                                           :ALTERNATES T)))
 (NOM       :ORTH "condescencia"  :VERB "condescender"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((PP-OF :FREQ ("rare"))
                                               (N-N-MOD)
@@ -3452,7 +3453,7 @@ estupefacao
                                                        :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)))))
-(NOM       :ORTH "conduto"      :PLURAL *NONE*
+(NOM       :ORTH "conduto"      :PLURAL NIL
                                 :PLURAL-FREQ "not found"
                                 :VERB "conduzir"
                                 :NOM-TYPE ((VERB-NOM))
@@ -3465,7 +3466,7 @@ estupefacao
                                             (NOM-NP-AS-NP :SUBJECT ((DET-POSS))
                                                           :OBJECT ((NONE)))))
 
-(NOM       :ORTH "conduta"      :PLURAL *NONE*
+(NOM       :ORTH "conduta"      :PLURAL NIL
                                 :PLURAL-FREQ "not found"
                                 :VERB "conduzir-se"
                                 :NOM-TYPE ((VERB-NOM))
@@ -3563,7 +3564,7 @@ estupefacao
                                                                (PP :PVAL ("with"))
                                                                (PP-OF :FREQ ("rare"))))))
 (NOM       :ORTH "confusao"    :VERB "confundir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOUN ((RARE-NOUN))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -3597,7 +3598,7 @@ estupefacao
                                                               (PP-OF :FREQ ("rare"))))
                                              (NOM-PP :PVAL ("with")
                                                      :NOM-ROLE-FOR-PVAL ((DET-POSS)))))
-***(NOM       :ORTH "conjuncao"  :PLURAL "conjunctions"
+(NOM       :ORTH "conjuncao"  :PLURAL "conjunctions"
                                 :VERB "conjoin"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -3619,8 +3620,8 @@ estupefacao
                                                                 (N-N-MOD)
                                                                 (PP-OF))
                                                        :PVAL ("to" "with"))))
-**(NOM       :ORTH "conivencia"   :VERB "connive"
-                                :PLURAL *NONE*
+(NOM       :ORTH "conivencia"   :VERB "connive"
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY)
                                             (DET-POSS)
@@ -3687,7 +3688,7 @@ estupefacao
                                                                 (PP-OF))
                                                        :PVAL ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "mandato"  :VERB "mandar"
+(NOM       :ORTH "mandato"  :VERB "mandar"
                                 :PLURAL "mandatos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -3745,7 +3746,7 @@ estupefacao
                                                      :REQUIRED ((SUBJECT)))
                                              (NOM-INTRANS :ALTERNATES T)))
 (NOM       :ORTH "construcao"  :VERB "construir"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((DET-POSS))
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -3787,7 +3788,7 @@ estupefacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "consumacao"  :VERB "consumir"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
@@ -3799,7 +3800,7 @@ estupefacao
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
 (NOM       :ORTH "consumo"  :VERB "consumir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOUN ((RARE-NOUN))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -3956,7 +3957,7 @@ estupefacao
                                                         :PVAL ("for"
                                                                "toward"
                                                                "to"))))
-***(NOM       :ORTH "equipamento"  :VERB "equipar"
+(NOM       :ORTH "equipamento"  :VERB "equipar"
                                  :PLURAL "equipamentos"
                                  :PLURAL-FREQ "not rare"
                                  :NOM-TYPE ((OBJECT))
@@ -4059,7 +4060,7 @@ estupefacao
                                                                    (PP-OF))
                                                           :PVAL ("into" "to")
                                                           :PVAL2 ("from"))))                                                  :PVAL2 ("from"))))
-***(NOM       :ORTH "conducao"   :VERB "conduzir"
+(NOM       :ORTH "conducao"   :VERB "conduzir"
                                 :PLURAL "conducoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -4152,7 +4153,7 @@ estupefacao
                                             (NOM-NP-PP :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :PVAL ("with"))))
-***(NOM       :ORTH "corrosao"    :VERB "corroer"
+(NOM       :ORTH "corrosao"    :VERB "corroer"
                                 :PLURAL "corrosoes"
                                 :PLURAL-FREQ "not found"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -4188,7 +4189,7 @@ estupefacao
                                                        :IND-OBJ ((IND-OBJ-TO)))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "contagem"    :VERB "contar"
+(NOM       :ORTH "contagem"    :VERB "contar"
                                 :PLURAL "contagens"
                                 :PLURAL-FREQ "not found"
                                 :NOM-TYPE ((VERB-PART :ADVAL ("down")))
@@ -4301,7 +4302,7 @@ estupefacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 
-**(NOM       :ORTH "dano"       :VERB "danar"
+(NOM       :ORTH "dano"       :VERB "danar"
                                 :PLURAL "damages"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -4502,7 +4503,7 @@ estupefacao
                                                              (PP-OF)))
                                             (NOM-INTRANS)
                                             (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "deduction2"   :VERB "deduce"
+(NOM       :ORTH "deduction2"   :VERB "deduce"
                                 :PLURAL "deductions"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -4528,7 +4529,7 @@ estupefacao
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
 (NOM       :ORTH "desafio"     :VERB "desafiar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -4560,7 +4561,7 @@ estupefacao
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
 (NOM       :ORTH "custeio"     :VERB "custear"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
@@ -4642,7 +4643,7 @@ estupefacao
                                             (NOM-NP-P-ING-OC :OBJECT ((DET-POSS)
                                                                       (PP-OF))
                                                              :PVAL ("into"))))
-***(NOM       :ORTH "demanda"       :VERB "demandar"
+(NOM       :ORTH "demanda"       :VERB "demandar"
                                 :PLURAL "demandas"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -4664,7 +4665,7 @@ estupefacao
                                             (NOM-S-SUBJUNCT :NOM-SUBC ((SENT :THAT-S T)))
                                             (NOM-THAT-S)))
 (NOM       :ORTH "democratizacao"  :VERB "democratizar"
-                                    :PLURAL *NONE*
+                                    :PLURAL NIL
                                     :NOM-TYPE ((VERB-NOM))
                                     :VERB-SUBJ ((NOT-PP-BY)
                                                 (DET-POSS))
@@ -4673,7 +4674,7 @@ estupefacao
                                     :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                  (PP-OF)))))
 (NOM       :ORTH "demolicao"   :VERB "demolir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -4758,7 +4759,7 @@ estupefacao
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP :PVAL ("against"))
                                                               (PP-OF)))))
-***(NOM       :ORTH "retratacao"    :VERB "retratar"
+(NOM       :ORTH "retratacao"    :VERB "retratar"
                                 :PLURAL "retratacoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -4882,7 +4883,7 @@ retratacao
                                                        :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :IND-OBJ ((IND-OBJ-OTHER :PVAL ("by"))))))
-***(NOM       :ORTH "descarrilhamento"   :VERB "descarrilhar"
+(NOM       :ORTH "descarrilhamento"   :VERB "descarrilhar"
                                 :PLURAL "descarrilhamentos"
                                 :PLURAL-FREQ "1:31 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -4895,7 +4896,7 @@ retratacao
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "desregulamentacao"  :VERB "desregular"
+(NOM       :ORTH "desregulamentacao"  :VERB "desregular"
                                  :PLURAL "desregulamentacoes"
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
@@ -4904,7 +4905,7 @@ retratacao
                                              (NOM-NP :OBJECT ((DET-POSS)
                                                               (PP-OF)))))
 (NOM       :ORTH "derisao"     :VERB "deridir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -4955,7 +4956,7 @@ retratacao
                                             (NOM-NP-PP :OBJECT ((DET-POSS)
                                                                 (PP-OF))
                                                        :PVAL ("to"))
-                                            (NOM-PP-HOW-TO-INF :PVAL1 *NONE*)
+                                            (NOM-PP-HOW-TO-INF :PVAL1 NIL)
                                             (NOM-NP-AS-ADJP :OBJECT ((DET-POSS)
                                                                      (PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
@@ -5024,7 +5025,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "desenhista"     :PLURAL "desenhistas"
+(NOM       :ORTH "desenhista"     :PLURAL "desenhistas"
                                 :VERB "desenhar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
@@ -5063,7 +5064,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "destruicao"  :VERB "destruir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -5122,7 +5123,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "devaluacao"  :VERB "devaluate"
+(NOM       :ORTH "devaluacao"  :VERB "devaluate"
                                 :PLURAL "devaluations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -5311,7 +5312,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-(NOM       :ORTH "direcao"    :PLURAL *NONE*
+(NOM       :ORTH "direcao"    :PLURAL NIL
                                 :VERB "dirigir"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((VERB-NOM))
@@ -5383,7 +5384,7 @@ retratacao
                                                              "through"
                                                              "out of"))
                                               (NOM-INTRANS)))
-***(NOM       :ORTH "desapontamento"  :PLURAL "disappointments"
+(NOM       :ORTH "desapontamento"  :PLURAL "disappointments"
                                    :PLURAL-FREQ "not rare"
                                    :VERB "desapontar"
                                    :NOUN ((RESULT))
@@ -5396,7 +5397,7 @@ retratacao
                                                (NOM-EXTRAP-NP-S :OBJECT ((DET-POSS)
                                                                          (PP :PVAL ("TO"))))))
 (NOM       :ORTH "desaprovacao"  :VERB "desaprovar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :PLURAL-FREQ "0: 318 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -5433,7 +5434,7 @@ retratacao
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
 (NOM       :ORTH "descontinuacao"  :VERB "descontinuar"
-                                   :PLURAL *NONE*
+                                   :PLURAL NIL
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((N-N-MOD)
                                                (DET-POSS))
@@ -5477,7 +5478,7 @@ retratacao
                                             (NOM-S :NOM-SUBC ((SENT :THAT-S T)))
                                             (NOM-WH-S :SUBJECT ((DET-POSS)))
                                             (NOM-HOW-S :SUBJECT ((DET-POSS)))
-                                            (NOM-PP-HOW-TO-INF :PVAL1 *NONE*)))
+                                            (NOM-PP-HOW-TO-INF :PVAL1 NIL)))
 (NOM       :ORTH "discriminacao"  :VERB "discriminar"
                                    :PLURAL "discriminations"
                                    :PLURAL-FREQ "41: 2003 plur:sing"
@@ -5559,8 +5560,8 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "dismembramento"  :VERB "dismembrar"
-                                  :PLURAL *NONE*
-                                  :PLURAL-FREQ *NONE*
+                                  :PLURAL NIL
+                                  :PLURAL-FREQ NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
@@ -5587,7 +5588,7 @@ retratacao
                                   :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-***(NOM       :ORTH "descarga"    :VERB "descargar"
+(NOM       :ORTH "descarga"    :VERB "descargar"
                                 :PLURAL "descargas"
                                 :PLURAL-FREQ "rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -5623,8 +5624,8 @@ retratacao
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "deslocacao"  :VERB "deslocar"
-                                 :PLURAL *NONE*
+(NOM       :ORTH "deslocacao"  :VERB "deslocar"
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
@@ -5632,7 +5633,7 @@ retratacao
                                  :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (PP-OF)))))
-***(NOM       :ORTH "cessao"     :VERB "ceder"
+(NOM       :ORTH "cessao"     :VERB "ceder"
                                 :PLURAL "cessoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -5723,7 +5724,7 @@ retratacao
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "disseminacao"  :VERB "disseminar"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((N-N-MOD)
                                               (DET-POSS))
@@ -5948,7 +5949,7 @@ retratacao
                                                                (N-N-MOD)
                                                                (PP-OF)))))
 (NOM       :ORTH "dominancia"    :VERB "dominar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (N-N-MOD)
@@ -6001,7 +6002,7 @@ retratacao
                                                                        :PVAL ("about"))))
                                             (NOM-S :NOM-SUBC ((SENT :THAT-S T)))
                                             (NOM-NP :OBJECT ((PP :PVAL ("about"))))))
-***(NOM       :ORTH "descida"      :VERB "descer"
+(NOM       :ORTH "descida"      :VERB "descer"
                                 :PLURAL "descidas"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6012,7 +6013,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***NOM       :ORTH "draftee1"     :VERB "draft"
+(NOM       :ORTH "draftee1"     :VERB "draft"
                                 :PLURAL "draftees"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
@@ -6023,7 +6024,8 @@ retratacao
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :OBJ-ATTRIBUTE ((NHUMAN))
                                 :VERB-SUBC ((NOM-NP)))
-***(NOM       :ORTH "draftee2"     :PLURAL "draftees"
+
+(NOM       :ORTH "draftee2"     :PLURAL "draftees"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "draft"
                                 :NOM-TYPE ((SUBJECT))
@@ -6044,7 +6046,7 @@ retratacao
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-***(NOM       :ORTH "condutor"       :VERB "conduzir"
+(NOM       :ORTH "condutor"       :VERB "conduzir"
                                 :PLURAL "condutores"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -6068,7 +6070,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "educacao"    :VERB "educar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOUN ((RARE-NOUN))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -6105,6 +6107,7 @@ retratacao
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP :PVAL ("on"))))))
+
 (NOM       :ORTH "eleicao"     :VERB "eleger"
                                 :PLURAL "elections"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6124,6 +6127,7 @@ retratacao
                                                              (PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
+
 (NOM       :ORTH "eliminacao"  :VERB "eliminar"
                                 :PLURAL "eliminations"
                                 :PLURAL-FREQ "rare"
@@ -6329,9 +6333,9 @@ retratacao
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                  :VERB-SUBC ((NOM-PP :PVAL ("on" "upon"))
                                              (NOM-INTRANS)))
-***(NOM       :ORTH "amedrontamento"  :VERB "amedrontar"
-                                 :PLURAL *NONE*
-                                 :PLURAL-FREQ *NONE*
+(NOM       :ORTH "amedrontamento"  :VERB "amedrontar"
+                                 :PLURAL NIL
+                                 :PLURAL-FREQ NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((DET-POSS))
                                  :SUBJ-ATTRIBUTE ((COMMUNICATOR))
@@ -6351,7 +6355,7 @@ retratacao
                                                        :PVAL-NOM ("for"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "dotacao"    :VERB "doar"
+(NOM       :ORTH "dotacao"    :VERB "doar"
                                 :PLURAL "endowments"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((V-NUNIT :PVAL ("with")))
@@ -6373,7 +6377,7 @@ retratacao
                                                              (PP :PVAL ("to"))
                                                              (PP-OF)))))
 (NOM       :ORTH "resistencia"    :VERB "resistir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (NOT-PP-BY)
@@ -6383,8 +6387,8 @@ retratacao
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "cumprimento"  :VERB "cumprir"
-                                :PLURAL *NONE*
+(NOM       :ORTH "cumprimento"  :VERB "cumprir"
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -6392,7 +6396,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-**(NOM       :ORTH "engajamento"   :PLURAL "engagements"
+(NOM       :ORTH "engajamento"   :PLURAL "engagements"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "engajar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6507,8 +6511,8 @@ retratacao
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
 (NOM       :ORTH "escravidao"  :VERB "escravizar"
-                                :PLURAL *NONE*
-                                :PLURAL-FREQ *NONE*
+                                :PLURAL NIL
+                                :PLURAL-FREQ NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :OBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP-PP :OBJECT ((DET-POSS)
@@ -6516,7 +6520,7 @@ retratacao
                                                        :PVAL ("to"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "entretenimento"  :VERB "entreter"
+(NOM       :ORTH "entretenimento"  :VERB "entreter"
                                   :PLURAL "entretenimentos"
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
@@ -6533,7 +6537,7 @@ retratacao
                                                                          (PP-OF))
                                                                 :PVAL ("with"))
                                               (NOM-P-POSSING :PVAL ("with"))))
-**(NOM       :ORTH "privilegio"  :VERB "privilegiar"
+(NOM       :ORTH "privilegio"  :VERB "privilegiar"
                                 :PLURAL "privilegios"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6597,7 +6601,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "erupcao"     :VERB "erupt"
+(NOM       :ORTH "erupcao"     :VERB "erupt"
                                 :PLURAL "eruptions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6643,7 +6647,7 @@ retratacao
                                                            "to"
                                                            "with")
                                                     :PVAL-NOM ("from"))))
-***(NOM       :ORTH "adesao"     :VERB "aderir"
+(NOM       :ORTH "adesao"     :VERB "aderir"
                                 :PLURAL "adesoes"
                                 :PLURAL-FREQ "0:43 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -6652,7 +6656,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF)))))
 
 (NOM       :ORTH "estabelecimento"  :VERB "estabelecer"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOUN ((EXISTS))
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
@@ -6692,7 +6696,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "evacuado"      :VERB "evacuar"
+(NOM       :ORTH "evacuado"      :VERB "evacuar"
                                 :PLURAL "evacuados"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -6729,7 +6733,7 @@ retratacao
                                             (NOM-NP-AS-NP :SUBJECT ((DET-POSS))
                                                           :OBJECT ((PP-OF)))))
 (NOM       :ORTH "evaporacao"  :VERB "evaporar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -6828,7 +6832,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 (NOM       :ORTH "exasperacao"  :VERB "exasperate"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((NOT-PP-BY)
                                              (PP :PVAL ("at" "with")))
@@ -6845,7 +6849,7 @@ retratacao
                                                        :PVAL ("for" "with"))
                                             (NOM-PP :PVAL ("up to" "with"))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "excisao"     :VERB "excisar"
+(NOM       :ORTH "excisao"     :VERB "excisar"
                                 :PLURAL "excisoes"
                                 :PLURAL-FREQ "8:67 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -7014,7 +7018,7 @@ retratacao
                                                     :ALTERNATES T
                                                     :NOT ((AND1 :SUBJECT ((PP-OF))
                                                                 :PVAL ("on"))))))
-***(NOM       :ORTH "expectativa"  :VERB "expect"
+(NOM       :ORTH "expectativa"  :VERB "expect"
                                 :PLURAL "expectations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -7072,7 +7076,7 @@ retratacao
                                             (N-N-MOD)
                                             (PP-OF))
                                 :VERB-SUBC ((NOM-INTRANS)))
-(NOM       :ORTH "explicacao"  :PLURAL *NONE*
+(NOM       :ORTH "explicacao"  :PLURAL NIL
                                 :VERB "explicar"
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("about" "on"))
                                             (NOUN-P-POSSING :PVAL ("about"
@@ -7104,7 +7108,7 @@ retratacao
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (N-N-MOD)
                                                               (PP-OF)))))
-***(NOM       :ORTH "busca"  :PLURAL "buscas"
+(NOM       :ORTH "busca"  :PLURAL "buscas"
                                 :VERB "buscar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -7124,7 +7128,7 @@ retratacao
                                                                 (N-N-MOD)))
                                             (NOM-PP-HOW-TO-INF :SUBJECT ((DET-POSS)
                                                                          (N-N-MOD))
-                                                               :PVAL1 *NONE*)))
+                                                               :PVAL1 NIL)))
 (NOM       :ORTH "explosao"    :VERB "explodir"
                                 :PLURAL "explosions"
                                 :PLURAL-FREQ "not rare"
@@ -7327,7 +7331,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 
-***(NOM       :ORTH "queda"         :VERB "fall"
+(NOM       :ORTH "queda"         :VERB "fall"
                                 :PLURAL "falls"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -7346,7 +7350,7 @@ retratacao
                                             (NOM-NUNITP-TO-RANGE :PVAL ("from")
                                                                  :PVAL2 ("to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "fazendeiro"       :VERB "fazenda"
+(NOM       :ORTH "fazendeiro"       :VERB "fazenda"
                                 :PLURAL "farmers"
                                 :NOM-TYPE ((SUBJECT))
                                 :OBJ-ATTRIBUTE ((NOT-COMMUNICATOR))
@@ -7535,7 +7539,7 @@ retratacao
                                             (NOM-INTRANS)))
 
 (NOM       :ORTH "paciencia"  :VERB "pacientar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -7603,7 +7607,7 @@ retratacao
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "franqueado"   :PLURAL "franqueados"
+(NOM       :ORTH "franqueado"   :PLURAL "franqueados"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "franquear"
                                 :NOM-TYPE ((OBJECT))
@@ -7697,7 +7701,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "governamento"   :VERB "governar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -7732,7 +7736,7 @@ retratacao
                                                            "with")
                                                     :PVAL-NOM ("from")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "cultivador"       :PLURAL "cultivadores"
+(NOM       :ORTH "cultivador"       :PLURAL "cultivadores"
                                 :VERB "cultivar"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -7765,7 +7769,7 @@ retratacao
                                                        :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-THAT-S)))
 (NOM       :ORTH "guia"     :VERB "guiar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP :PVAL ("from"))
                                             (DET-POSS)
@@ -7786,8 +7790,8 @@ retratacao
                                 :VERB-SUBC ((NOM-PP :PVAL ("between"))
                                             (NOM-INTRANS)))
 (NOM       :ORTH "perseguicao"   :VERB "perseguir"
-                                :PLURAL *NONE*
-                                :PLURAL-FREQ *NONE*
+                                :PLURAL NIL
+                                :PLURAL-FREQ NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -7820,7 +7824,7 @@ retratacao
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
 (NOM       :ORTH "socorro"         :VERB "socorrer"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -7837,7 +7841,7 @@ retratacao
                                             (NOM-INTRANS)
                                             (NOM-P-POSSING :PVAL ("in" "with"))))
 (NOM       :ORTH "hesitacao"    :VERB "hesitar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -7845,7 +7849,7 @@ retratacao
                                 :VERB-SUBC ((NOM-TO-INF-SC)
                                             (NOM-PP :PVAL ("about" "over"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "indecisao"   :VERB "decidir"
+(NOM       :ORTH "indecisao"   :VERB "decidir"
                                 :PLURAL "hesitations"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY)
@@ -7860,7 +7864,7 @@ retratacao
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "impedimento"   :VERB "impedir"
+(NOM       :ORTH "impedimento"   :VERB "impedir"
                                 :PLURAL "impedimentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -7905,7 +7909,7 @@ retratacao
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "homenageado"      :PLURAL "homenageados"
+(NOM       :ORTH "homenageado"      :PLURAL "homenageados"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "homenagear"
                                 :NOM-TYPE ((OBJECT))
@@ -7975,7 +7979,7 @@ retratacao
                                                                      "with"))
                                                (NOM-NP-AS-ING :OBJECT ((PP-OF)))
                                                (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "ignicao"     :VERB "ignite"
+(NOM       :ORTH "ignicao"     :VERB "ignite"
                                 :PLURAL "ignitions"
                                 :PLURAL-FREQ "6:265 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -8048,7 +8052,7 @@ retratacao
                                                              (PP-OF)))
                                             (NOM-NP-ING-OC :OBJECT ((PP-OF)))))
 (NOM       :ORTH "imigracao"  :VERB "immigrar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -8122,7 +8126,7 @@ retratacao
                                             (NOM-P-NP-TO-INF-OC :SUBJECT ((DET-POSS))
                                                                 :PVAL ("on"
                                                                        "upon"))))
-(NOM       :ORTH "impressao"   :PLURAL *NONE*
+(NOM       :ORTH "impressao"   :PLURAL NIL
                                 :VERB "impressionar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -8187,7 +8191,7 @@ retratacao
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "melhoramento"  :VERB "melhorar"
+(NOM       :ORTH "melhoramento"  :VERB "melhorar"
                                 :PLURAL "melhoramentos"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -8329,7 +8333,7 @@ retratacao
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))))
 (NOM       :ORTH "indexacao"   :VERB "indexar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -8368,7 +8372,7 @@ retratacao
                                             (NOM-WH-S)
                                             (NOM-HOW-S)
                                             (NOM-PP-WH-S :PVAL1 ("to"))))
-***(NOM       :ORTH "acusamento"   :VERB "acusar"
+(NOM       :ORTH "acusamento"   :VERB "acusar"
                                 :PLURAL "acusamentos"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -8472,7 +8476,7 @@ retratacao
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (PP-OF)))))
 (NOM       :ORTH "inflacao"    :VERB "inflacionar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -8492,7 +8496,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
         (NOM       :ORTH "inflacao"    :VERB "inflar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -8633,7 +8637,7 @@ retratacao
                                             (PP-OF))
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-INTRANS)))
-***(NOM       :ORTH "averiguacao"      :VERB "averiguar"
+(NOM       :ORTH "averiguacao"      :VERB "averiguar"
                                 :PLURAL "inquiries"
                                 :SPELLING "American"
                                 :PLURAL-FREQ "not rare"
@@ -8719,7 +8723,7 @@ retratacao
                                                                    "in"
                                                                    "under"))
                                              (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "prestacao"  :VERB "prestar"
+(NOM       :ORTH "prestacao"  :VERB "prestar"
                                 :PLURAL "prestacoes"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -8739,7 +8743,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 (NOM       :ORTH "instrucao"  :VERB "instruir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -8750,7 +8754,7 @@ retratacao
                                                        :PVAL ("in"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "instructions"  :PLURAL "instructions"
+(NOM       :ORTH "instructions"  :PLURAL "instructions"
                                  :SINGULAR-FALSE T
                                  :VERB "instruct"
                                  :NOUN ((RESULT))
@@ -8760,7 +8764,7 @@ retratacao
                                  :VERB-SUBC ((NOM-NP-TO-INF-OC :OBJECT ((DET-POSS)
                                                                         (PP :PVAL ("to")))
                                                                :OPTIONAL ((OBJECT)))))
-***(NOM       :ORTH "ilhamento"   :VERB "ilhar"
+(NOM       :ORTH "ilhamento"   :VERB "ilhar"
                                 :PLURAL "ilhamentos"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((SING-ONLY)
@@ -8847,7 +8851,7 @@ retratacao
                                     :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                                  (PP-OF)))
                                                 (NOM-INTRANS)))
-***(NOM       :ORTH "intencao"    :PLURAL "intencoes"
+(NOM       :ORTH "intencao"    :PLURAL "intencoes"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "intentar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -8871,7 +8875,7 @@ retratacao
                                                               (PP-OF))
                                                     :PVAL ("with"))
                                             (NOM-INTRANS-RECIP)))
-***(NOM       :ORTH "internado"     :PLURAL "internados"
+(NOM       :ORTH "internado"     :PLURAL "internados"
                                 :PLURAL-FREQ "rare"
                                 :VERB "internar"
                                 :NOM-TYPE ((OBJECT))
@@ -8901,7 +8905,7 @@ retratacao
                                                (NOM-NP :OBJECT ((DET-POSS)
                                                                 (N-N-MOD)
                                                                 (PP-OF)))))
-**(NOM       :ORTH "inter-relacao"  :VERB "relacionar"
+(NOM       :ORTH "inter-relacao"  :VERB "relacionar"
                                   :PLURAL "interrelations"
                                   :PLURAL-FREQ "not rare"
                                   :NOM-TYPE ((VERB-NOM))
@@ -9075,7 +9079,7 @@ retratacao
                                                       :NOT ((AND1 :SUBJECT ((N-N-MOD))
                                                                   :OBJECT ((N-N-MOD)))))
                                               (NOM-INTRANS :SUBJECT ((DET-POSS)))
-                                              (NOM-PP-HOW-TO-INF :PVAL1 *NONE*
+                                              (NOM-PP-HOW-TO-INF :PVAL1 NIL
                                                                  :NOM-SUBC ((P-WH :HOW-TO-INF T
                                                                                   :HOW-S T
                                                                                   :PVAL ("of"
@@ -9111,7 +9115,7 @@ retratacao
                                                        :PVAL ("on" "to"))
                                             (NOM-NP :OBJECT ((PP-OF)))))
 (NOM       :ORTH "involvimento"  :VERB "involver"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -9140,7 +9144,8 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***before(NOM       :ORTH "inflamacao"   :PLURAL "inflamacoes"
+; before
+(NOM       :ORTH "inflamacao"   :PLURAL "inflamacoes"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "inflamar"
                                 :NOUN ((RESULT))
@@ -9165,7 +9170,7 @@ retratacao
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
 
-**(NOM       :ORTH "isolacao"    :PLURAL "isolations"
+(NOM       :ORTH "isolacao"    :PLURAL "isolations"
                                 :VERB "isolar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -9218,7 +9223,7 @@ retratacao
                                                                               "of")
                                                                        :WH-S T)))
                                             (NOM-PP-HOW-TO-INF :SUBJECT ((DET-POSS))
-                                                               :PVAL1 *NONE*
+                                                               :PVAL1 NIL
                                                                :NOM-SUBC ((P-WH :PVAL ("on"
                                                                                        "of")
                                                                                 :HOW-S T
@@ -9348,7 +9353,7 @@ retratacao
                                                               "on"))
                                             (NOM-P-WH-S :SUBJECT ((DET-POSS))
                                                         :PVAL ("into"))))
-***(NOM       :ORTH "cobertura"        :VERB "cobrir"
+(NOM       :ORTH "cobertura"        :VERB "cobrir"
                                 :PLURAL "coberturas"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -9415,7 +9420,7 @@ retratacao
                                                           :IND-OBJ ((IND-OBJ-TO)
                                                                     (DET-POSS)))))
 
-***(NOM       :ORTH "locatario"       :PLURAL "locatarios"
+(NOM       :ORTH "locatario"       :PLURAL "locatarios"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "locar"
                                 :NOM-TYPE ((IND-OBJ))
@@ -9451,7 +9456,7 @@ retratacao
                                 :OBJ-ATTRIBUTE ((NOT-NHUMAN))
                                 :VERB-SUBC ((NOM-NP-TO-NP :OBJECT ((N-N-MOD)
                                                                    (PP-OF)))))
-***(NOM       :ORTH "arranque"     :PLURAL "arranques"
+(NOM       :ORTH "arranque"     :PLURAL "arranques"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "arrancar"
                                 :NOM-TYPE ((VERB-PART))
@@ -9523,6 +9528,7 @@ retratacao
                                                            "with")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                             (NOM-INTRANS-RECIP)))
+
 (NOM       :ORTH "olhar"         :VERB "olhar"
                                 :PLURAL "looks"
                                 :PLURAL-FREQ "not-rare"
@@ -9553,7 +9559,8 @@ retratacao
                                             (NOM-ADVP :NOM-SUBC ((ADJP)))
                                             (NOM-INTRANS)
                                             (NOM-P-WH-S :PVAL ("into"))))
-***olhada
+; olhada
+
 (NOM       :ORTH "perda"         :VERB "perder"
                                 :PLURAL "losses"
                                 :PLURAL-FREQ "not rare"
@@ -9589,7 +9596,7 @@ retratacao
                                                                (PP-OF)))
                                               (NOM-INTRANS)))
 (NOM       :ORTH "manutencao"  :VERB "manter"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -9597,7 +9604,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "fabricante"        :PLURAL "fabricantes"
+(NOM       :ORTH "fabricante"        :PLURAL "fabricantes"
                                 :VERB "fabricar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
@@ -9660,7 +9667,7 @@ retratacao
                                                               (PP-OF)))
                                              (NOM-NP-PP :OBJECT ((PP-OF))
                                                         :PVAL ("for" "from"))))
-***(NOM       :ORTH "negociante"     :VERB "negociar"
+(NOM       :ORTH "negociante"     :VERB "negociar"
                                 :PLURAL "negociantes"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
@@ -9670,8 +9677,8 @@ retratacao
                                                        :PVAL ("for" "to"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "maestria"      :VERB "master"
-                                :PLURAL *NONE*
+(NOM       :ORTH "maestria"      :VERB "master"
+                                :PLURAL NIL
                                 :PLURAL-FREQ "0: 408 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((EXISTS))
@@ -9705,7 +9712,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "mecanizacao"  :VERB "mecanizar"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((N-N-MOD)
                                               (DET-POSS))
@@ -9738,7 +9745,7 @@ retratacao
                                             (NOM-NP-AS-NP)
                                             (NOM-NP-PP-AS-NP :OBJECT ((PP-OF))
                                                              :PVAL1 ("to"))))
-***(NOM       :ORTH "juncao"       :VERB "juntar"
+(NOM       :ORTH "juncao"       :VERB "juntar"
                                 :PLURAL "juncoes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -9787,7 +9794,7 @@ retratacao
                                 :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                 :VERB-SUBC ((NOM-PP :PVAL ("to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "engano"  :VERB "enganar"
+(NOM       :ORTH "engano"  :VERB "enganar"
                                    :PLURAL "enganos"
                                    :PLURAL-FREQ "not rare"
                                    :NOM-TYPE ((VERB-NOM))
@@ -9800,15 +9807,15 @@ retratacao
                                                (NOM-PP :PVAL ("by")
                                                        :PVAL-NOM ("of" "by")
                                                        :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "desgoverno"  :VERB "desgovernar"
-                                  :PLURAL *NONE*
+(NOM       :ORTH "desgoverno"  :VERB "desgovernar"
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((PP-OF)
                                               (DET-POSS))
                                   :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-***(NOM       :ORTH "deturpacao"  :VERB "deturpar"
+(NOM       :ORTH "deturpacao"  :VERB "deturpar"
                                       :PLURAL "deturpacao"
                                       :PLURAL-FREQ "25:283"
                                       :NOM-TYPE ((VERB-NOM))
@@ -10186,7 +10193,7 @@ retratacao
                                             (NOM-NP-TO-INF-OC :OBJECT ((PP-OF)))
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
-***(NOM       :ORTH "nomeado"      :VERB "nomear"
+(NOM       :ORTH "nomeado"      :VERB "nomear"
                                 :PLURAL "nomeado"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((OBJECT))
@@ -10358,7 +10365,7 @@ retratacao
                                             (PP-OF :FREQ ("observed")))
                                 :VERB-SUBC ((NOM-THAT-S)))
 (NOM       :ORTH "oposicao"   :VERB "opor"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
                                 :NOUN ((RESULT))
@@ -10471,7 +10478,7 @@ retratacao
                                                                     (N-N-MOD)
                                                                     (PP-OF)
                                                                     (NOT-PP-BY)))))
-***(NOM       :ORTH "sobrepagamento"  :VERB "sobrepagar"
+(NOM       :ORTH "sobrepagamento"  :VERB "sobrepagar"
                                 :PLURAL "sobrepagamentos"
                                 :PLURAL-FREQ "not rare"
                                 :VERB-SUBJ ((N-N-MOD)
@@ -10485,7 +10492,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "possuidor"        :VERB "possuir"
+(NOM       :ORTH "possuidor"        :VERB "possuir"
                                 :PLURAL "possuidores"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
@@ -10524,7 +10531,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 
-***(NOM       :ORTH "parolee"      :VERB "parole"
+(NOM       :ORTH "parolee"      :VERB "parole"
                                 :PLURAL "parolees"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((OBJECT))
@@ -10672,7 +10679,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
 (NOM       :ORTH "perseverancia"  :VERB "perseverar"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (NOT-PP-BY)
@@ -10711,7 +10718,7 @@ retratacao
 
 
 
-***(NOM       :ORTH "reservatorio"      :PLURAL "reservatorios"
+(NOM       :ORTH "reservatorio"      :PLURAL "reservatorios"
                                 :VERB "reservar"
                                 :NOUN ((EXISTS))
                                 :NOM-TYPE ((SUBJECT))
@@ -10889,7 +10896,7 @@ retratacao
                                                        :NOM-SUBC ((P-WH :HOW-S T
                                                                         :PVAL ("about"))))))
 (NOM       :ORTH "predominancia"  :VERB "predominar"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (PP-OF)
@@ -10934,7 +10941,7 @@ retratacao
                                             (NOM-FOR-TO-INF :SUBJECT ((DET-POSS)
                                                                       (N-N-MOD)))
                                             (NOM-TO-INF-SC :SUBJECT ((DET-POSS)))))
-***(NOM       :ORTH "pré-pagamento"   :VERB "pré-pagar"
+(NOM       :ORTH "pré-pagamento"   :VERB "pré-pagar"
                                 :PLURAL "pré-pagamentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11051,7 +11058,7 @@ retratacao
                                                                (PP-OF))
                                                       :REQUIRED ((SUBJECT)))
                                               (NOM-INTRANS :ALTERNATES T)))
-***(NOM       :ORTH "provacao"    :VERB "provar"
+(NOM       :ORTH "provacao"    :VERB "provar"
                                 :PLURAL "probations"
                                 :PLURAL-FREQ "not found"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11081,15 +11088,15 @@ retratacao
                                              (NOM-NP :OBJECT ((N-N-MOD)
                                                               (PP-OF)))))
 (NOM       :ORTH "procriacao"  :VERB "procriar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
                                             (N-N-MOD))
                                 :VERB-SUBC ((NOM-INTRANS)
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-**(NOM       :ORTH "procuracao"  :VERB "procurar"
-                                :PLURAL *NONE*
+(NOM       :ORTH "procuracao"  :VERB "procurar"
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -11136,7 +11143,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF)))
                                             (NOM-THAT-S)))
 (NOM       :ORTH "progresso"     :VERB "progredir"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -11301,7 +11308,7 @@ retratacao
                                                        :PVAL ("for" "to")
                                                        :PVAL-NOM ("to"))
                                             (NOM-THAT-S)))
-***(NOM       :ORTH "prosecucao"  :VERB "processar"
+(NOM       :ORTH "prosecucao"  :VERB "processar"
                                 :PLURAL "prosecutions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11319,7 +11326,7 @@ retratacao
                                                                       (PP-OF))
                                                              :PVAL ("for"))))
 (NOM       :ORTH "prostituicao"  :VERB "prostituir-se"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :PLURAL-FREQ "0:417 plur:sing"
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((PP-OF)
@@ -11362,7 +11369,7 @@ retratacao
                                                            "to"
                                                            "over"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "provedor"     :PLURAL "provedores"
+(NOM       :ORTH "provedor"     :PLURAL "provedores"
                                 :VERB "prover"
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
@@ -11431,7 +11438,7 @@ retratacao
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
 (NOM       :ORTH "bomba"      :VERB "bombear"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :PLURAL-FREQ "not found")
 (NOM       :ORTH "punicao"   :PLURAL "punishments"
                                 :VERB "punir"
@@ -11532,7 +11539,7 @@ retratacao
                                             (NOM-NP-P-POSSING :OBJECT ((PP :PVAL ("to")))
                                                               :PVAL ("about"
                                                                      "on"))))
-***(NOM       :ORTH "quotacao"    :PLURAL "quotations"
+(NOM       :ORTH "quotacao"    :PLURAL "quotations"
                                 :PLURAL-FREQ "not rare"
                                 :VERB "quotar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11590,7 +11597,7 @@ retratacao
                                                              (PP-OF)))
                                             (NOM-NP-PP :OBJECT ((PP-OF))
                                                        :PVAL ("for"))))
-***(NOM       :ORTH "brincadeira"     :PLURAL "brincadeiras"
+(NOM       :ORTH "brincadeira"     :PLURAL "brincadeiras"
                                 :PLURAL-FREQ "not entered"
                                 :VERB "brincar"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11601,7 +11608,7 @@ retratacao
                                                        :PVAL2 ("about" "for")
                                                        :PVAL-NOM ("against"
                                                                   "at"))))
-***(NOM       :ORTH "lavrador"      :VERB "lavrar"
+(NOM       :ORTH "lavrador"      :VERB "lavrar"
                                 :PLURAL "lavradores"
                                 :NOM-TYPE ((SUBJECT))
                                 :N-N-MOD-NO-OTHER-OBJ ((OBJECT))
@@ -11677,7 +11684,7 @@ retratacao
                                  :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                               (PP-OF)))))
 (NOM       :ORTH "re-entrada"     :VERB "re-entrar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF :FREQ ("rare"))
                                             (DET-POSS))
@@ -11765,7 +11772,7 @@ retratacao
                                                             "out of"
                                                             "p-loc"))
                                              (NOM-INTRANS)))
-***(NOM       :ORTH "re-apreciacao"  :VERB "reapreciar"
+(NOM       :ORTH "re-apreciacao"  :VERB "reapreciar"
                                 :PLURAL "re-apreciacoes"
                                 :PLURAL-FREQ "6:135   plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11777,8 +11784,8 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "re-armamento"   :VERB "re-armar"
-                                :PLURAL *NONE*
-                                :PLURAL-FREQ *NONE*
+                                :PLURAL NIL
+                                :PLURAL-FREQ NIL
                                 :FEATURES ((SUBJ-OBJ-ALT))
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
@@ -11792,8 +11799,8 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "re-arranjamento"  :VERB "re-arranjar"
-                                  :PLURAL *NONE*
-                                  :PLURAL-FREQ *NONE*
+                                  :PLURAL NIL
+                                  :PLURAL-FREQ NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :SUBJ-ATTRIBUTE ((COMMUNICATOR))
                                   :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
@@ -11873,7 +11880,7 @@ retratacao
                                                        :PVAL-NOM ("from"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "recital"      :VERB "recite"
+(NOM       :ORTH "recital"      :VERB "recite"
                                 :PLURAL "recitals"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -11903,7 +11910,7 @@ retratacao
                                                        :PVAL ("for"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "recolecao"  :VERB "recollect"
+(NOM       :ORTH "recolecao"  :VERB "recollect"
                                  :PLURAL "recollections"
                                  :PLURAL-FREQ "not rare"
                                  :VERB-SUBJ ((PP-OF)
@@ -12040,7 +12047,7 @@ retratacao
                                                               "for"
                                                               "on"))
                                             (NOM-NP-AS-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "gravador"     :VERB "gravar"
+(NOM       :ORTH "gravador"     :VERB "gravar"
                                 :PLURAL "gravadores"
                                 :NOUN ((RARE-NOUN))
                                 :NOM-TYPE ((SUBJECT))
@@ -12121,7 +12128,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "re-afectacao"  :VERB "reafectar"
+(NOM       :ORTH "re-afectacao"  :VERB "reafectar"
                                  :PLURAL ""
                                  :PLURAL-FREQ "1:61 plr:sing"
                                  :FEATURES ((SUBJ-OBJ-ALT))
@@ -12135,7 +12142,7 @@ retratacao
                                                               (N-N-MOD)
                                                               (PP-OF)))
                                              (NOM-INTRANS :ALTERNATES T)))
-***(NOM       :ORTH "redesenvolvimento"  :VERB "redesenvolver"
+(NOM       :ORTH "redesenvolvimento"  :VERB "redesenvolver"
                                   :PLURAL "redesenvolvimentos"
                                   :PLURAL-FREQ "4:380 plur:sing"
                                   :NOM-TYPE ((VERB-NOM))
@@ -12146,7 +12153,7 @@ retratacao
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (N-N-MOD)
                                                                (PP-OF)))))
-***(NOM       :ORTH "redescoberta"  :VERB "redescobrir"
+(NOM       :ORTH "redescoberta"  :VERB "redescobrir"
                                 :PLURAL "redescobertas"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12187,7 +12194,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "julgador"     :VERB "julgar"
+(NOM       :ORTH "julgador"     :VERB "julgar"
                                 :PLURAL "julgadores"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((IND-OBJ))
@@ -12199,7 +12206,7 @@ retratacao
                                                        :PVAL ("for" "to")
                                                        :PVAL-NOM ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "encaminhamento"     :VERB "encaminhar"
+(NOM       :ORTH "encaminhamento"     :VERB "encaminhar"
                                 :PLURAL "encaminhamentos"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12396,7 +12403,7 @@ retratacao
                                                          :NOM-ROLE-FOR-PVAL ((N-N-MOD)))
                                               (NOM-NP :OBJECT ((DET-POSS)
                                                                (PP-OF)))))
-***(NOM       :ORTH "reintegracao"  :VERB "reintegrar"
+(NOM       :ORTH "reintegracao"  :VERB "reintegrar"
                                   :PLURAL "reintegracoes"
                                   :PLURAL-FREQ "not-rare"
                                   :NOM-TYPE ((VERB-NOM))
@@ -12473,7 +12480,7 @@ retratacao
                                                              (PP-OF))
                                                     :REQUIRED ((SUBJECT)))))
 (NOM       :ORTH "dependencia"     :VERB "depender"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((NOT-PP-BY)
                                             (DET-POSS)
@@ -12487,7 +12494,7 @@ retratacao
                                                        :PVAL2 ("for"))
                                             (NOM-PP :PVAL ("on" "upon"))))
 (NOM       :ORTH "renúncia"  :VERB "renunciar"
-                                   :PLURAL *NONE*
+                                   :PLURAL NIL
                                    :NOM-TYPE ((VERB-NOM))
                                    :VERB-SUBJ ((DET-POSS))
                                    :VERB-SUBC ((NOM-NP-PP :OBJECT ((DET-POSS)
@@ -12521,7 +12528,7 @@ retratacao
                                                                    (N-N-MOD)
                                                                    (PP-OF))
                                                          :ALTERNATES T)))
-***(NOM       :ORTH "restante"    :PLURAL "restantes"
+(NOM       :ORTH "restante"    :PLURAL "restantes"
                                 :PLURAL-FREQ "24:1707 plur:sing"
                                 :VERB "restar"
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("of")))
@@ -12582,7 +12589,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "rendezvous"   :VERB "rendezvous"
+(NOM       :ORTH "rendezvous"   :VERB "rendezvous"
                                 :PLURAL "rendezvouses"
                                 :PLURAL-FREQ "not found"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12609,7 +12616,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "reforma"   :VERB "reformar"
+(NOM       :ORTH "reforma"   :VERB "reformar"
                                 :PLURAL "reformas"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((V-NUNIT :PVAL ("for")))
@@ -12690,7 +12697,7 @@ retratacao
                                                                    :PVAL ("for"))))
                                             (NOM-NP-TO-NP :OBJECT ((PP-OF)))))
 (NOM       :ORTH "arrependimento"   :VERB "arrepender"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
                                             (DET-POSS))
@@ -12730,7 +12737,7 @@ retratacao
                                                                           (N-N-MOD))
                                                                 :OBJECT ((N-N-MOD)))))
                                             (NOM-WORDS :WORDS ((PP-OF)))))
-***(NOM       :ORTH "reposicionamento"  :PLURAL "reposicionamentos"
+(NOM       :ORTH "reposicionamento"  :PLURAL "reposicionamentos"
                                 :VERB "reposicionar"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -12882,7 +12889,7 @@ retratacao
                                                        :PVAL ("for"))
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP-OF)))))
-***(NOM       :ORTH "repulsao"    :VERB "repel"
+(NOM       :ORTH "repulsao"    :VERB "repel"
                                 :PLURAL "repulsions"
                                 :PLURAL-FREQ "4:66 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12913,7 +12920,7 @@ retratacao
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP :PVAL ("for"))
                                                              (PP-OF :FREQ ("rare"))))))
-(NOM       :ORTH "exigência"  :PLURAL *NONE*
+(NOM       :ORTH "exigência"  :PLURAL NIL
                                 :VERB "exigir"
                                 :NOUN ((RESULT))
                                 :NOM-TYPE ((VERB-NOM))
@@ -12923,7 +12930,7 @@ retratacao
                                 :VERB-SUBC ((NOM-THAT-S)
                                             (NOM-S-SUBJUNCT)
                                             (NOM-PP-THAT-S :PVAL1 ("from"))))
-***(NOM       :ORTH "retribuicao"     :VERB "retribuir"
+(NOM       :ORTH "retribuicao"     :VERB "retribuir"
                                 :PLURAL "retribuicoes"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -12961,7 +12968,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP :PVAL ("to"))
                                                              (PP-OF)))))
-(NOM       :ORTH "ressentimento"   :PLURAL *NONE*
+(NOM       :ORTH "ressentimento"   :PLURAL NIL
                                 :VERB "ressentir"
                                 :NOUN-SUBC ((NOUN-PP :PVAL ("against"
                                                             "at"
@@ -13067,7 +13074,7 @@ retratacao
                                             (NOM-HOW-S :NOM-SUBC ((P-WH :HOW-S T
                                                                         :PVAL ("for"))))
                                             (NOM-NP :OBJECT ((PP :PVAL ("for"))))))
-***(NOM       :ORTH "atualizacao"  :VERB "atualizar"
+(NOM       :ORTH "atualizacao"  :VERB "atualizar"
                                 :PLURAL "atualizacoes"
                                 :PLURAL-FREQ "6:74 plu:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13134,7 +13141,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "resumpcao"   :VERB "resume"
+(NOM       :ORTH "resumpcao"   :VERB "resume"
                                 :PLURAL "resumptions"
                                 :PLURAL-FREQ "1:320 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -13149,7 +13156,7 @@ retratacao
                                                                    (PP-OF))
                                                          :ALTERNATES T)
                                             (NOM-ING-SC)))
-***(NOM       :ORTH "retalhista"     :PLURAL "retalhistas"
+(NOM       :ORTH "retalhista"     :PLURAL "retalhistas"
                                 :VERB "retalhar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -13172,7 +13179,7 @@ retratacao
                                 :VERB-SUBC ((NOM-PP :PVAL ("against"))
                                             (NOM-INTRANS)))
 (NOM       :ORTH "retardacao"  :VERB "retardar"
-                                :PLURAL *NONE*
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
                                             (DET-POSS))
@@ -13260,7 +13267,7 @@ retratacao
                                             (NOM-THAT-S)
                                             (NOM-PP :PVAL ("to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "cerceamento"  :VERB "cercear"
+(NOM       :ORTH "cerceamento"  :VERB "cercear"
                                  :PLURAL "cerceamentos"
                                  :PLURAL-FREQ "3:70 plur:sing"
                                  :FEATURES ((SUBJ-OBJ-ALT))
@@ -13320,7 +13327,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-(NOM       :ORTH "reunificacao"  :PLURAL *NONE*
+(NOM       :ORTH "reunificacao"  :PLURAL NIL
                                   :PLURAL-FREQ "not found"
                                   :VERB "reunificar"
                                   :NOM-TYPE ((VERB-NOM))
@@ -13375,7 +13382,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "festejo"      :VERB "festejar"
+(NOM       :ORTH "festejo"      :VERB "festejar"
                                 :PLURAL "festejos"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13385,7 +13392,7 @@ retratacao
                                 :VERB-SUBC ((NOM-PP :SUBJECT ((PP-OF))
                                                     :PVAL ("in"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "reversao"     :VERB "reverter"
+(NOM       :ORTH "reversao"     :VERB "reverter"
                                 :PLURAL "reversoes"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -13410,7 +13417,7 @@ retratacao
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "remodelacao"     :PLURAL "remodelacoes"
+(NOM       :ORTH "remodelacao"     :PLURAL "remodelacoes"
                                 :VERB "remodelar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS)
@@ -13457,13 +13464,13 @@ retratacao
                                             (DET-POSS))
                                 :VERB-SUBC ((NOM-PP :PVAL ("against"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "rider"        :VERB "ride"
+(NOM       :ORTH "rider"        :VERB "ride"
                                 :PLURAL "riders"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "concorrencia"      :VERB "concorrer"
+(NOM       :ORTH "concorrencia"      :VERB "concorrer"
                                 :PLURAL "concorrencias"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13523,7 +13530,7 @@ retratacao
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((N-N-MOD)))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "regulamento"         :VERB "regulamentar"
+(NOM       :ORTH "regulamento"         :VERB "regulamentar"
                                 :PLURAL "regulamentos"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13604,7 +13611,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "selvageria"     :VERB "savage"
+(NOM       :ORTH "selvageria"     :VERB "savage"
                                 :PLURAL "savageries"
                                 :PLURAL-FREQ "not-entered"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13724,7 +13731,7 @@ retratacao
                                                              :OBJECT ((PP :PVAL ("to"))
                                                                       (PP-OF)))
                                             (NOM-AS-NP :SUBJECT ((DET-POSS)))))
-***(NOM       :ORTH "colonizacao"   :VERB "colonizar"
+(NOM       :ORTH "colonizacao"   :VERB "colonizar"
                                 :PLURAL "colonizacoes"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((N-N-MOD)
@@ -13906,7 +13913,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP-OF)))))
 (NOM       :ORTH "socializacao"  :VERB "socializar"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((DET-POSS))
                                   :VERB-SUBC ((NOM-NP-PP :OBJECT ((DET-POSS)
@@ -13916,7 +13923,7 @@ retratacao
                                                                (N-N-MOD)
                                                                (PP-OF)))
                                               (NOM-NP-TO-INF-OC)))
-***(NOM       :ORTH "armada"     :VERB "armar"
+(NOM       :ORTH "armada"     :VERB "armar"
                                 :PLURAL "armadas"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -13949,7 +13956,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (PP :PVAL ("to"))
                                                              (PP-OF)))))
-***(NOM       :ORTH "falante"      :VERB "falar"
+(NOM       :ORTH "falante"      :VERB "falar"
                                 :PLURAL "falantes"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP :OBJECT ((PP-OF :FREQ ("5/50 BNC"))))
@@ -14016,7 +14023,7 @@ retratacao
                                                            "in"
                                                            "on"
                                                            "upon"))))
-***(NOM       :ORTH "spin-off"     :PLURAL "spin-offs"
+(NOM       :ORTH "spin-off"     :PLURAL "spin-offs"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "spin"
                                 :NOM-TYPE ((VERB-PART))
@@ -14030,7 +14037,7 @@ retratacao
                                                             :PVAL ("from"
                                                                    "into"
                                                                    "to"))))
-***(NOM       :ORTH "spinoff"      :PLURAL "spinoffs"
+(NOM       :ORTH "spinoff"      :PLURAL "spinoffs"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "spin"
                                 :NOM-TYPE ((VERB-PART))
@@ -14044,7 +14051,7 @@ retratacao
                                                             :PVAL ("from"
                                                                    "into"
                                                                    "to"))))
-***(NOM       :ORTH "spinout"      :PLURAL "spinouts"
+(NOM       :ORTH "spinout"      :PLURAL "spinouts"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "spin"
                                 :NOM-TYPE ((VERB-PART))
@@ -14054,7 +14061,7 @@ retratacao
                                             (NOM-PART-NP :OBJECT ((PP-OF)))
                                             (NOM-PART-PP :PVAL ("off" "into"))))
 (NOM       :ORTH "estabilizacao"  :VERB "estabilizar"
-                                  :PLURAL *NONE*
+                                  :PLURAL NIL
                                   :FEATURES ((SUBJ-OBJ-ALT))
                                   :NOM-TYPE ((VERB-NOM))
                                   :VERB-SUBJ ((N-N-MOD)
@@ -14063,7 +14070,7 @@ retratacao
                                                                (N-N-MOD)
                                                                (PP-OF)))
                                               (NOM-INTRANS :ALTERNATES T)))
-***(NOM       :ORTH "inanicao"   :VERB "inanir"
+(NOM       :ORTH "inanicao"   :VERB "inanir"
                                 :PLURAL ""
                                 :PLURAL-FREQ "1:466 plur:sing"
                                 :FEATURES ((SUBJ-OBJ-ALT))
@@ -14094,7 +14101,7 @@ retratacao
                                             (NOM-NP-P-ING-OC :OBJECT ((DET-POSS)
                                                                       (PP-OF))
                                                              :PVAL ("into"))))
-***(NOM       :ORTH "homologacao"    :VERB "homologar"
+(NOM       :ORTH "homologacao"    :VERB "homologar"
                                 :PLURAL "homologacoes"
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((PP-OF)
@@ -14124,7 +14131,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "armazenagem"      :VERB "armazenar"
+(NOM       :ORTH "armazenagem"      :VERB "armazenar"
                                 :PLURAL "armazenagens"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14152,8 +14159,8 @@ retratacao
                                                               "with"))
                                             (NOM-NP :OBJECT ((N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "armazenamento"      :VERB "armazenar"
-                                :PLURAL *NONE*
+(NOM       :ORTH "armazenamento"      :VERB "armazenar"
+                                :PLURAL NIL
                                 :NOM-TYPE ((VERB-NOM))
                                 :VERB-SUBJ ((DET-POSS))
                                 :SUBJ-ATTRIBUTE ((NOT-NTIME)
@@ -14264,7 +14271,7 @@ retratacao
                                                                 (PP-OF))
                                                        :PVAL ("from")
                                                        :OPTIONAL ((OBJECT)))))
-***(NOM       :ORTH "sucesso"      :VERB "suceder"
+(NOM       :ORTH "sucesso"      :VERB "suceder"
                                 :PLURAL "successes"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14370,7 +14377,7 @@ retratacao
                                             (NOM-NP-PP :OBJECT ((PP-OF))
                                                        :PVAL ("with")
                                                        :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "fornecedor"     :VERB "fornecer"
+(NOM       :ORTH "fornecedor"     :VERB "fornecer"
                                 :PLURAL "suppliers"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-NP-PP :OBJECT ((PP-OF))
@@ -14493,7 +14500,7 @@ retratacao
                                                                        :WH-S T)))
                                             (NOM-NP-AS-NP :OBJECT ((PP :PVAL ("about"))
                                                                    (PP-OF)))))
-***(NOM       :ORTH "sindicancia"  :VERB "syndicate"
+(NOM       :ORTH "sindicancia"  :VERB "syndicate"
                                 :PLURAL "syndications"
                                 :PLURAL-FREQ "1:24 plur:sing"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14505,7 +14512,7 @@ retratacao
                                 :VERB-SUBC ((NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***NOM       :ORTH "take-off"     :PLURAL "take-offs"
+(NOM       :ORTH "take-off"     :PLURAL "take-offs"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "take"
                                 :NOM-TYPE ((VERB-PART))
@@ -14522,7 +14529,8 @@ retratacao
                                                                     "on"
                                                                     "for"
                                                                     "to"))))
-***(NOM       :ORTH "takeoff"      :PLURAL "takeoffs"
+
+(NOM       :ORTH "takeoff"      :PLURAL "takeoffs"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "take"
                                 :NOM-TYPE ((VERB-PART))
@@ -14539,14 +14547,14 @@ retratacao
                                                                     "on"
                                                                     "for"
                                                                     "to"))))
-***(NOM       :ORTH "retirada"      :PLURAL "retiradas"
+(NOM       :ORTH "retirada"      :PLURAL "retiradas"
                                 :PLURAL-FREQ "not-entered"
                                 :VERB "retirar"
                                 :NOM-TYPE ((VERB-PART))
                                 :VERB-SUBC ((NOM-PART-NP :SUBJECT ((NONE))
                                                          :OBJECT ((N-N-MOD)
                                                                   (PP-OF)))))
-***(NOM       :ORTH "captacao"     :VERB "captar"
+(NOM       :ORTH "captacao"     :VERB "captar"
                                 :PLURAL "captacoes"
                                 :PLURAL-FREQ "not rare"
                                 :FEATURES ((V-NUNIT :PVAL ("for")))
@@ -14607,7 +14615,7 @@ retratacao
                                                              (N-N-MOD)
                                                              (PP :PVAL ("on"))
                                                              (PP-OF)))))
-***(NOM       :ORTH "professor"      :PLURAL "professores"
+(NOM       :ORTH "professor"      :PLURAL "professores"
                                 :VERB "professar"
                                 :NOM-TYPE ((SUBJECT))
                                 :VERB-SUBC ((NOM-INTRANS)
@@ -14720,7 +14728,7 @@ retratacao
                                                            "under"
                                                            "to"))
                                             (NOM-INTRANS)))
-***(NOM       :ORTH "depoimento"    :VERB "depor"
+(NOM       :ORTH "depoimento"    :VERB "depor"
                                 :PLURAL "depoimentos"
                                 :PLURAL-FREQ "rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -14820,7 +14828,7 @@ retratacao
                                                            "with")
                                                     :PVAL-NOM ("in" "for")
                                                     :NOM-ROLE-FOR-PVAL ((N-N-MOD)))))
-***(NOM       :ORTH "estagiario"      :PLURAL "estagiarios"
+(NOM       :ORTH "estagiario"      :PLURAL "estagiarios"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "estagiar"
                                 :NOM-TYPE ((OBJECT))
@@ -14889,7 +14897,7 @@ retratacao
                                                                 (PP-OF)))
                                                (NOM-PP :PVAL ("into"))
                                                (NOM-INTRANS)))
-***(NOM       :ORTH "transfusao"  :VERB "transfuse"
+(NOM       :ORTH "transfusao"  :VERB "transfuse"
                                 :PLURAL "transfusions"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -15005,7 +15013,7 @@ retratacao
                                                (NOM-NP :OBJECT ((DET-POSS)
                                                                 (N-N-MOD)
                                                                 (PP-OF)))))
-(NOM       :ORTH "tratamento"    :PLURAL *NONE*
+(NOM       :ORTH "tratamento"    :PLURAL NIL
                                 :VERB "tratar"
                                 :NOM-TYPE ((VERB-NOM))
                                 :DET-POSS-NO-OTHER-OBJ ((OBJECT))
@@ -15032,7 +15040,7 @@ retratacao
                                                               "with")
                                                        :PVAL-NOM ("with"))
                                             (NOM-NP :OBJECT ((PP-OF)))))
-***(NOM       :ORTH "administrador"      :PLURAL "administradores"
+(NOM       :ORTH "administrador"      :PLURAL "administradores"
                                 :PLURAL-FREQ "not-rare"
                                 :VERB "administrar"
                                 :NOM-TYPE ((IND-OBJ))
@@ -15043,7 +15051,7 @@ retratacao
                                                        :PVAL ("on" "with")
                                                        :PVAL-NOM ("to")
                                                        :NOM-ROLE-FOR-PVAL ((NOM-TYPE-IND-OBJ)))))
-***(NOM       :ORTH "volta"         :VERB "voltar"
+(NOM       :ORTH "volta"         :VERB "voltar"
                                 :PLURAL "voltas"
                                 :PLURAL-FREQ "not-rare"
                                 :NOM-TYPE ((VERB-NOM))
@@ -15103,7 +15111,7 @@ retratacao
                                             (NOM-NP-AS-NP :OBJECT ((DET-POSS)
                                                                    (PP-OF)))))
 (NOM       :ORTH "urbanizacao"  :VERB "urbanizar"
-                                 :PLURAL *NONE*
+                                 :PLURAL NIL
                                  :NOM-TYPE ((VERB-NOM))
                                  :VERB-SUBJ ((N-N-MOD)
                                              (DET-POSS))
@@ -15151,7 +15159,7 @@ retratacao
                                             (NOM-NP :OBJECT ((DET-POSS)
                                                              (N-N-MOD)
                                                              (PP-OF)))))
-***(NOM       :ORTH "sentenca"    :VERB "sentenciar"
+(NOM       :ORTH "sentenca"    :VERB "sentenciar"
                                 :PLURAL "sentencas"
                                 :PLURAL-FREQ "not rare"
                                 :NOM-TYPE ((OBJECT))
@@ -15297,7 +15305,7 @@ retratacao
                                                               (N-N-MOD)))
                                             (NOM-ADVP :SUBJECT ((DET-POSS)
                                                                 (N-N-MOD)))))
-***(NOM       :ORTH "atendente"       :VERB "atender"
+(NOM       :ORTH "atendente"       :VERB "atender"
                                 :PLURAL "atendentes"
                                 :NOUN ((RARE-NOM))
                                 :NOM-TYPE ((SUBJECT))
