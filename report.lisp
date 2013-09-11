@@ -76,3 +76,68 @@
 	(if (equal noum-size 0)
 	    (format out "~s~%" `(synset ? ,noum)))))))
 
+
+;;; sample sentences
+
+(defparameter *preds* '(!wn30:hypernymOf !wn30:memberHolonymOf !wn30:instanceOf !wn30:substanceHolonymOf
+			!wn30:entails !wn30:causes))
+
+
+(defun random-element (list)
+  "Return some element of the list, chosen at random."
+  (nth (random (length list)) list))
+
+
+(defun get-word (ss)
+  (select0 (?lex)
+    (:reorder t)
+    (:use-planner t)
+    (q- (?? ss) !wn30:synsetId ?id !source:wordnet-en.rdf)
+    (q- (?? ss) !rdf:type ?type !source:wordnet-en.rdf)
+    (q- ?sspt !wn30:synsetId ?id !source:wordnet-br.rdf)
+    (q- ?sspt !rdf:type ?type !source:wordnet-br.rdf)
+    (q- ?sspt !wn30:containsWordSense ?ws)
+    (q- ?ws !wn30:word ?word)
+    (q- ?word !wn30:lexicalForm ?lex)))
+
+
+(defun sample (size preds)
+  (dolist (pred preds)
+    (let ((a-triples (get-triples-list :p pred :limit nil)))
+      (dotimes (v size) 
+	(let ((a-triple (random-element a-triples))) 
+	  (format t "~a/~a ~a ~a/~a~%" 
+		  (subject a-triple)
+		  (car (random-element (get-word (subject a-triple))))
+		  pred
+		  (object a-triple)
+		  (car (random-element (get-word (object a-triple))))))))))
+
+(defun sample-1 (filename size preds)
+  (with-open-file (out filename :direction :output :if-exists :supersede) 
+    (dolist (pred preds)
+      (let ((a-triples (get-triples-list :p pred :limit nil))
+	    (counter 0))
+	(do* ((a-triple (random-element a-triples)
+			(random-element a-triples))
+	      (inter 1 (+ 1 inter))
+	      (words-s (get-word (subject a-triple))
+		       (get-word (subject a-triple)))
+	      (words-o (get-word (object a-triple))
+		       (get-word (object a-triple))))
+	     ((>= counter size))
+	  (if (not (or (null words-s) (null words-o)))
+	      (let ((word1 (car (random-element (get-word (subject a-triple)))))
+		    (word2 (car (random-element (get-word (object a-triple))))))
+		(incf counter)
+		(format out "; [~a/~a] ~a ~a ~a~%" counter inter word1 pred word2)
+		(format out "~s~%~%" 
+			`(sentence ? ,pred
+				   ,(part->terse (subject a-triple)) 
+				   ,(part->value word1) 
+				   ,(part->terse (object a-triple))
+				   ,(part->value word2))))))))))
+
+
+(sample 10 *preds*)
+
