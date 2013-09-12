@@ -4967,7 +4967,7 @@
   (NOM-NP :SUBJECT ((DET-POSS) (N-N-MOD)) :OBJECT ((N-N-MOD) (PP-OF)))
   (NOM-PP :PVAL ("for" "with") :PVAL-NOM ("for"))))
 
-(NOM :ORTH "morte" :VERB "matar" :PLURAL "mortes" :NOM-TYPE
+(NOM :ORTH "definhamento" :VERB "definhar" :PLURAL "definhamentos" :NOM-TYPE
  ((SUBJECT)) :VERB-SUBC
  ((NOM-PP :PVAL ("for")) (NOM-NP :OBJECT ((N-N-MOD) (PP-OF)))))
 

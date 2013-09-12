@@ -101,19 +101,7 @@
     (q- ?word !wn30:lexicalForm ?lex)))
 
 
-(defun sample (size preds)
-  (dolist (pred preds)
-    (let ((a-triples (get-triples-list :p pred :limit nil)))
-      (dotimes (v size) 
-	(let ((a-triple (random-element a-triples))) 
-	  (format t "~a/~a ~a ~a/~a~%" 
-		  (subject a-triple)
-		  (car (random-element (get-word (subject a-triple))))
-		  pred
-		  (object a-triple)
-		  (car (random-element (get-word (object a-triple))))))))))
-
-(defun sample-1 (filename size preds)
+(defun sample (filename size preds)
   (with-open-file (out filename :direction :output :if-exists :supersede) 
     (dolist (pred preds)
       (let ((a-triples (get-triples-list :p pred :limit nil))
