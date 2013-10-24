@@ -3297,7 +3297,8 @@
   (NOM-NP :SUBJECT ((DET-POSS)) :OBJECT ((PP :PVAL ("into" "in"))))
   (NOM-INTRANS)))
 
-(NOM :ORTH "entrega" :VERB "entregar" straightforward :PLURAL
+; straightforward
+(NOM :ORTH "entrega" :VERB "entregar" :PLURAL
  "entregas" :PLURAL-FREQ "not rare" :NOM-TYPE ((VERB-NOM)) :VERB-SUBJ
  ((N-N-MOD) (DET-POSS)) :SUBJ-ATTRIBUTE ((COMMUNICATOR)) :VERB-SUBC
  ((NOM-NP-TO-NP :SUBJECT ((DET-POSS)) :OBJECT
