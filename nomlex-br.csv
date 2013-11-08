@@ -2321,11 +2321,11 @@
 "wikificar","wikificação","wikificações","enwiktionary:pt",NA,""
 "zombar","zombaria","zombarias","nomlex",NA,""
 "andar","andada",NA,NA,"",NA
-"tacar","tacada",NA,NA,"lex, event",NA
+"tacar","tacada",NA,NA,"event; lex",NA
 "sacar","sacada",NA,NA,"",NA
-"calçar","calçada",NA,NA,"y, lex",NA
+"calçar","calçada",NA,NA,"lex",NA
 "rajar","rajada",NA,NA,"",NA
-"tomar","tomada",NA,NA,"lex, event",NA
+"tomar","tomada",NA,NA,"event; lex",NA
 "espetar","espetada",NA,NA,"",NA
 "barricar","barricada",NA,NA,"",NA
 "escalar","escalada",NA,NA,"",NA
@@ -2333,7 +2333,7 @@
 "jogar","jogada",NA,NA,"",NA
 "torrar","torrada",NA,NA,"",NA
 "bofetar","bofetada",NA,NA,"",NA
-"piar","piada",NA,NA,"lex, event",NA
+"piar","piada",NA,NA,"event; lex",NA
 "ensear","enseada",NA,NA,"",NA
 "pegar","pegada",NA,NA,"",NA
 "parar","parada",NA,NA,"",NA
@@ -2370,7 +2370,7 @@
 "delegar","delegada",NA,NA,"",NA
 "pesar","pesada",NA,NA,"",NA
 "caçoar","caçoada",NA,NA,"",NA
-"coordenar","coordenada",NA,NA,"event, lex",NA
+"coordenar","coordenada",NA,NA,"event; lex",NA
 "queixar","queixada",NA,NA,"",NA
 "ordenar","ordenada",NA,NA,"",NA
 "alegar","alegada",NA,NA,"",NA
@@ -2428,7 +2428,7 @@
 "atrever","atrevimento",NA,NA,"",NA
 "branquear","branqueamento",NA,NA,"",NA
 "cair","caimento",NA,NA,"lex",NA
-"calçar","calçamento",NA,NA,"yes, lex",NA
+"calçar","calçamento",NA,NA,"lex",NA
 "completar","complemento",NA,NA,"",NA
 "congestionar","congestionamento",NA,NA,"",NA
 "coroar","coroamento",NA,NA,"",NA
