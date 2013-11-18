@@ -2,7 +2,7 @@
 "abaixar","abaixamento","abaixamentos",NA,NA
 "abaixar","baixa","baixas","nomage: abaissement",NA
 "abalroar","abalroação","abalroações","nomlex",NA
-"abandonar","abandonador","abandonadores","","agent"
+"abandonar","abandonador","abandonadores",NA,"agent"
 "abandonar","abandono","abandonos","nomlex",NA
 "abater","abatedor","abatedores",NA,"agent"
 "abater","abatedouro","abatedouros","nomlex",NA
@@ -12,7 +12,7 @@
 "abjurar","abjuração","abjurações","nomage: abjuration",NA
 "abolir","abolidor","abolidores",NA,"agent"
 "abolir","abolição","abolições","nomlex",NA
-"abominar","abominador","abominadores","","agent"
+"abominar","abominador","abominadores",NA,"agent"
 "abominar","abominação","abominações","framenet",NA
 "abonar","abonado","abonados",NA,"agent"
 "abonar","abonação","abonações","nomlex",NA
@@ -28,34 +28,34 @@
 "absorver","absorvedor",NA,NA,"agent"
 "absorver","absorção","absorções","nomlex","lex"
 "abstenir","abstenção","abstenções","nomlex",NA
-"abster","abstinente","abstinentes","","agent"
+"abster","abstinente","abstinentes",NA,"agent"
 "abster","abstenção","abstenções","nomlex",NA
 "abster","abstinência","abstinência","framenet",NA
 "abstrair","abstração","abstrações","nomlex",NA
 "acabar","acabamento","acabamentos","nomlex",NA
 "acalmar","calmante",NA,NA,"agent"
-"acalmar","calma","calmas","enwiktionary:pt","lex"
+"acalmar","calma","calmas","wiktionary-pt","lex"
 "acampar","acampamento","acampamentos","nomlex",NA
-"acatar","acatamento","acatamentos","enwiktionary:en",NA
+"acatar","acatamento","acatamentos","wiktionary-en",NA
 "aceitar","aceitador","aceitadores",NA,"agent"
 "aceitar","aceitação","aceitações","nomlex",NA
 "aceitar","aceite","aceites","framenet",NA
-"acelerar","acelerador","aceleradores","enwiktionary:pt","agent; lex"
+"acelerar","acelerador","aceleradores","wiktionary-pt","agent; lex"
 "acelerar","aceleração","acelerações","nomlex","lex"
 "acentuar","acentuação","acentuações","nomage: accentuation",NA
 "acessar","acesso",NA,"dhbb",NA
-"aclimatar","aclimação","aclimações","enwiktionary:pt",NA
-"aclimatar","aclimatação","aclimatações","enwiktionary:pt",NA
+"aclimatar","aclimação","aclimações","wiktionary-pt",NA
+"aclimatar","aclimatação","aclimatações","wiktionary-pt",NA
 "acomodar","acomodação","acomodações","nomlex",NA
 "acompanhar","acompanhante","acompanhantes",NA,"agent"
 "acompanhar","acompanhamento","acompanhamentos","nomlex",NA
 "aconselhar","conselho",NA,"dhbb",NA
 "aconselhar","conselheiro",NA,"dhbb",NA
-"acontecer","acontecimento","acontecimentos","enwiktionary:pt",NA
+"acontecer","acontecimento","acontecimentos","wiktionary-pt",NA
 "acoplar","acoplador","acopladores",NA,"agent"
 "acoplar","acoplamento","acoplamentos","nomage: accrochage",NA
 "acordar","acordo","acordos","nomage: agrément",NA
-"acossar","acossa","","nomlex",NA
+"acossar","acossa",NA,"nomlex",NA
 "acossar","acossamento","acossamentos","nomlex",NA
 "acrescentar","acréscimo","acréscimos","nomlex",NA
 "acumular","acumulador",NA,NA,"agent"
@@ -63,7 +63,7 @@
 "acusar","acusador","acusadores",NA,"agent"
 "acusar","acusação","acusações","nomlex",NA
 "acusar","acusamento","acusamentos","nomlex",NA
-"adaptar","adaptador","adaptadores","enwiktionary:pt","agent; lex"
+"adaptar","adaptador","adaptadores","wiktionary-pt","agent; lex"
 "adaptar","adaptação","adaptações","nomlex","lex"
 "adequar","adequabilidade","adequabilidades","framenet",NA
 "aderir","adesivo","adesivos",NA,"agent"
@@ -98,7 +98,7 @@
 "afiliar","afiliação","afiliações","nomlex",NA
 "afirmar","afirmação","afirmações","nomlex",NA
 "afogar","afogador",NA,NA,"agent"
-"afogar","afogamento","afogamentos","enwiktionary:pt",NA
+"afogar","afogamento","afogamentos","wiktionary-pt",NA
 "afrontar","afrontador",NA,NA,"agent"
 "afrontar","afronta","afrontas","nomage: affrontement",NA
 "afrontar","afrontamento","afrontamentos","nomage: affrontement",NA
@@ -108,12 +108,12 @@
 "agir","ação",NA,"dhbb",NA
 "agitar","agitador",NA,NA,"agent"
 "agitar","agitação","agitações","nomlex",NA
-"aglomerar","aglomerador","aglomeradores","","agent"
+"aglomerar","aglomerador","aglomeradores",NA,"agent"
 "aglomerar","aglomeração","aglomerações","nomlex",NA
-"aglomerar","aglomerado","aglomerados","enwiktionary:en",NA
+"aglomerar","aglomerado","aglomerados","wiktionary-en",NA
 "agradecer","agradecimento","agradecimentos","nomlex",NA
 "agravar","agravante",NA,NA,"agent"
-"agravar","agravo","agravos","enwiktionary:en",NA
+"agravar","agravo","agravos","wiktionary-en",NA
 "agravar","agravação","agravações","nomage: aggravation",NA
 "agravar","agravamento","agravamentos","nomage: aggravation",NA
 "agredir","agressor",NA,NA,"agent"
@@ -123,11 +123,11 @@
 "agrupar","agrupamento","agrupamentos",NA,NA
 "ajudar","ajudante","ajudantes","framenet","agent"
 "ajudar","ajuda","ajudas","nomlex",NA
-"ajustar","ajustador","ajustadores","","agent"
+"ajustar","ajustador","ajustadores",NA,"agent"
 "ajustar","ajustamento","ajustamentos","nomlex",NA
-"ajustar","ajuste","ajustes","enwiktionary:en",NA
+"ajustar","ajuste","ajustes","wiktionary-en",NA
 "alargar","alargamento","alargamentos","nomlex",NA
-"alarmar","alarme","alarmes","enwiktionary:en",NA
+"alarmar","alarme","alarmes","wiktionary-en",NA
 "alcançar","alcance","alcances","nomlex",NA
 "alegar","alegante",NA,NA,"agent"
 "alegar","alegação","alegações","nomlex",NA
@@ -145,13 +145,13 @@
 "alterar","alteração","alterações","nomlex",NA
 "alternar","alternador",NA,NA,"agent"
 "alternar","alternativa","alternativas","nomlex",NA
-"alucinar","alucinação","alucinações","enwiktionary:pt",NA
+"alucinar","alucinação","alucinações","wiktionary-pt",NA
 "aludir","alusão","alusões","nomlex",NA
 "alugar","alugador",NA,NA,"agent"
 "alugar","aluguel","aluguéis","nomlex","lex"
 "amalgamar","amalgamante",NA,NA,"agent"
 "amalgamar","amalgamação","amalgamações","nomlex",NA
-"amamentar","amamentação","amamentações","enwiktionary:pt",NA
+"amamentar","amamentação","amamentações","wiktionary-pt",NA
 "amar","amante","amantes","nomlex","agent; lex"
 "amar","amador","amadores","nomlex","lex"
 "amargar","amargura",NA,"openWordnet-PT",NA
@@ -179,18 +179,18 @@
 "anunciar","anunciante",NA,NA,"agent"
 "anunciar","anunciamento","anunciamentos","nomlex",NA
 "anunciar","anúncio","anúncios","nomlex",NA
-"apagar","apagador","apagadores","enwiktionary:pt","agent; lex"
+"apagar","apagador","apagadores","wiktionary-pt","agent; lex"
 "aparecer","aparência","aparências","nomlex","lex"
 "aparecer","aparição","aparições","nomlex",NA
 "apelar","apelante",NA,NA,"agent"
 "apelar","apelo","apelos","nomlex",NA
 "apelar","apelação","apelações","nomage: appellation",NA
 "aperfeiçoar","aperfeiçoamento","aperfeiçoamentos","nomlex",NA
-"apertar","aperto","apertos","enwiktionary:en",NA
-"aplicar","aplicante","aplicantes","","agent"
+"apertar","aperto","apertos","wiktionary-en",NA
+"aplicar","aplicante","aplicantes",NA,"agent"
 "aplicar","aplicador",NA,NA,"agent"
 "aplicar","aplicação","aplicações","nomlex","lex"
-"aplicar","aplicabilidade","aplicabilidades","enwiktionary:en",NA
+"aplicar","aplicabilidade","aplicabilidades","wiktionary-en",NA
 "aplicar","aplicativo","aplicativos","framenet","other; lex"
 "apoiar","apoiador","apoiadores","framenet","agent"
 "apoiar","apoio",NA,"dhbb",NA
@@ -203,21 +203,21 @@
 "apreciar","apreciação","apreciações","nomlex",NA
 "apreender","apreensão","apreensões","nomlex",NA
 "aprender","aprendiz","aprendizes",NA,"agent"
-"aprender","aprendizado","aprendizados","enwiktionary:pt",NA
+"aprender","aprendizado","aprendizados","wiktionary-pt",NA
 "aprender","aprendizagem","aprendizagens","nomage: apprentissage",NA
 "apresentar","apresentador",NA,NA,"agent"
 "apresentar","apresentação","apresentações","nomlex",NA
 "aprimorar","aprimoramento","aprimoramentos","nomlex",NA
 "aprisionar","aprisionado","aprisionados","nomlex",NA
-"aprisionar","aprisionamento","aprisionamentos","enwiktionary:pt",NA
-"aprisionar","prisioneiro","prisioneiros","",NA
+"aprisionar","aprisionamento","aprisionamentos","wiktionary-pt",NA
+"aprisionar","prisioneiro","prisioneiros",NA,NA
 "apropriar","apropriador",NA,NA,"agent"
 "apropriar","apropriação","apropriações","nomlex",NA
 "aprovar","aprovado",NA,NA,"agent"
 "aprovar","aprovação","aprovações","nomlex",NA
-"aproximar","aproximante","aproximantes","","agent"
+"aproximar","aproximante","aproximantes",NA,"agent"
 "aproximar","aproximação","aproximações","nomlex",NA
-"apurar","apurador","apuradores","","agent"
+"apurar","apurador","apuradores",NA,"agent"
 "apurar","apuração","apurações","nomlex",NA
 "aquecer","aquecedor","aquecedores","nomlex","lex"
 "aquecer","aquecimento","aquecimentos","nomage: réchauffement",NA
@@ -226,7 +226,7 @@
 "arbitrar","arbitração","arbitrações","nomlex",NA
 "arbitrar","arbitragem","arbitragem","nomage: arbitrage",NA
 "arbitrar","arbítrio","arbítrios",NA,NA
-"arcabuzar","arcabuzaria","arcabuzarias","enwiktionary:en",NA
+"arcabuzar","arcabuzaria","arcabuzarias","wiktionary-en",NA
 "argumentar","argumentador",NA,NA,"agent"
 "argumentar","argumento","argumentos","nomlex",NA
 "armar","armada","armadas","nomlex",NA
@@ -235,12 +235,12 @@
 "armazenar","armazenador",NA,NA,"agent"
 "armazenar","armazenagem","armazenagens","nomlex",NA
 "armazenar","armazenamento","armazenamentos","nomlex",NA
-"arpoar","arpoador","arpoadores","enwiktionary:en","agent"
-"arrancar","arranco","arrancos","enwiktionary:en",NA
+"arpoar","arpoador","arpoadores","wiktionary-en","agent"
+"arrancar","arranco","arrancos","wiktionary-en",NA
 "arrancar","arranque","arranques","nomlex",NA
 "arranhar","ranhura",NA,"openWordnet-PT",NA
 "arranhar","arranhadura",NA,"openWordnet-PT",NA
-"arranjar","arranjador","arranjadores","","agent"
+"arranjar","arranjador","arranjadores",NA,"agent"
 "arranjar","arranjo","arranjos","nomlex",NA
 "arrebatar","arrebatamento","arrebatamentos","nomage: ravissement",NA
 "arrecadar","arrecadação",NA,"dhbb",NA
@@ -256,8 +256,8 @@
 "ascender","ascensão","ascensões","nomlex",NA
 "aspirar","aspirador",NA,NA,"agent"
 "aspirar","aspiração","aspirações","nomlex","lex"
-"assaltar","assaltante","assaltantes","","agent"
-"assaltar","assalto","assaltos","enwiktionary:en",NA
+"assaltar","assaltante","assaltantes",NA,"agent"
+"assaltar","assalto","assaltos","wiktionary-en",NA
 "assar","assadura","assaduras","nomlex","result; lex"
 "assassinar","assassino","assassinos","nomlex","agent"
 "assassinar","assassinato","assassinatos","nomlex",NA
@@ -265,8 +265,8 @@
 "assegurar","segurador","seguradores","nomlex","agent"
 "assegurar","seguro","seguros","nomlex",NA
 "assemelhar","semelhança","resemblances","nomlex",NA
-"assentar","assentador","assentadores","","agent"
-"assentar","assento","assentos","enwiktionary:en",NA
+"assentar","assentador","assentadores",NA,"agent"
+"assentar","assento","assentos","wiktionary-en",NA
 "assentir","assentimento","assentimentos","nomlex",NA
 "assertir","asserção","asserções","nomlex",NA
 "assessorar","assessor","assessores","nomlex","agent"
@@ -278,7 +278,7 @@
 "assistir","assistência","assistências","nomlex",NA
 "associar","associado","associados",NA,"agent"
 "associar","associação","associações","nomlex",NA
-"assombrar","assombro","assombros","enwiktionary:en",NA
+"assombrar","assombro","assombros","wiktionary-en",NA
 "assombrar","assombração","assombrações","nomlex","other; lex"
 "atacar","atacante","atacantes",NA,"agent"
 "atacar","ataque","ataques","nomlex",NA
@@ -296,7 +296,7 @@
 "atrair","atração","atrações","nomlex",NA
 "atrapalhar","trapalhão",NA,NA,"agent"
 "atrapalhar","atrapalhação","atrapalhações","nomlex",NA
-"atrasar","atraso","atrasos","enwiktionary:en",NA
+"atrasar","atraso","atrasos","wiktionary-en",NA
 "atravessar","atravessador",NA,NA,"agent"
 "atravessar","travessia","travessias","nomage: franchissement",NA
 "atribuir","atribuição","atribuições","nomlex",NA
@@ -311,7 +311,7 @@
 "autorizar","autorizada",NA,NA,"agent"
 "autorizar","autorização","autorizações","nomlex","lex"
 "autorizar","autoridade",NA,"dhbb",NA
-"avaliar","avaliador","avaliadores","","agent"
+"avaliar","avaliador","avaliadores",NA,"agent"
 "avaliar","avaliação","avaliações","nomlex",NA
 "avançar","avanço","avanços","nomlex",NA
 "aventurar","aventura",NA,"openWordnet-PT",NA
@@ -331,9 +331,9 @@
 "batalhar","batalhador",NA,NA,"agent"
 "batalhar","batalha","batalhas","nomlex",NA
 "batizar","batismo","batismos","framenet",NA
-"batizar","batizado","batizados","enwiktionary:en",NA
-"beirar","beirador","beiradores","","agent"
-"beirar","beira","beiras","enwiktionary:en",NA
+"batizar","batizado","batizados","wiktionary-en",NA
+"beirar","beirador","beiradores",NA,"agent"
+"beirar","beira","beiras","wiktionary-en",NA
 "beneficiar","beneficiário","beneficiários","nomlex","agent"
 "beneficiar","benefício",NA,"dhbb",NA
 "benzer","benzedura",NA,"openWordnet-PT",NA
@@ -346,14 +346,14 @@
 "bombear","bomba","bombas","nomlex",NA
 "bonificar","bonificação","bonificações","nomage: bonification",NA
 "bordar","bordado","bordados","nomlex","lex"
-"bradar","brado","brados","enwiktionary:en",NA
+"bradar","brado","brados","wiktionary-en",NA
 "brigar","briga","brigas","framenet",NA
 "brilhar","brilho","brilhos","framenet",NA
 "brincar","brincadeira","brincadeiras","nomlex",NA
-"brocar","broca","brocas","enwiktionary:en",NA
-"brotar","brotador","brotadores","","agent"
-"brotar","broto","brotos","enwiktionary:en",NA
-"bulhar","bulha","bulhas","enwiktionary:en",NA
+"brocar","broca","brocas","wiktionary-en",NA
+"brotar","brotador","brotadores",NA,"agent"
+"brotar","broto","brotos","wiktionary-en",NA
+"bulhar","bulha","bulhas","wiktionary-en",NA
 "buscar","buscador","buscadores",NA,"agent"
 "buscar","busca","buscas","nomlex",NA
 "cabecear","cabeceador",NA,NA,"agent"
@@ -369,7 +369,7 @@
 "candidatar","candidato",NA,NA,"agent"
 "candidatar","candidatura","candidatura","nomage: candidature",NA
 "cantar","cantor","cantores","nomlex","agent"
-"capitalizar","capitalista","capitalistas","","agent"
+"capitalizar","capitalista","capitalistas",NA,"agent"
 "capitalizar","capitalização","capitalizações","nomlex",NA
 "capitular","capitulação","capitulações","nomage: capitulation",NA
 "captar","captação","captações","nomlex",NA
@@ -378,17 +378,17 @@
 "caricaturar","caricatura",NA,"openWordnet-PT",NA
 "carregar","carregador","carregadores","nomlex","agent"
 "carregar","carregamento","carregamentos","nomlex",NA
-"casar","casamento","casamentos","enwiktionary:pt",NA
+"casar","casamento","casamentos","wiktionary-pt",NA
 "cassar","cassação",NA,"dhbb",NA
-"castigar","castigo","castidos","enwiktionary:pt",NA
-"catalisar","catalizador","catalizadores","","agent; lex"
-"catalisar","catalisação","catalisações","enwiktionary:en",NA
+"castigar","castigo","castidos","wiktionary-pt",NA
+"catalisar","catalizador","catalizadores",NA,"agent; lex"
+"catalisar","catalisação","catalisações","wiktionary-en",NA
 "catar","catadura",NA,"openWordnet-PT",NA
 "causar","causa","causas","nomlex",NA
 "cavalgar","cavalgador","cavalgadores","nomlex","agent"
 "cavalgar","cavalgadura",NA,"openWordnet-PT",NA
-"cavar","cavador","cavadores","","agent"
-"cavar","cavada","cavadas","enwiktionary:en",NA
+"cavar","cavador","cavadores",NA,"agent"
+"cavar","cavada","cavadas","wiktionary-en",NA
 "ceder","cessão","cessões","nomlex",NA
 "celebrar","celebrante",NA,NA,"agent"
 "celebrar","celebração","celebrações","nomlex",NA
@@ -405,9 +405,9 @@
 "cerzir","cerzidura",NA,"openWordnet-PT",NA
 "cessar","cessação","cessações","nomlex",NA
 "cesurar","cesura",NA,"openWordnet-PT",NA
-"cevar","cevada","cevadas","enwiktionary:en",NA
-"chacinar","chacinador","chacinadores","","agent"
-"chacinar","chacina","chacinas","enwiktionary:en",NA
+"cevar","cevada","cevadas","wiktionary-en",NA
+"chacinar","chacinador","chacinadores",NA,"agent"
+"chacinar","chacina","chacinas","wiktionary-en",NA
 "chamar","chamada","chamadas","nomlex",NA
 "chanfrar","chanfratura",NA,"openWordnet-PT",NA
 "chantagear","chantagista",NA,NA,"agent"
@@ -422,7 +422,7 @@
 "chuviscar","chuvisco","chuviscos","framenet",NA
 "circular","circulador",NA,NA,"agent"
 "circular","circulação","circulações","nomlex","lex"
-"circuncidar","circuncisão","circuncisões","enwiktionary:en",NA
+"circuncidar","circuncisão","circuncisões","wiktionary-en",NA
 "citar","citação","citações","nomlex",NA
 "civilizar","civilizador",NA,NA,"agent"
 "civilizar","civilização","civilizações","nomlex",NA
@@ -435,16 +435,16 @@
 "cobrir","cobertor","cobertores","nomage: couverture","lex"
 "cobrir","cobertura","coberturas","nomlex","other; lex"
 "cogenerar","cogeneração","cogenerações","nomlex",NA
-"coincidir","coincidência","coincidências","enwiktionary:pt",NA
+"coincidir","coincidência","coincidências","wiktionary-pt",NA
 "colaborar","colaborador",NA,NA,"agent"
 "colaborar","colaboração","colaborações","nomlex","lex"
 "colapsar","colapso","colapsos","nomage: effondrement",NA
-"coletar","coletor","coletores","","agent"
+"coletar","coletor","coletores",NA,"agent"
 "coletar","coleção","coleções","nomlex",NA
-"coletar","coleta","coletas","enwiktionary:en",NA
+"coletar","coleta","coletas","wiktionary-en",NA
 "colidir","colisão","colisões","nomlex",NA
 "coligar","coligação",NA,"dhbb",NA
-"colocar","colocador","colocadores","","agent"
+"colocar","colocador","colocadores",NA,"agent"
 "colocar","colocação","colocações","nomlex",NA
 "colonizar","colonizador","colonizadores",NA,"agent"
 "colonizar","colonização","colonizações","nomlex",NA
@@ -459,11 +459,11 @@
 "combustir","combustor",NA,NA,"agent"
 "combustir","combustão","combustões","nomlex","lex"
 "começar","começo","começos","nomlex",NA
-"comemorar","comemorante","comemorantes","","agent"
-"comemorar","comemoração","comemorações","enwiktionary:pt",NA
+"comemorar","comemorante","comemorantes",NA,"agent"
+"comemorar","comemoração","comemorações","wiktionary-pt",NA
 "comentar","comentador","comentadores","nomlex","agent"
 "comentar","comentário","comentários","nomlex",NA
-"comer","comedor","comedores","enwiktionary:pt","agent; lex"
+"comer","comedor","comedores","wiktionary-pt","agent; lex"
 "comercializar","comercialização","comercializações","nomage: commercialisation",NA
 "comerciar","comerciante","comerciantes","nomlex","agent"
 "comerciar","comércio","comércios","nomlex",NA
@@ -472,19 +472,19 @@
 "comparecer","comparecimento","comparecimentos","nomlex",NA
 "compartir","compartimento","compartimentos","nomlex",NA
 "compensar","compensação","compensações","nomlex",NA
-"competir","competidor","competidores","enwiktionary:pt","agent"
+"competir","competidor","competidores","wiktionary-pt","agent"
 "competir","competição","competições","nomlex",NA
 "compilar","compilação","compilações","nomlex",NA
 "complementar","complemento","complementos","nomlex",NA
 "completar","completamento","completamentos","nomlex",NA
-"complexar","complexação","complexações","enwiktionary:en",NA
+"complexar","complexação","complexações","wiktionary-en",NA
 "complicar","complicação","complicações","nomlex",NA
 "compor","compositor","compositores","nomlex","agent"
 "compor","composição","composições","nomlex",NA
 "comportar","comportamento","comportamentos","nomlex",NA
 "comprar","comprador","compradores","nomlex","agent"
 "comprar","compra","compras","nomlex",NA
-"compreender","compreendedor","compreendedores","","agent"
+"compreender","compreendedor","compreendedores",NA,"agent"
 "compreender","compreensão",NA,NA,NA
 "comprimir","compressor",NA,NA,"agent"
 "comprimir","compressão","compressões","nomlex",NA
@@ -562,9 +562,9 @@
 "conservar","conservação","conservações","nomlex",NA
 "considerar","consideração","cosiderações","nomlex",NA
 "consignar","consignação","consignações","nomlex",NA
-"consolar","consolador","consoladores","","agent"
+"consolar","consolador","consoladores",NA,"agent"
 "consolar","consolação","consolações","nomlex",NA
-"consolar","consolo","consolos","enwiktionary:en",NA
+"consolar","consolo","consolos","wiktionary-en",NA
 "consolidar","consolidação","consolidações","nomlex",NA
 "conspirar","conspiração",NA,"dhbb",NA
 "constatar","constatação","constatações","nomage: constatation",NA
@@ -586,7 +586,7 @@
 "contar","contador","contadores","nomlex","agent"
 "contar","conta","contas","nomlex",NA
 "contar","contagem","contagens","nomlex",NA
-"contatar","contato","contatos","enwiktionary:en",NA
+"contatar","contato","contatos","wiktionary-en",NA
 "contemplar","contemplação","contemplações","nomlex",NA
 "contentar","contentamento","contentamentos","nomlex",NA
 "conter","contenção","contenções","nomlex",NA
@@ -597,8 +597,8 @@
 "continuar","continuação","continuações","nomlex",NA
 "continuar","continuidade",NA,"dhbb",NA
 "contornar","contorno","contornos","framenet",NA
-"contrabandear","contrabandista","contrabandistas","","agent"
-"contrabandear","contrabando","contrabandos","enwiktionary:pt",NA
+"contrabandear","contrabandista","contrabandistas",NA,"agent"
+"contrabandear","contrabando","contrabandos","wiktionary-pt",NA
 "contradizer","contradição","contradições","nomlex",NA
 "contrair","contração","contrações","nomlex",NA
 "contrair","contratura",NA,"openWordnet-PT",NA
@@ -613,7 +613,7 @@
 "convencer","convencido",NA,NA,"agent"
 "convencer","convicção","convicções","nomlex","lex"
 "convergir","convergência","convergências","nomage: convergence",NA
-"conversar","conversador","conversadores","","agent"
+"conversar","conversador","conversadores",NA,"agent"
 "conversar","conversa","conversas","nomlex",NA
 "conversar","conversação","conversações","nomlex",NA
 "converter","conversador",NA,NA,"agent"
@@ -647,7 +647,7 @@
 "creditar","credor","credores",NA,"agent"
 "creditar","acreditação","acreditações","nomlex",NA
 "creditar","crédito",NA,"dhbb",NA
-"crescer","crescimento","crescimentos","enwiktionary:pt",NA
+"crescer","crescimento","crescimentos","wiktionary-pt",NA
 "criar","criador","criadores",NA,"agent"
 "criar","criação","criações","nomlex",NA
 "criar","criatura",NA,"openWordnet-PT",NA
@@ -662,13 +662,13 @@
 "cultivar","cultivador","cultivadores","nomlex","agent"
 "cultivar","cultivação","cultivações","nomlex",NA
 "cultivar","cultivo","cultivos","nomlex",NA
-"cumprir","cumpridor","cumpridores","","agent"
+"cumprir","cumpridor","cumpridores",NA,"agent"
 "cumprir","cumprimento","cumprimentos","nomlex",NA
 "curar","curandeiro","curandeiros","framenet","agent"
 "curar","curativo","curativos","nomage: habillage","agent"
 "curar","cura","curas","framenet",NA
 "cursar","curso",NA,"dhbb",NA
-"curvar","curva","curvas","enwiktionary:en",NA
+"curvar","curva","curvas","wiktionary-en",NA
 "curvar","curvatura",NA,"openWordnet-PT",NA
 "custar","custo","custos","nomlex",NA
 "custear","custeio","custeios","nomlex",NA
@@ -679,12 +679,12 @@
 "debandar","debandada","debandadas","nomage: débandade",NA
 "debater","debatedor",NA,NA,"agent"
 "debater","debate","debates","nomlex",NA
-"decair","decaimento","decaimentos","enwiktionary:en",NA
+"decair","decaimento","decaimentos","wiktionary-en",NA
 "decantar","decantador",NA,NA,"agent"
-"decantar","decantação","decantações","enwiktionary:en","lex"
-"decapitar","decapitação","decapitações","enwiktionary:pt",NA
+"decantar","decantação","decantações","wiktionary-en","lex"
+"decapitar","decapitação","decapitações","wiktionary-pt",NA
 "decentralizar","decentralização","decentralizações","nomage: décentralisation",NA
-"decepcionar","decepção","decepções","enwiktionary:pt",NA
+"decepcionar","decepção","decepções","wiktionary-pt",NA
 "decidir","decisão","decisões","nomlex",NA
 "declarar","declarante",NA,NA,"agent"
 "declarar","declaração","declarações","nomlex","lex"
@@ -709,7 +709,7 @@
 "deliberar","deliberação","deliberações","nomlex",NA
 "delimitar","delimitador",NA,NA,"agent"
 "delimitar","delimitação","delimitações","nomage: délimitation",NA
-"delongar","delonga","delongas","enwiktionary:en",NA
+"delongar","delonga","delongas","wiktionary-en",NA
 "demandar","demanda","demandas","nomlex",NA
 "demitir","demitido","demitidos",NA,"agent"
 "demitir","demissão","demissões","nomlex",NA
@@ -717,7 +717,7 @@
 "demolir","demolição","demolições","nomlex",NA
 "demonstrar","demonstrador",NA,NA,"agent"
 "demonstrar","demonstração","demonstrações","nomlex",NA
-"demorar","demora","demoras","enwiktionary:en",NA
+"demorar","demora","demoras","wiktionary-en",NA
 "denominar","denominados",NA,NA,"agent"
 "denominar","denominação","denominações","nomlex",NA
 "denunciar","denunciante",NA,NA,"agent"
@@ -735,7 +735,7 @@
 "deprimir","depressão","depressões","nomlex","result; lex"
 "deputar","deputado",NA,"dhbb",NA
 "deridir","derisão","derisões","nomlex",NA
-"derivar","derivada","derivadas","enwiktionary:en","lex"
+"derivar","derivada","derivadas","wiktionary-en","lex"
 "derivar","derivação","derivações","nomlex",NA
 "derramar","derramamento","derramamentos","nomage: renversement",NA
 "derrapar","derrapagem","derrapagens","nomage: dérapage",NA
@@ -760,11 +760,11 @@
 "descender","descendente",NA,NA,"agent"
 "descender","descendência","descendências","nomlex",NA
 "descer","descida","descidas","nomlex",NA
-"descobrir","descobridor","descobridores","","agent"
+"descobrir","descobridor","descobridores",NA,"agent"
 "descobrir","descoberta","descobertas","nomlex",NA
 "desconcentrar","desconcentração","desconcentrações","nomage: déconcentration",NA
 "desconfiar","desconfiança","desconfianças","nomage: défiance",NA
-"desconfortar","desconforto","desconfortos","enwiktionary:en",NA
+"desconfortar","desconforto","desconfortos","wiktionary-en",NA
 "descontaminar","descontaminação","descontaminações","framenet",NA
 "descontentar","descontente",NA,NA,"agent"
 "descontentar","descontentamento","descontentamentos","nomage: mécontentement",NA
@@ -778,20 +778,20 @@
 "desempenhar","desempenho",NA,"dhbb",NA
 "desempregar","desempregado",NA,NA,"agent"
 "desempregar","desemprego","desempregos","nomage: chômage",NA
-"desenganar","desengano","desenganos","enwiktionary:en",NA
+"desenganar","desengano","desenganos","wiktionary-en",NA
 "desenhar","desenhista","desenhistas","nomlex","agent"
 "desenhar","desenho","desenhos","nomlex",NA
 "desenvolver","desenvolvedor","desenvolvedores","nomlex","agent"
 "desenvolver","desenvolvimento","desenvolvimentos","nomlex",NA
 "desfalcar","desfalque","desfalques","nomlex",NA
-"desfragmentar","desfragmentador","desfragmentadores","","agent"
-"desfragmentar","desfragmentação","desfragmentações","enwiktionary:en",NA
+"desfragmentar","desfragmentador","desfragmentadores",NA,"agent"
+"desfragmentar","desfragmentação","desfragmentações","wiktionary-en",NA
 "desgovernar","desgoverno","desgovernos","nomlex",NA
 "designar","designação","designações","nomlex",NA
 "desiludir","desilusão","disilusões","nomlex",NA
 "desimpedir","desimpedimento","desimpedimentos","nomage: désengagement",NA
 "desindexar","desindexação","desindexações","nomage: désindexation",NA
-"desinstalar","desinstalador","desinstaladores","enwiktionary:pt","agent"
+"desinstalar","desinstalador","desinstaladores","wiktionary-pt","agent"
 "desintegrar","desintegração","desintegrações","nomlex",NA
 "desinvestir","desinvestimento","desinvestimentos","nomage: désinvestissement",NA
 "desistir","desistência","desistências","nomlex",NA
@@ -804,24 +804,24 @@
 "desmembrar","desmembramento","desmembramentos","nomlex",NA
 "desmontar","desmontador",NA,NA,"agent"
 "desmontar","desmontagem","desmontagens","nomage: démantèlement",NA
-"desmotivar","desmotivador","desmotivadores","enwiktionary:pt","agent"
-"desmotivar","desmotivação","desmotivações","enwiktionary:pt",NA
+"desmotivar","desmotivador","desmotivadores","wiktionary-pt","agent"
+"desmotivar","desmotivação","desmotivações","wiktionary-pt",NA
 "desnacionalizar","desnacionalização","desnacionalizações","nomage: dénationalisation",NA
 "desolar","desolação","desolações","nomlex",NA
 "despejar","despejo","despejos","nomage: éviction",NA
 "desperdiçar","desperdiçador",NA,NA,"agent"
 "desperdiçar","desperdício","desperdícios","framenet",NA
-"desprender","desprendimento","desprendimentos","enwiktionary:en",NA
+"desprender","desprendimento","desprendimentos","wiktionary-en",NA
 "desprezar","desprezo","desprezos","framenet",NA
 "desregular","desregulamentação","desregulamentações","nomlex",NA
 "destacar","destaque",NA,NA,"agent"
 "destacar","destacamento","destacamentos","nomage: détachement",NA
-"destilar","destilador","destiladores","","agent"
+"destilar","destilador","destiladores",NA,"agent"
 "destilar","destilado",NA,NA,"agent"
 "destilar","destilação","destilações","nomlex",NA
-"destilar","destilaria","destilarias","enwiktionary:pt",NA
+"destilar","destilaria","destilarias","wiktionary-pt",NA
 "destinar","destinatário","destinatários","nomlex",NA
-"destruir","destruidor","destruidores","enwiktionary:pt","agent"
+"destruir","destruidor","destruidores","wiktionary-pt","agent"
 "destruir","destruição","destruições","nomlex",NA
 "desvalorizar","desvalorização","desvalorizações","nomlex",NA
 "desviar","desvio","desvios","nomlex",NA
@@ -867,7 +867,7 @@
 "discutir","discurso","discursos","framenet",NA
 "discutir","discussão","discussões","nomlex",NA
 "dispensar","dispensário",NA,NA,"agent"
-"dispensar","dispensa","dispensas","enwiktionary:pt",NA
+"dispensar","dispensa","dispensas","wiktionary-pt",NA
 "dispersar","dispersor",NA,NA,"agent"
 "dispersar","dispersão","dispersões","nomlex",NA
 "dispor","disposição","disposições","nomlex",NA
@@ -884,7 +884,7 @@
 "distinguir","distinção","distinções","nomage: distinction",NA
 "distorcer","distorção","distorções","nomlex",NA
 "distrair","distração","distrações","nomlex",NA
-"distribuir","distribuidor","distribuidores","","agent"
+"distribuir","distribuidor","distribuidores",NA,"agent"
 "distribuir","distribuição","distribuições","nomlex","lex"
 "disturbar","distúrbio","distúrbios","nomlex",NA
 "ditar","ditado","dictations","nomlex","lex"
@@ -894,13 +894,13 @@
 "divertir","diversão","diversões","nomlex",NA
 "divertir","divertimento","divertimentos","nomlex",NA
 "dividir","divisão","divisões","nomlex",NA
-"divulgar","divulgador","divulgadores","","agent"
-"divulgar","divulgação","divulgações","enwiktionary:pt",NA
+"divulgar","divulgador","divulgadores",NA,"agent"
+"divulgar","divulgação","divulgações","wiktionary-pt",NA
 "doar","doador",NA,NA,"agent"
 "doar","doação","doações","nomlex","lex"
 "documentar","documentação","documentações","nomlex",NA
 "documentar","documento",NA,"dhbb",NA
-"domar","domador","domadores","enwiktionary:pt","agent"
+"domar","domador","domadores","wiktionary-pt","agent"
 "dominar","dominante","dominantes","nomlex","agent"
 "dominar","dominação","dominações","nomlex",NA
 "dominar","dominância","dominâncias","nomlex",NA
@@ -918,8 +918,8 @@
 "educar","educador",NA,NA,"agent"
 "educar","educação","educações","nomlex",NA
 "efetuar","efetuação","efetuações","nomlex",NA
-"elaborar","elaborador","elaboradores","","agent"
-"elaborar","elaboração","elaborações","enwiktionary:en",NA
+"elaborar","elaborador","elaboradores",NA,"agent"
+"elaborar","elaboração","elaborações","wiktionary-en",NA
 "eleger","eleitor",NA,NA,"agent"
 "eleger","eleição","eleições","nomlex",NA
 "eleger","eleito","eleitos","nomlex",NA
@@ -935,8 +935,8 @@
 "embarcar","embarque","embarques","nomlex","lex"
 "embarcar","embarcação",NA,"dhbb",NA
 "embocar","embocadura",NA,"openWordnet-PT",NA
-"embrulhar","embrulhador","embrulhadores","","agent"
-"embrulhar","embrulho","embrulhos","enwiktionary:en",NA
+"embrulhar","embrulhador","embrulhadores",NA,"agent"
+"embrulhar","embrulho","embrulhos","wiktionary-en",NA
 "emendar","emenda","emendas","nomage: amendement",NA
 "emergir","emergente",NA,NA,"agent"
 "emergir","emergência","emergências","nomage: émergence",NA
@@ -945,7 +945,7 @@
 "emitir","emissor",NA,NA,"agent"
 "emitir","emissão","emissões","nomlex",NA
 "emitir","emissora",NA,"dhbb",NA
-"empenhar","empenho","empenhos","enwiktionary:en",NA
+"empenhar","empenho","empenhos","wiktionary-en",NA
 "empobrecer","empobrecimento","empobrecimentos","nomage: paupérisation",NA
 "empreender","empresário",NA,"dhbb",NA
 "empregar","empregador","empregadores","nomlex","agent"
@@ -961,7 +961,7 @@
 "encaminhar","encaminhador",NA,NA,"agent"
 "encaminhar","encaminhamento","encaminhamentos","nomlex",NA
 "encantar","encantador",NA,NA,"agent"
-"encantar","encanto","encantos","enwiktionary:en",NA
+"encantar","encanto","encantos","wiktionary-en",NA
 "encantar","encantamento","encantamentos","nomage: enchaînement",NA
 "encarnar","encadernador",NA,NA,"agent"
 "encarnar","encarnação","encarnações","nomlex",NA
@@ -975,7 +975,7 @@
 "endossar","endosso","endossos","nomlex",NA
 "endurecer","endurecedor",NA,NA,"agent"
 "endurecer","endurecimento","endurecimentos","nomage: durcissement","lex"
-"enferrujar","enferrujamento","enferrujamentos","enwiktionary:en",NA
+"enferrujar","enferrujamento","enferrujamentos","wiktionary-en",NA
 "engajar","engajamento","engajamentos","nomlex",NA
 "enganar","enganador",NA,NA,"agent"
 "enganar","engano","enganos","nomlex","lex"
@@ -986,22 +986,22 @@
 "engenhar","engenheiro",NA,"dhbb",NA
 "engordar","gordo",NA,NA,"agent"
 "engordar","engorda","engordas","nomage: alourdissement",NA
-"enjoar","enjoo","enjoos","enwiktionary:en",NA
+"enjoar","enjoo","enjoos","wiktionary-en",NA
 "enquadrar","enquadrador",NA,NA,"agent"
-"enquadrar","enquadramento","enquadramentos","enwiktionary:en",NA
+"enquadrar","enquadramento","enquadramentos","wiktionary-en",NA
 "enquadrar","quadro",NA,"dhbb",NA
 "enriquecer","enriquecimento","enriquecimentos","nomlex",NA
-"ensaiar","ensaiador","ensaiadores","","agent"
+"ensaiar","ensaiador","ensaiadores",NA,"agent"
 "ensaiar","ensaio","ensaios","nomlex","lex"
-"ensejar","ensejo","ensejos","enwiktionary:en",NA
-"ensinar","ensinador","ensinadores","","agent"
-"ensinar","ensinamento","ensinamentos","enwiktionary:pt",NA
-"ensinar","ensino","ensinos","enwiktionary:pt",NA
+"ensejar","ensejo","ensejos","wiktionary-en",NA
+"ensinar","ensinador","ensinadores",NA,"agent"
+"ensinar","ensinamento","ensinamentos","wiktionary-pt",NA
+"ensinar","ensino","ensinos","wiktionary-pt",NA
 "entender","entendimento",NA,"dhbb",NA
 "enterrar","enterro","enterros","nomlex",NA
 "entonar","entonação","entonações","nomlex",NA
 "entrar","entrada","entradas","nomlex",NA
-"entregar","entregador","entregadores","","agent"
+"entregar","entregador","entregadores",NA,"agent"
 "entregar","entrega","entregas","nomlex",NA
 "entreter","entretenimento","entretenimentos","nomlex",NA
 "entrevistar","entrevistador","entrevistadores","nomlex","agent"
@@ -1031,7 +1031,7 @@
 "escorregar","escorregador",NA,NA,"agent"
 "escorregar","escorregamento","escorregamentos","nomage: glissement","lex"
 "escorregar","escorregão","escorregões","nomage: glissement",NA
-"escorregar","escorrega","escorregas","enwiktionary:en",NA
+"escorregar","escorrega","escorregas","wiktionary-en",NA
 "escravizar","escravo","escravos",NA,"agent"
 "escravizar","escravidão","escravidões","nomlex",NA
 "escrever","escritor","escritores","nomlex","agent"
@@ -1049,7 +1049,7 @@
 "especular","especulador",NA,NA,"agent"
 "especular","especulação","especulações","nomlex",NA
 "esperar","esperança","esperanças","nomlex",NA
-"esquecer","esquecimento","esquecimentos","enwiktionary:pt",NA
+"esquecer","esquecimento","esquecimentos","wiktionary-pt",NA
 "esquemar","esquema",NA,"dhbb",NA
 "estabelecer","estabelecimento","estabelecimentos","nomlex",NA
 "estabilizar","estabilizador",NA,NA,"agent"
@@ -1101,9 +1101,9 @@
 "exibir","exibicionista",NA,NA,"agent"
 "exibir","exibição","exibições","nomlex",NA
 "exigir","exigência","exigências","nomlex",NA
-"existir","existente","existentes","enwiktionary:pt","agent"
-"existir","existência","existências","enwiktionary:pt",NA
-"existir","existencialismo","existencialismos","enwiktionary:pt",NA
+"existir","existente","existentes","wiktionary-pt","agent"
+"existir","existência","existências","wiktionary-pt",NA
+"existir","existencialismo","existencialismos","wiktionary-pt",NA
 "exonerar","exonerados",NA,NA,"agent"
 "exonerar","exoneração","exonerações","nomlex",NA
 "expandir","expansão","expansões","nomlex",NA
@@ -1120,7 +1120,7 @@
 "explanar","explanação","explanações","framenet",NA
 "explicar","explicação","explicações","nomlex",NA
 "explodir","explosão","explosões","nomlex",NA
-"explorar","explorador","exploradores","enwiktionary:pt","agent"
+"explorar","explorador","exploradores","wiktionary-pt","agent"
 "explorar","exploração","explorações","nomlex",NA
 "expor","expositor","expositores",NA,"agent"
 "expor","exposição","exposições","nomlex",NA
@@ -1128,11 +1128,11 @@
 "exportar","exportação","exportações","nomage: exportation",NA
 "expressar","expressão","expressões","framenet",NA
 "exprimir","expressão","expressões","nomlex",NA
-"expropriar","expropriador","expropriadores","","agent"
-"expropriar","expropriação","expropriações","enwiktionary:en",NA
+"expropriar","expropriador","expropriadores",NA,"agent"
+"expropriar","expropriação","expropriações","wiktionary-en",NA
 "expulsar","expulsão","expulsões","nomlex",NA
-"expurgar","expurgação","expurgações","enwiktionary:en",NA
-"expurgar","expurgo","expurgos","enwiktionary:en",NA
+"expurgar","expurgação","expurgações","wiktionary-en",NA
+"expurgar","expurgo","expurgos","wiktionary-en",NA
 "exterminar","exterminador",NA,NA,"agent"
 "exterminar","extermínio","extermínios","framenet",NA
 "extinguir","extinção",NA,"dhbb",NA
@@ -1144,13 +1144,13 @@
 "extrair","extração","extrações","nomlex",NA
 "extrapolar","extrapolante",NA,NA,"agent"
 "extrapolar","extrapolação","extrapolações","nomlex",NA
-"extratar","extrator","extratores","","agent; lex"
-"extratar","extrato","extratos","enwiktionary:en",NA
+"extratar","extrator","extratores",NA,"agent; lex"
+"extratar","extrato","extratos","wiktionary-en",NA
 "extrudir","extrusão","extrusões","nomlex",NA
 "fabricar","fabricante","fabricantes","nomlex","agent"
 "fabricar","fábrica","fábricas","nomlex",NA
 "fabricar","fabricação","fabricações","nomlex",NA
-"fadigar","fadiga","fadigas","enwiktionary:en",NA
+"fadigar","fadiga","fadigas","wiktionary-en",NA
 "falar","falante","falantes","nomlex","agent"
 "falar","fala","falas","nomlex",NA
 "falecer","falecimento","falecimentos","nomlex",NA
@@ -1161,7 +1161,7 @@
 "falsificar","falsificação","falsificações","nomlex",NA
 "faltar","falta","faltas","nomlex",NA
 "fascinar","fascinação","fascinações","nomlex",NA
-"fatigar","fatiga","fatigas","enwiktionary:en",NA
+"fatigar","fatiga","fatigas","wiktionary-en",NA
 "faturar","faturamento","faturamentos","nomage: facturation",NA
 "faturar","fatura",NA,"openWordnet-PT",NA
 "fazer","fazedor","fazedores","framenet","agent"
@@ -1170,12 +1170,12 @@
 "fechar","fechamento","fechamentos","nomage: clôture",NA
 "fechar","fechadura",NA,"openWordnet-PT",NA
 "federar","federação","federações","nomlex",NA
-"fender","fenda","fendas","enwiktionary:en",NA
+"fender","fenda","fendas","wiktionary-en",NA
 "ferrar","ferradura",NA,"openWordnet-PT",NA
 "fertilizar","fertilizante","fertilizantes","nomlex","agent"
 "ferver","fervedor","fervedores","nomlex","agent; lex"
 "ferver","fervura",NA,"openWordnet-PT",NA
-"festejar","festejador","festejadores","","agent"
+"festejar","festejador","festejadores",NA,"agent"
 "festejar","festejo","festejos","nomlex",NA
 "figurar","figurante",NA,NA,"agent"
 "figurar","figuração","figurações","nomage: figuration",NA
@@ -1192,9 +1192,9 @@
 "fiscalizar","fiscalização","fiscalizações","nomage: fiscalisation",NA
 "fixar","fixador",NA,NA,"agent"
 "fixar","fixação","fixações","nomage: fixation","lex"
-"fluorar","fluoração","fluorações","enwiktionary:en",NA
+"fluorar","fluoração","fluorações","wiktionary-en",NA
 "flutuar","flutuante",NA,NA,"agent"
-"flutuar","flutuador","flutuações","enwiktionary:en","agent; lex"
+"flutuar","flutuador","flutuações","wiktionary-en","agent; lex"
 "flutuar","flutuação","flutuações","nomlex",NA
 "forçar","força",NA,"dhbb",NA
 "formar","formação","formações","nomlex",NA
@@ -1206,9 +1206,9 @@
 "fornecer","fornecedor","fornecedores","nomlex","agent"
 "fornecer","fornecimento","fornecimentos","nomage: approvisionnement",NA
 "fortalecer","fortalecimento",NA,"dhbb",NA
-"fosfatar","fosfatador","fosfatadores","","agent"
-"fosfatar","fosfatação","fostatações","enwiktionary:en",NA
-"fosforescer","fosforescência","fosforescências","enwiktionary:en",NA
+"fosfatar","fosfatador","fosfatadores",NA,"agent"
+"fosfatar","fosfatação","fostatações","wiktionary-en",NA
+"fosforescer","fosforescência","fosforescências","wiktionary-en",NA
 "fracassar","fracasso","fracassos","framenet",NA
 "fracionar","fracionamento","fracionamentos","nomlex",NA
 "fragmentar","fragmentação","fragmentações","nomage: émiettement",NA
@@ -1223,7 +1223,7 @@
 "frequentar","frequentação","frequentações","nomage: fréquentation",NA
 "fretar","fretista","frentistas",NA,"agent"
 "fretar","fretamento","fretamentos","nomlex",NA
-"frisar","friso","frisos","enwiktionary:en",NA
+"frisar","friso","frisos","wiktionary-en",NA
 "fritar","fritura",NA,"openWordnet-PT",NA
 "frustrar","frustração","frustrações","nomlex",NA
 "fugir","fugitivo","fugitivos","nomage: emballement","agent"
@@ -1237,7 +1237,7 @@
 "fundar","fundamento","fundamentos","nomage: fondement",NA
 "fundir","fusão","fusões","nomlex",NA
 "furtar","furto","furtos","framenet",NA
-"ganhar","ganhador","ganhadores","","agent"
+"ganhar","ganhador","ganhadores",NA,"agent"
 "ganhar","ganho","ganhos","nomlex",NA
 "garantir","garantia","garantias","nomlex",NA
 "gastar","gasto","gastos","nomage: gaspillage",NA
@@ -1272,10 +1272,10 @@
 "herdar","herança","heranças","nomlex",NA
 "herdar","herdeiro","herdeiros","nomlex",NA
 "hesitar","hesitação","hesitações","nomlex",NA
-"hidrogenar","hidrogenação","hidrogenações","enwiktionary:en",NA
+"hidrogenar","hidrogenação","hidrogenações","wiktionary-en",NA
 "hipotecar","hipoteca","hipotecas","nomlex",NA
 "homenagear","homenageado","homenageados","nomlex","agent"
-"homogeneizar","homogeneização","homogeneizações","enwiktionary:en",NA
+"homogeneizar","homogeneização","homogeneizações","wiktionary-en",NA
 "homologar","homologante",NA,NA,"agent"
 "homologar","homologação","homologações","nomlex",NA
 "hospitalizar","hospitalização","hospitalizações","nomlex",NA
@@ -1315,7 +1315,7 @@
 "impulsionar","impulsão","impulsões","nomage: impulsion",NA
 "inanir","inanição","inanições","nomlex",NA
 "inaugurar","inaugurador",NA,NA,"agent"
-"inaugurar","inauguração","inaugurações","enwiktionary:pt",NA
+"inaugurar","inauguração","inaugurações","wiktionary-pt",NA
 "incentivar","incentivo",NA,"dhbb",NA
 "inchar","inchação","inchações","nomage: gonflement",NA
 "inchar","inchaço","inchaços","nomage: gonflement",NA
@@ -1347,8 +1347,8 @@
 "informar","informante","informantes",NA,"agent"
 "informar","informação","informações","nomage: information",NA
 "informatizar","informatização","informatizações","nomage: informatisation",NA
-"infringir","infrator","infratores","enwiktionary:pt","agent"
-"infringir","infração","infrações","enwiktionary:pt",NA
+"infringir","infrator","infratores","wiktionary-pt","agent"
+"infringir","infração","infrações","wiktionary-pt",NA
 "infringir","infringimento","infringimentos","nomlex",NA
 "infundir","infusor",NA,NA,"agent"
 "infundir","infusão","infusões","nomlex",NA
@@ -1364,7 +1364,7 @@
 "inquirir","inquisitor",NA,NA,"agent"
 "inquirir","inquérito","inquéritos","nomlex",NA
 "inscrever","inscrição","inscrições","nomlex",NA
-"inserir","inserção","inserções","enwiktionary:en",NA
+"inserir","inserção","inserções","wiktionary-en",NA
 "insistir","insistência","insistências","nomage: insistance",NA
 "inspecionar","inspetor","inspetores",NA,"agent"
 "inspecionar","inspeção","inspeções","nomlex",NA
@@ -1381,9 +1381,9 @@
 "intensificar","intensificação","intensificações","nomlex",NA
 "intentar","intenção","intenções","nomlex",NA
 "interagir","interação","interações","nomlex",NA
-"interditar","interditor","interditores","","agent"
+"interditar","interditor","interditores",NA,"agent"
 "interditar","interdição","interdições","nomage: interdiction",NA
-"interditar","interdito","interditos","enwiktionary:en",NA
+"interditar","interdito","interditos","wiktionary-en",NA
 "interessar","interesse",NA,"dhbb",NA
 "internacionalizar","internacionalização","internacionalizações","nomage: internationalisation",NA
 "internar","internado","internados","nomlex","agent"
@@ -1423,7 +1423,7 @@
 "isolar","isolação","isolações","nomlex",NA
 "isolar","isolamento","isolamentos","nomlex",NA
 "jogar","jogador","jogadores","nomlex","agent"
-"jogar","jogo","jogos","enwiktionary:en",NA
+"jogar","jogo","jogos","wiktionary-en",NA
 "judicar","judicatura",NA,"openWordnet-PT",NA
 "julgar","julgador","julgadores","nomlex","agent"
 "julgar","julgamento","julgamentos","nomlex",NA
@@ -1441,14 +1441,14 @@
 "lamentar","lamentação","lamentações","nomlex",NA
 "lançar","lançador",NA,NA,"agent"
 "lançar","lançamento","lançamentos","nomlex",NA
-"lanchar","lanche","lanches","enwiktionary:en",NA
+"lanchar","lanche","lanches","wiktionary-en",NA
 "laquear","laqueadura",NA,"openWordnet-PT",NA
-"lascar","lascador","lascadores","","agent"
-"lascar","lasca","lascas","enwiktionary:en",NA
+"lascar","lascador","lascadores",NA,"agent"
+"lascar","lasca","lascas","wiktionary-en",NA
 "lavar","lavadura",NA,"openWordnet-PT",NA
 "lavrar","lavrador","lavradores","nomlex","agent"
 "lavrar","lavratura",NA,"openWordnet-PT",NA
-"legalizar","legalização","legalizações","enwiktionary:pt",NA
+"legalizar","legalização","legalizações","wiktionary-pt",NA
 "legalizar","legalidade",NA,"dhbb",NA
 "legendar","legenda",NA,"dhbb",NA
 "legislar","legislador","legisladores",NA,"agent"
@@ -1478,9 +1478,9 @@
 "limitar","limitador",NA,NA,"agent"
 "limitar","limitação","limitações","nomlex",NA
 "limitar","limite","limites","nomage: plafonnement",NA
-"linchar","linchador","linchadores","","agent"
-"linchar","linchagem","linchagens","enwiktionary:pt",NA
-"linchar","linchamento","linchamentos","enwiktionary:pt",NA
+"linchar","linchador","linchadores",NA,"agent"
+"linchar","linchagem","linchagens","wiktionary-pt",NA
+"linchar","linchamento","linchamentos","wiktionary-pt",NA
 "liquidar","liquidação","liquidações","nomlex",NA
 "lisonjear","lisonjeador",NA,NA,"agent"
 "lisonjear","lisonja","lisonjas","nomlex",NA
@@ -1495,7 +1495,7 @@
 "lotear","loteamento","loteamentos","nomlex",NA
 "louvar","louvador",NA,NA,"agent"
 "louvar","louvor","louvores","framenet",NA
-"lubrificar","lubrificante","lubrificantes","enwiktionary:en",NA
+"lubrificar","lubrificante","lubrificantes","wiktionary-en",NA
 "lucrar","lucro","lucros","framenet",NA
 "lutar","lutador","lutadores","nomlex","agent"
 "lutar","luta","lutas","nomlex",NA
@@ -1517,14 +1517,14 @@
 "manter","manutenção",NA,"dhbb",NA
 "manufaturar","manufatura","manufaturas","nomlex",NA
 "maquinar","maquinação","maquinações","nomage: machination",NA
-"marchar","marchador","marchadores","","agent"
-"marchar","marcha","marchas","enwiktionary:en",NA
+"marchar","marchador","marchadores",NA,"agent"
+"marchar","marcha","marchas","wiktionary-en",NA
 "marginalizar","marginalização","marginalizações","nomage: marginalisation",NA
 "massacrar","massacre","massacres","nomlex",NA
-"mastigar","mastigador","mastigadores","","agent"
-"mastigar","mastigação","mastigações","enwiktionary:en",NA
-"masturbar","masturbador","masturbadores","enwiktionary:pt","agent"
-"masturbar","masturbação","masturbações","enwiktionary:pt",NA
+"mastigar","mastigador","mastigadores",NA,"agent"
+"mastigar","mastigação","mastigações","wiktionary-en",NA
+"masturbar","masturbador","masturbadores","wiktionary-pt","agent"
+"masturbar","masturbação","masturbações","wiktionary-pt",NA
 "matar","matador","matadores","nomlex","agent"
 "matar","matança","matanças","nomage: abattage",NA
 "matricular","matrícula","matrículas","nomlex",NA
@@ -1573,7 +1573,7 @@
 "motivar","motivação","motivações","nomlex",NA
 "motivar","motivo",NA,"dhbb",NA
 "mover","movimento","movimentos","nomlex",NA
-"mudar","muda","mudas","enwiktionary:en",NA
+"mudar","muda","mudas","wiktionary-en",NA
 "mudar","mudança","mudanças","nomlex",NA
 "multar","multa","multas","framenet",NA
 "multiplicar","multiplicação","multiplicações","nomlex",NA
@@ -1606,7 +1606,7 @@
 "observar","observador","observadores","nomlex","agent"
 "observar","observação","observações","nomlex",NA
 "observar","observância","observâncias","nomlex",NA
-"observar","observatório","observatórios","enwiktionary:pt",NA
+"observar","observatório","observatórios","wiktionary-pt",NA
 "obsessar","obsessivo",NA,NA,"agent"
 "obsessar","obsessão","obsessões","nomlex",NA
 "obstinar","obstinação","obstinações","nomage: entêtement",NA
@@ -1634,18 +1634,18 @@
 "ordenar","ordenação","ordenações","nomlex",NA
 "ordenar","ordenamento","ordenamentos","nomlex",NA
 "ordenar","ordem",NA,"dhbb",NA
-"organizar","organizador","organizadores","enwiktionary:pt","agent"
+"organizar","organizador","organizadores","wiktionary-pt","agent"
 "organizar","organização","organizações","nomlex",NA
 "orientar","orientador","orientadores","nomlex","agent"
 "orientar","orientação","orientações","nomlex",NA
 "originar","origem",NA,"dhbb",NA
 "ossificar","ossificação","ossificações","nomlex",NA
 "ostentar","ostentação","ostentações","nomlex",NA
-"outorgar","outorgador","outorgadores","","agent"
+"outorgar","outorgador","outorgadores",NA,"agent"
 "outorgar","outorgante",NA,NA,"agent"
 "outorgar","outorga","outorgas","nomlex",NA
 "oxidar","oxidação","oxidações","nomlex",NA
-"ozonizar","ozonização","ozonizações","enwiktionary:en",NA
+"ozonizar","ozonização","ozonizações","wiktionary-en",NA
 "pacientar","paciência","paciências","nomlex",NA
 "pacificar","pacificador","pacificadores",NA,"agent"
 "pacificar","pacificação","pacificações","nomlex",NA
@@ -1654,7 +1654,7 @@
 "pagar","pagamento","pagamentos","nomlex",NA
 "paginar","página","páginas",NA,NA
 "paginar","paginação","paginações","nomage: pagination",NA
-"parabenizar","parabéns",NA,"enwiktionary:pt",NA
+"parabenizar","parabéns",NA,"wiktionary-pt",NA
 "parcelar","parcelamento","parcelamentos","nomage: parcellisation",NA
 "participar","participante","participantes","nomlex","agent"
 "participar","participação","participações","nomlex",NA
@@ -1668,7 +1668,7 @@
 "passear","passeata","passeatas","framenet",NA
 "passear","passeio","passeios","framenet",NA
 "patentear","patente","patentes","nomlex",NA
-"pavimentar","pavimento","pavimentos","enwiktionary:pt",NA
+"pavimentar","pavimento","pavimentos","wiktionary-pt",NA
 "pedir","pedinte",NA,NA,"agent"
 "pedir","pedido","pedidos","nomlex","lex"
 "penalizar","penalização","penalizações","nomlex",NA
@@ -1696,14 +1696,14 @@
 "persistir","persistência","persistências","nomage: persistance",NA
 "personificar","personificação","personificações","nomlex",NA
 "pertencer","pertences",NA,NA,"agent"
-"pertencer","pertencimento","pertencimentos","enwiktionary:pt",NA
+"pertencer","pertencimento","pertencimentos","wiktionary-pt",NA
 "perverter","perversão","perversões","nomage: perversion",NA
 "pesquisar","pesquisador","pesquisadores","nomlex","agent"
 "pesquisar","pesquisa","pesquisas","nomlex",NA
 "peticionar","peticionante",NA,NA,"agent"
 "peticionar","petição","petições","nomlex",NA
 "pintar","pintor","pintores","nomlex","agent"
-"pintar","pinta","pintas","enwiktionary:en",NA
+"pintar","pinta","pintas","wiktionary-en",NA
 "pintar","pintura","pinturas","nomlex",NA
 "piratear","pirata","piratas","nomlex",NA
 "piratear","pirataria","piratarias","framenet",NA
@@ -1718,8 +1718,8 @@
 "polarizar","polarizador",NA,NA,"agent"
 "polarizar","polarização","polarizações","nomlex",NA
 "policiar","polícia",NA,"dhbb",NA
-"polimerizar","polimerização","polimerizações","enwiktionary:en",NA
-"polimerizar","polímero","polímero","",NA
+"polimerizar","polimerização","polimerizações","wiktionary-en",NA
+"polimerizar","polímero","polímero",NA,NA
 "politicar","político",NA,"dhbb",NA
 "poluir","poluidor",NA,NA,"agent"
 "poluir","poluição","poluições","nomlex",NA
@@ -1732,18 +1732,18 @@
 "possuir","posse",NA,"dhbb",NA
 "pousar","pousador",NA,NA,"agent"
 "pousar","pouso",NA,NA,"agent"
-"pousar","pousada","pousadas","enwiktionary:en",NA
+"pousar","pousada","pousadas","wiktionary-en",NA
 "praticar","praticante","praticantes",NA,"agent"
 "praticar","prática","práticas","nomlex",NA
 "pré-pagar","pré-pagamento","pré-pagamentos","nomlex",NA
 "pré-qualificar","pré-qualificação","pré-qualificações","nomage: préqualification",NA
-"precipitar","precipitado","precipitados","enwiktionary:en",NA
+"precipitar","precipitado","precipitados","wiktionary-en",NA
 "precisar","precisão","precisões","nomage: précision",NA
 "predizer","predição","predições","nomlex",NA
 "predominar","predominância","predominâncias","nomlex",NA
 "preencher","preenchimento","preenchimentos","nomlex",NA
-"preferir","preferido","preferidos","","agent"
-"preferir","preferência","preferências","enwiktionary:pt",NA
+"preferir","preferido","preferidos",NA,"agent"
+"preferir","preferência","preferências","wiktionary-pt",NA
 "pregar","pregador","pregadores","nomlex","agent"
 "prejudicar","prejuízo","prejuízos","nomlex",NA
 "prender","prisão",NA,"dhbb",NA
@@ -1757,7 +1757,7 @@
 "presidir","presidente","presidentes",NA,"agent"
 "presidir","presidência","presidências","nomage: présidence",NA
 "pressionar","pressão","pressões","framenet",NA
-"pressupor","pressuposto","pressupostos","enwiktionary:en",NA
+"pressupor","pressuposto","pressupostos","wiktionary-en",NA
 "prestar","prestador","prestadores",NA,"agent"
 "prestar","prestação","prestações","nomlex",NA
 "prestigiar","prestígio",NA,"dhbb",NA
@@ -1775,15 +1775,15 @@
 "processar","processo",NA,"dhbb",NA
 "proclamar","proclamador",NA,NA,"agent"
 "proclamar","proclamação","proclamações","nomlex",NA
-"procrastinar","procrastinador","procrastinadores","","agent"
+"procrastinar","procrastinador","procrastinadores",NA,"agent"
 "procrastinar","procrastinante",NA,NA,"agent"
 "procrastinar","procrastrinador",NA,NA,"agent"
 "procrastinar","procrastinação","procrastinações","nomlex",NA
 "procriar","procriador","procriadores",NA,"agent"
 "procriar","procriação","procriações","nomlex",NA
-"procurar","procurador","procuradores","","agent; lex"
+"procurar","procurador","procuradores",NA,"agent; lex"
 "procurar","procuração","NIL","nomlex","event; lex"
-"procurar","procura","procuras","enwiktionary:en",NA
+"procurar","procura","procuras","wiktionary-en",NA
 "produzir","produtor","produtores","nomlex","agent"
 "produzir","produção","produções","nomlex",NA
 "produzir","produto","produtos","framenet",NA
@@ -1819,7 +1819,7 @@
 "prospectar","prospecção","prospecções","nomage: démarchage",NA
 "prostituir","prostituto",NA,NA,"agent"
 "prostituir","prostituição","prostituições","nomlex","lex"
-"proteger","protetor","protetores","","agent"
+"proteger","protetor","protetores",NA,"agent"
 "proteger","proteção","proteções","nomlex",NA
 "protestar","protestador",NA,NA,"agent"
 "protestar","protestante","protestantes","framenet","agent; other"
@@ -1872,7 +1872,7 @@
 "reajustar","reajuste","reajustes","nomage: réaménagement",NA
 "realçar","realce","realces","nomlex",NA
 "realinhar","realinhamento","realinhamentos","nomage: réalignement",NA
-"realizar","realizador","realizadores","","agent"
+"realizar","realizador","realizadores",NA,"agent"
 "realizar","realização","realizações","nomlex",NA
 "realojar","realojamento","realojamentos","nomage: relogement",NA
 "reaparecer","reaparecimento","reaparecimentos","nomage: reparution",NA
@@ -1883,7 +1883,7 @@
 "rearranjar","rearranjamento","rearranjamentos","nomlex",NA
 "reavaliar","reavaliação","reavaliações","nomlex",NA
 "rebaixar","rebaixador",NA,NA,"agent"
-"rebaixar","rebaixe","rebaixes","enwiktionary:pt",NA
+"rebaixar","rebaixe","rebaixes","wiktionary-pt",NA
 "rebaixar","rebaixamento","rebaixamentos","nomlex",NA
 "rebelar","rebelde",NA,NA,"agent"
 "rebelar","rebelião","rebeliões","nomlex","noun"
@@ -1939,7 +1939,7 @@
 "referir","referência","referências","nomlex",NA
 "refinar","refinadora",NA,NA,"agent"
 "refinar","refinamento","refinamentos","nomlex","lex"
-"refinar","refinaria","refinarias","enwiktionary:en",NA
+"refinar","refinaria","refinarias","wiktionary-en",NA
 "refletir","refletor",NA,NA,"agent"
 "refletir","reflexo","reflexos","framenet","lex"
 "refletir","reflexão","reflexões","nomlex","noun"
@@ -1957,7 +1957,7 @@
 "registrar","registro","registros","nomlex","event; result; lex"
 "regredir","regressão","regressões","nomlex",NA
 "regressar","regresso","regressos","nomlex",NA
-"regulamentar","regulamentador","regulamentadores","","agent"
+"regulamentar","regulamentador","regulamentadores",NA,"agent"
 "regulamentar","regulamentação","regulamentações","nomage: réglementation",NA
 "regulamentar","regulamento","regulamentos","nomlex",NA
 "regularizar","regulação","regulações","nomlex",NA
@@ -2005,7 +2005,7 @@
 "reportar","reporte","reportes","nomlex",NA
 "reportar","reportagem",NA,"dhbb",NA
 "reposicionar","reposicionamento","reposicionamentos","nomlex",NA
-"repreender","repreensor","repreensores","","agent"
+"repreender","repreensor","repreensores",NA,"agent"
 "repreender","repreensão","repreensões","nomlex",NA
 "representar","representante","representantes","nomlex","agent"
 "representar","representação","representações","nomlex",NA
@@ -2080,9 +2080,9 @@
 "revoltar","revoltoso",NA,"dhbb",NA
 "revolucionar","revolucionário",NA,"dhbb",NA
 "revolver","revolução","revoluções","nomlex",NA
-"rimar","rimador","rimadores","","agent"
-"rimar","rima","rimas","enwiktionary:en",NA
-"rir","riso","risos","enwiktionary:en",NA
+"rimar","rimador","rimadores",NA,"agent"
+"rimar","rima","rimas","wiktionary-en",NA
+"rir","riso","risos","wiktionary-en",NA
 "rodar","rodador",NA,NA,"agent"
 "rodar","rotação","rotações","nomlex","lex"
 "roer","roedura",NA,"openWordnet-PT",NA
@@ -2098,13 +2098,13 @@
 "saber","sabedoria","sabedorias","nomlex",NA
 "sacar","saque","saques","nomlex",NA
 "sair","saída",NA,"dhbb",NA
-"salvar","salvador","salvadores","","agent"
-"salvar","salva","salvas","enwiktionary:en",NA
+"salvar","salvador","salvadores",NA,"agent"
+"salvar","salva","salvas","wiktionary-en",NA
 "sanear","saneador",NA,NA,"agent"
 "sanear","saneamento","saneamentos","nomage: assainissement",NA
 "satisfazer","satisfação","satisfações","nomlex",NA
 "saturar","saturação","saturações","nomlex",NA
-"secar","secador","secadores","enwiktionary:pt","agent; lex"
+"secar","secador","secadores","wiktionary-pt","agent; lex"
 "secar","secagem","secagens","nomage: assèchement",NA
 "secar","secura",NA,"openWordnet-PT",NA
 "seccionar","seção",NA,"dhbb",NA
@@ -2113,8 +2113,8 @@
 "secretariar","secretariado",NA,"dhbb",NA
 "sediar","sede",NA,"dhbb",NA
 "segregar","segregação","segregações","nomlex",NA
-"seguir","seguidor","seguidores","","agent"
-"seguir","seguinte","seguintes","enwiktionary:pt","lex"
+"seguir","seguidor","seguidores",NA,"agent"
+"seguir","seguinte","seguintes","wiktionary-pt","lex"
 "segurar","segurança",NA,"dhbb",NA
 "selecionar","seletor",NA,NA,"agent"
 "selecionar","selecionador",NA,NA,"agent"
@@ -2152,7 +2152,7 @@
 "socializar","socialização","socializações","nomlex",NA
 "socializar","sociedade",NA,"dhbb",NA
 "socorrer","socorro","socorros","nomlex",NA
-"sofrer","sofredor","sofredores","enwiktionary:pt","agent"
+"sofrer","sofredor","sofredores","wiktionary-pt","agent"
 "sofrer","sofrimento","sofrimentos","nomlex",NA
 "solicitar","solicitante",NA,NA,"agent"
 "solicitar","solicitação","solicitações","nomlex",NA
@@ -2166,7 +2166,7 @@
 "subornar","suborno","subornos","nomlex",NA
 "subproduzir","subprodução","subproduções","nomlex",NA
 "subscrever","subscritor","subscritores","nomlex","agent"
-"substituir","substituto","substitutos","enwiktionary:pt","agent"
+"substituir","substituto","substitutos","wiktionary-pt","agent"
 "substituir","substituição","substituições","nomlex",NA
 "subtrair","subtração","subtrações","nomlex",NA
 "subverter","subversivo",NA,NA,"agent"
@@ -2193,23 +2193,23 @@
 "suspeitar","suspeita","suspeitas","nomlex",NA
 "suspender","suspensão","suspensões","nomlex",NA
 "suspirar","suspiro","suspiros","framenet",NA
-"sustar","susto","sustos","enwiktionary:en",NA
+"sustar","susto","sustos","wiktionary-en",NA
 "sustentar","sustentação",NA,"dhbb",NA
 "suturar","sutura",NA,"openWordnet-PT",NA
 "talhar","talho","talhos","framenet",NA
 "taxar","taxação","taxações","nomlex",NA
 "taxar","taxa",NA,"dhbb",NA
 "tecer","tecedura",NA,"openWordnet-PT",NA
-"teimar","teima","teimas","enwiktionary:en",NA
+"teimar","teima","teimas","wiktionary-en",NA
 "telefonar","telefonema","telefonemas","framenet",NA
 "telegramar","telegrama","telegramas","framenet",NA
-"temperar","temperança","","nomage: tempérance","lex"
+"temperar","temperança",NA,"nomage: tempérance","lex"
 "tender","tendência","tendências","nomlex",NA
 "tensionar","tensão","tensões","nomage: tension",NA
 "tentar","tentação","tentações","nomlex",NA
 "tentar","tentativa","tentativas","nomlex",NA
-"terceirizar","terceirizador","terceirizadores","","agent"
-"terceirizar","terceirização","terceirizações","enwiktionary:pt",NA
+"terceirizar","terceirizador","terceirizadores",NA,"agent"
+"terceirizar","terceirização","terceirizações","wiktionary-pt",NA
 "terminar","terminação","terminações","nomlex",NA
 "terminar","término",NA,"dhbb",NA
 "testar","testador",NA,NA,"agent"
@@ -2230,9 +2230,9 @@
 "totalizar","total","totais","nomlex",NA
 "trabalhar","trabalhador","trabalhadores","nomlex","agent"
 "trabalhar","trabalho","trabalhos","nomlex",NA
-"traduzir","tradutor","tradutores","enwiktionary:pt","agent"
+"traduzir","tradutor","tradutores","wiktionary-pt","agent"
 "traduzir","tradução","traduções","nomlex",NA
-"trair","traidor","traidores","enwiktionary:pt","agent"
+"trair","traidor","traidores","wiktionary-pt","agent"
 "trair","traição","traições","nomlex",NA
 "transar","transação","transações","nomlex",NA
 "transferir","transferidor",NA,NA,"agent"
@@ -2253,10 +2253,10 @@
 "trapacear","trapaça","trapaças","nomlex",NA
 "tratar","tratante",NA,NA,"agent"
 "tratar","tratamento","tratamentos","nomlex","lex"
-"travar","travo","travos","enwiktionary:en",NA
-"treinar","treinador","treinadores","","agent"
+"travar","travo","travos","wiktionary-en",NA
+"treinar","treinador","treinadores",NA,"agent"
 "treinar","treinamento","treinamentos","framenet",NA
-"treinar","treino","treinos","enwiktionary:en",NA
+"treinar","treino","treinos","wiktionary-en",NA
 "tremer","tremedor",NA,NA,"agent"
 "tremer","tremor","tremores","framenet",NA
 "tremer","tremura",NA,"openWordnet-PT",NA
@@ -2265,7 +2265,7 @@
 "trocar","troca","trocas","framenet","lex"
 "trocar","trocado","trocados","framenet",NA
 "trocar","troco","trocos","framenet",NA
-"ulular","ululo","ululos","enwiktionary:en",NA
+"ulular","ululo","ululos","wiktionary-en",NA
 "unificar","unificador","unificadores",NA,"agent"
 "unificar","unificação","unificações","nomlex",NA
 "unir","união",NA,"dhbb",NA
@@ -2276,12 +2276,12 @@
 "usurpar","usurpador",NA,NA,"agent"
 "usurpar","usurpação","usurpações","nomlex",NA
 "utilizar","utilização","utilizações","nomlex",NA
-"vagar","vaga","vagas","enwiktionary:en",NA
-"valer","vale","vales","enwiktionary:en",NA
+"vagar","vaga","vagas","wiktionary-en",NA
+"valer","vale","vales","wiktionary-en",NA
 "valer","valia","valias","nomlex",NA
 "valorar","valor",NA,"dhbb",NA
-"vandalizar","vândalo","vândalos","","agent"
-"vandalizar","vandalismo","vandalismos","enwiktionary:pt",NA
+"vandalizar","vândalo","vândalos",NA,"agent"
+"vandalizar","vandalismo","vandalismos","wiktionary-pt",NA
 "variar","variante","variantes","framenet","agent; lex"
 "variar","variação","variações","nomlex",NA
 "varrer","varredura",NA,"openWordnet-PT",NA
@@ -2301,239 +2301,239 @@
 "vigilar","vigilante","vigilantes",NA,"agent"
 "vigilar","vigilância","vigilâncias","nomage: surveillance",NA
 "vindicar","vindicância","vindicâncias","nomlex",NA
-"vindimar","vidimador","vindimadores","","agent"
-"vindimar","vindima","vindimas","enwiktionary:en",NA
+"vindimar","vidimador","vindimadores",NA,"agent"
+"vindimar","vindima","vindimas","wiktionary-en",NA
 "vingar","vingança","vinganças","framenet",NA
-"violar","violador","violadores","","agent"
+"violar","violador","violadores",NA,"agent"
 "violar","violação","violações","nomlex",NA
 "virar","virada","viradas","framenet",NA
 "visitar","visitante","visitantes","nomlex","agent"
 "visitar","visita","visitas","nomlex",NA
 "vistoriar","vistoriador","vistoriadores",NA,"agent"
 "vistoriar","vistoria","vistorias","nomlex",NA
-"viver","vivente","viventes","enwiktionary:en","agent"
+"viver","vivente","viventes","wiktionary-en","agent"
 "viver","vida",NA,"dhbb",NA
 "voar","voo","voos","nomlex",NA
 "voltar","volta","voltas","nomlex",NA
 "votar","voto",NA,"dhbb",NA
 "votar","votação",NA,"dhbb",NA
 "vulgarizar","vulgarização","vulgarizações","nomage: vulgarisation",NA
-"wikificar","wikificação","wikificações","enwiktionary:pt",NA
+"wikificar","wikificação","wikificações","wiktionary-pt",NA
 "zombar","zombaria","zombarias","nomlex",NA
-"andar","andada",NA,NA,""
+"andar","andada",NA,NA,NA
 "tacar","tacada",NA,NA,"event; lex"
-"sacar","sacada",NA,NA,""
+"sacar","sacada",NA,NA,NA
 "calçar","calçada",NA,NA,"lex"
-"rajar","rajada",NA,NA,""
+"rajar","rajada",NA,NA,NA
 "tomar","tomada",NA,NA,"event; lex"
-"espetar","espetada",NA,NA,""
-"barricar","barricada",NA,NA,""
-"escalar","escalada",NA,NA,""
-"rir","risada",NA,NA,""
-"jogar","jogada",NA,NA,""
-"torrar","torrada",NA,NA,""
-"bofetar","bofetada",NA,NA,""
+"espetar","espetada",NA,NA,NA
+"barricar","barricada",NA,NA,NA
+"escalar","escalada",NA,NA,NA
+"rir","risada",NA,NA,NA
+"jogar","jogada",NA,NA,NA
+"torrar","torrada",NA,NA,NA
+"bofetar","bofetada",NA,NA,NA
 "piar","piada",NA,NA,"event; lex"
-"ensear","enseada",NA,NA,""
-"pegar","pegada",NA,NA,""
-"parar","parada",NA,NA,""
-"gear","geada",NA,NA,""
-"caminhar","caminhada",NA,NA,""
-"estacar","estacada",NA,NA,""
-"incorporar","incorporada",NA,NA,""
-"picar","picada",NA,NA,""
-"doirar","doirada",NA,NA,""
-"consoar","consoada",NA,NA,""
-"paletar","paletada",NA,NA,""
-"madrugar","Madrugada",NA,NA,""
-"nadar","nadada",NA,NA,""
-"chumbar","chumbada",NA,NA,""
-"porrar","porrada",NA,NA,""
-"comemorar","comemorada",NA,NA,""
-"caçar","caçada",NA,NA,""
-"formalizar","formalizada",NA,NA,""
-"fixar","fixada",NA,NA,""
+"ensear","enseada",NA,NA,NA
+"pegar","pegada",NA,NA,NA
+"parar","parada",NA,NA,NA
+"gear","geada",NA,NA,NA
+"caminhar","caminhada",NA,NA,NA
+"estacar","estacada",NA,NA,NA
+"incorporar","incorporada",NA,NA,NA
+"picar","picada",NA,NA,NA
+"doirar","doirada",NA,NA,NA
+"consoar","consoada",NA,NA,NA
+"paletar","paletada",NA,NA,NA
+"madrugar","Madrugada",NA,NA,NA
+"nadar","nadada",NA,NA,NA
+"chumbar","chumbada",NA,NA,NA
+"porrar","porrada",NA,NA,NA
+"comemorar","comemorada",NA,NA,NA
+"caçar","caçada",NA,NA,NA
+"formalizar","formalizada",NA,NA,NA
+"fixar","fixada",NA,NA,NA
 "morar","morada",NA,NA,"lex"
-"olhar","olhada",NA,NA,""
-"salgar","salgada",NA,NA,""
-"procurar","procurada",NA,NA,""
-"domesticar","domesticada",NA,NA,""
+"olhar","olhada",NA,NA,NA
+"salgar","salgada",NA,NA,NA
+"procurar","procurada",NA,NA,NA
+"domesticar","domesticada",NA,NA,NA
 "criar","criada",NA,NA,"lex"
-"chocar","chocada",NA,NA,""
-"isolar","isolada",NA,NA,""
-"cansar","cansada",NA,NA,""
-"usar","usada",NA,NA,""
-"dilapidar","dilapidada",NA,NA,""
-"elaborar","elaborada",NA,NA,""
-"excitar","excitada",NA,NA,""
-"complicar","complicada",NA,NA,""
-"delegar","delegada",NA,NA,""
-"pesar","pesada",NA,NA,""
-"caçoar","caçoada",NA,NA,""
+"chocar","chocada",NA,NA,NA
+"isolar","isolada",NA,NA,NA
+"cansar","cansada",NA,NA,NA
+"usar","usada",NA,NA,NA
+"dilapidar","dilapidada",NA,NA,NA
+"elaborar","elaborada",NA,NA,NA
+"excitar","excitada",NA,NA,NA
+"complicar","complicada",NA,NA,NA
+"delegar","delegada",NA,NA,NA
+"pesar","pesada",NA,NA,NA
+"caçoar","caçoada",NA,NA,NA
 "coordenar","coordenada",NA,NA,"event; lex"
-"queixar","queixada",NA,NA,""
-"ordenar","ordenada",NA,NA,""
-"alegar","alegada",NA,NA,""
-"detalhar","detalhada",NA,NA,""
-"viciar","viciada",NA,NA,""
-"amotinar","motinada",NA,NA,""
-"saraivar","saraivada",NA,NA,""
-"acusar","acusada",NA,NA,""
-"emboscar","emboscada",NA,NA,""
-"arrancar","arrancada",NA,NA,""
-"enterrar","Enterrada",NA,NA,""
-"rodar","rodada",NA,NA,""
-"apanhar","apanhada",NA,NA,""
-"coalhar","coalhada",NA,NA,""
-"chupar","chupada",NA,NA,""
-"gargalhar","gargalhada",NA,NA,""
-"trepar","trepada",NA,NA,""
-"cavalgar","cavalgada",NA,NA,""
-"mirar","mirada",NA,NA,""
-"dourar","dourada",NA,NA,""
+"queixar","queixada",NA,NA,NA
+"ordenar","ordenada",NA,NA,NA
+"alegar","alegada",NA,NA,NA
+"detalhar","detalhada",NA,NA,NA
+"viciar","viciada",NA,NA,NA
+"amotinar","motinada",NA,NA,NA
+"saraivar","saraivada",NA,NA,NA
+"acusar","acusada",NA,NA,NA
+"emboscar","emboscada",NA,NA,NA
+"arrancar","arrancada",NA,NA,NA
+"enterrar","Enterrada",NA,NA,NA
+"rodar","rodada",NA,NA,NA
+"apanhar","apanhada",NA,NA,NA
+"coalhar","coalhada",NA,NA,NA
+"chupar","chupada",NA,NA,NA
+"gargalhar","gargalhada",NA,NA,NA
+"trepar","trepada",NA,NA,NA
+"cavalgar","cavalgada",NA,NA,NA
+"mirar","mirada",NA,NA,NA
+"dourar","dourada",NA,NA,NA
 "brigar","brigada",NA,NA,"lex"
-"toar","toada",NA,NA,""
-"mascarar","mascarada",NA,NA,""
-"fritar","fritada",NA,NA,""
-"abastecer","abastecimento",NA,NA,""
-"abater","abatimento",NA,NA,""
-"abolir","abolimento",NA,NA,""
-"aborrecer","aborrecimento",NA,NA,""
-"abortar","abortamento",NA,NA,""
-"acarretar","acarretamento",NA,NA,""
-"acasalar","acasalamento",NA,NA,""
-"acolher","acolhimento",NA,NA,""
-"acostar","acostamento",NA,NA,""
-"adestrar","adestramento",NA,NA,""
-"adornar","adornamento",NA,NA,""
-"aflorar","Afloramento",NA,NA,""
-"agachar","agachamento",NA,NA,""
-"alçar","alçamento",NA,NA,""
-"alhear","alheamento",NA,NA,""
+"toar","toada",NA,NA,NA
+"mascarar","mascarada",NA,NA,NA
+"fritar","fritada",NA,NA,NA
+"abastecer","abastecimento",NA,NA,NA
+"abater","abatimento",NA,NA,NA
+"abolir","abolimento",NA,NA,NA
+"aborrecer","aborrecimento",NA,NA,NA
+"abortar","abortamento",NA,NA,NA
+"acarretar","acarretamento",NA,NA,NA
+"acasalar","acasalamento",NA,NA,NA
+"acolher","acolhimento",NA,NA,NA
+"acostar","acostamento",NA,NA,NA
+"adestrar","adestramento",NA,NA,NA
+"adornar","adornamento",NA,NA,NA
+"aflorar","Afloramento",NA,NA,NA
+"agachar","agachamento",NA,NA,NA
+"alçar","alçamento",NA,NA,NA
+"alhear","alheamento",NA,NA,NA
 "alimentar","alimento",NA,NA,"lex"
-"alistar","alistamento",NA,NA,""
-"amaciar","amaciamento",NA,NA,""
-"amadurecer","amadurecimento",NA,NA,""
-"andar","andamento",NA,NA,""
-"apodrecer","apodrecimento",NA,NA,""
+"alistar","alistamento",NA,NA,NA
+"amaciar","amaciamento",NA,NA,NA
+"amadurecer","amadurecimento",NA,NA,NA
+"andar","andamento",NA,NA,NA
+"apodrecer","apodrecimento",NA,NA,NA
 "apontar","apontamento",NA,NA,"lex"
-"provisionar","aprovisionamento",NA,NA,""
-"arejar","arejamento",NA,NA,""
-"armamentar","armamento",NA,NA,""
-"arredondar","arredondamento",NA,NA,""
-"arrefecer","arrefecimento",NA,NA,""
-"arrendar","arrendamento",NA,NA,""
-"assessorar","assessoramento",NA,NA,""
-"atolar","atolamento",NA,NA,""
-"atrever","atrevimento",NA,NA,""
-"branquear","branqueamento",NA,NA,""
+"provisionar","aprovisionamento",NA,NA,NA
+"arejar","arejamento",NA,NA,NA
+"armamentar","armamento",NA,NA,NA
+"arredondar","arredondamento",NA,NA,NA
+"arrefecer","arrefecimento",NA,NA,NA
+"arrendar","arrendamento",NA,NA,NA
+"assessorar","assessoramento",NA,NA,NA
+"atolar","atolamento",NA,NA,NA
+"atrever","atrevimento",NA,NA,NA
+"branquear","branqueamento",NA,NA,NA
 "cair","caimento",NA,NA,"lex"
 "calçar","calçamento",NA,NA,"lex"
-"completar","complemento",NA,NA,""
-"congestionar","congestionamento",NA,NA,""
-"coroar","coroamento",NA,NA,""
-"cortar","cortamento",NA,NA,""
-"cortejar","cortejamento",NA,NA,""
-"cruzar","cruzamento",NA,NA,""
-"cumprimentar","cumprimento",NA,NA,""
-"dedilhar","dedilhamento",NA,NA,""
-"deletar","deletamento",NA,NA,""
-"derreter","derretimento",NA,NA,""
-"desabar","desabamento",NA,NA,""
-"desalinhar","desalinhamento",NA,NA,""
-"desbridar","desbridamento",NA,NA,""
-"descobrir","descobrimento",NA,NA,""
-"desencantar","desencantamento",NA,NA,""
-"desfalecer","desfalecimento",NA,NA,""
-"desfigurar","desfiguramento",NA,NA,""
-"desmatar","desmatamento",NA,NA,""
-"desmoronar","desmoronamento",NA,NA,""
-"discernir","discernimento",NA,NA,""
-"doutorar","doutoramento",NA,NA,""
-"embaçar","embaçamento",NA,NA,""
-"embelezar","embelezamento",NA,NA,""
-"embevecer","embevecimento",NA,NA,""
-"enaltecer","enaltecimento",NA,NA,""
-"encabeçar","encabeçamento",NA,NA,""
-"encanar","encanamento",NA,NA,""
-"encapsular","encapsulamento",NA,NA,""
-"encarcerar","encarceramento",NA,NA,""
-"encepar","encepamento",NA,NA,""
-"encher","enchimento",NA,NA,""
-"encolher","encolhimento",NA,NA,""
-"encurtar","encurtamento",NA,NA,""
-"endividar","endividamento",NA,NA,""
-"enfraquecer","enfraquecimento",NA,NA,""
-"enfrentar","enfrentamento",NA,NA,""
-"engatinhars","engatinhamento",NA,NA,""
-"engrandecer","engrandecimento",NA,NA,""
-"entrelaçar","entrelaçamento",NA,NA,""
-"envenenar","envenenamento",NA,NA,""
-"escapar","escapamento",NA,NA,""
-"esclarecer","esclarecimento",NA,NA,""
-"escoar","escoamento",NA,NA,""
-"esfacelar","esfacelamento",NA,NA,""
-"esfriar","esfriamento",NA,NA,""
-"espaçar","espaçamento",NA,NA,""
-"espalhar","espalhamento",NA,NA,""
-"espessar","espessamento",NA,NA,""
-"esquentar","esquentamento",NA,NA,""
-"estacionar","estacionamento",NA,NA,""
-"estancar","estancamento",NA,NA,""
-"estirar","estiramento",NA,NA,""
-"estrangular","estrangulamento",NA,NA,""
-"estreitar","estreitamento",NA,NA,""
-"excitar","excitamento",NA,NA,""
-"excretar","excremento",NA,NA,""
-"ferir","ferimento",NA,NA,""
-"fermentar","fermento",NA,NA,""
+"completar","complemento",NA,NA,NA
+"congestionar","congestionamento",NA,NA,NA
+"coroar","coroamento",NA,NA,NA
+"cortar","cortamento",NA,NA,NA
+"cortejar","cortejamento",NA,NA,NA
+"cruzar","cruzamento",NA,NA,NA
+"cumprimentar","cumprimento",NA,NA,NA
+"dedilhar","dedilhamento",NA,NA,NA
+"deletar","deletamento",NA,NA,NA
+"derreter","derretimento",NA,NA,NA
+"desabar","desabamento",NA,NA,NA
+"desalinhar","desalinhamento",NA,NA,NA
+"desbridar","desbridamento",NA,NA,NA
+"descobrir","descobrimento",NA,NA,NA
+"desencantar","desencantamento",NA,NA,NA
+"desfalecer","desfalecimento",NA,NA,NA
+"desfigurar","desfiguramento",NA,NA,NA
+"desmatar","desmatamento",NA,NA,NA
+"desmoronar","desmoronamento",NA,NA,NA
+"discernir","discernimento",NA,NA,NA
+"doutorar","doutoramento",NA,NA,NA
+"embaçar","embaçamento",NA,NA,NA
+"embelezar","embelezamento",NA,NA,NA
+"embevecer","embevecimento",NA,NA,NA
+"enaltecer","enaltecimento",NA,NA,NA
+"encabeçar","encabeçamento",NA,NA,NA
+"encanar","encanamento",NA,NA,NA
+"encapsular","encapsulamento",NA,NA,NA
+"encarcerar","encarceramento",NA,NA,NA
+"encepar","encepamento",NA,NA,NA
+"encher","enchimento",NA,NA,NA
+"encolher","encolhimento",NA,NA,NA
+"encurtar","encurtamento",NA,NA,NA
+"endividar","endividamento",NA,NA,NA
+"enfraquecer","enfraquecimento",NA,NA,NA
+"enfrentar","enfrentamento",NA,NA,NA
+"engatinhars","engatinhamento",NA,NA,NA
+"engrandecer","engrandecimento",NA,NA,NA
+"entrelaçar","entrelaçamento",NA,NA,NA
+"envenenar","envenenamento",NA,NA,NA
+"escapar","escapamento",NA,NA,NA
+"esclarecer","esclarecimento",NA,NA,NA
+"escoar","escoamento",NA,NA,NA
+"esfacelar","esfacelamento",NA,NA,NA
+"esfriar","esfriamento",NA,NA,NA
+"espaçar","espaçamento",NA,NA,NA
+"espalhar","espalhamento",NA,NA,NA
+"espessar","espessamento",NA,NA,NA
+"esquentar","esquentamento",NA,NA,NA
+"estacionar","estacionamento",NA,NA,NA
+"estancar","estancamento",NA,NA,NA
+"estirar","estiramento",NA,NA,NA
+"estrangular","estrangulamento",NA,NA,NA
+"estreitar","estreitamento",NA,NA,NA
+"excitar","excitamento",NA,NA,NA
+"excretar","excremento",NA,NA,NA
+"ferir","ferimento",NA,NA,NA
+"fermentar","fermento",NA,NA,NA
 "filar","filamento",NA,NA,"lex"
-"fingir","fingimento",NA,NA,""
+"fingir","fingimento",NA,NA,NA
 "firmar","firmamento",NA,NA,"lex"
-"florestar","florestamento",NA,NA,""
-"forjar","forjamento",NA,NA,""
-"fundamentar","fundamento",NA,NA,""
-"gerenciar","gerenciamento",NA,NA,""
-"iluminar","iluminamento",NA,NA,""
-"implementar","implemento",NA,NA,""
-"inchar","inchamento",NA,NA,""
-"incrementar","incremento",NA,NA,""
-"lamentar","lamento",NA,NA,""
-"levantar","levantamento",NA,NA,""
+"florestar","florestamento",NA,NA,NA
+"forjar","forjamento",NA,NA,NA
+"fundamentar","fundamento",NA,NA,NA
+"gerenciar","gerenciamento",NA,NA,NA
+"iluminar","iluminamento",NA,NA,NA
+"implementar","implemento",NA,NA,NA
+"inchar","inchamento",NA,NA,NA
+"incrementar","incremento",NA,NA,NA
+"lamentar","lamento",NA,NA,NA
+"levantar","levantamento",NA,NA,NA
 "mandar","mandamento",NA,NA,"lex"
-"medicar","medicamento",NA,NA,""
-"merecer","merecimento",NA,NA,""
-"nascer","nascimento",NA,NA,""
-"ornar","ornamento",NA,NA,""
-"ostentar","ostentamento",NA,NA,""
-"passar","passamento",NA,NA,""
-"piscar","piscamento",NA,NA,""
-"polir","polimento",NA,NA,""
-"posicionar","posicionamento",NA,NA,""
-"pressentir","pressentimento",NA,NA,""
-"processar","processamento",NA,NA,""
-"prosseguir","prosseguimento",NA,NA,""
-"racionar","racionamento",NA,NA,""
-"rastejar","rastejamento",NA,NA,""
-"rastrear","rastreamento",NA,NA,""
-"reaquecer","reaquecimento",NA,NA,""
-"receber","recebimento",NA,NA,""
-"recensear","recenseamento",NA,NA,""
-"reflorestar","reflorestamento",NA,NA,""
+"medicar","medicamento",NA,NA,NA
+"merecer","merecimento",NA,NA,NA
+"nascer","nascimento",NA,NA,NA
+"ornar","ornamento",NA,NA,NA
+"ostentar","ostentamento",NA,NA,NA
+"passar","passamento",NA,NA,NA
+"piscar","piscamento",NA,NA,NA
+"polir","polimento",NA,NA,NA
+"posicionar","posicionamento",NA,NA,NA
+"pressentir","pressentimento",NA,NA,NA
+"processar","processamento",NA,NA,NA
+"prosseguir","prosseguimento",NA,NA,NA
+"racionar","racionamento",NA,NA,NA
+"rastejar","rastejamento",NA,NA,NA
+"rastrear","rastreamento",NA,NA,NA
+"reaquecer","reaquecimento",NA,NA,NA
+"receber","recebimento",NA,NA,NA
+"recensear","recenseamento",NA,NA,NA
+"reflorestar","reflorestamento",NA,NA,NA
 "reger","regimento",NA,NA,"lex"
-"regular","regulamento",NA,NA,""
-"relacionar","relacionamento",NA,NA,""
-"render","rendimento",NA,NA,""
-"resentir","resentimento",NA,NA,""
-"revestir","revestimento",NA,NA,""
-"salvar","salvamento",NA,NA,""
-"sangrar","sangramento",NA,NA,""
-"sedimentar","sedimento",NA,NA,""
-"segmentar","segmento",NA,NA,""
-"sentir","sentimento",NA,NA,""
-"sepultar","sepultamento",NA,NA,""
+"regular","regulamento",NA,NA,NA
+"relacionar","relacionamento",NA,NA,NA
+"render","rendimento",NA,NA,NA
+"resentir","resentimento",NA,NA,NA
+"revestir","revestimento",NA,NA,NA
+"salvar","salvamento",NA,NA,NA
+"sangrar","sangramento",NA,NA,NA
+"sedimentar","sedimento",NA,NA,NA
+"segmentar","segmento",NA,NA,NA
+"sentir","sentimento",NA,NA,NA
+"sepultar","sepultamento",NA,NA,NA
 "sortir","sortimento",NA,NA,"lex"
-"tingir","tingimento",NA,NA,""
-"vazar","vazamento",NA,NA,""
-"vencer","vencimento",NA,NA,""
-"xingar","xingamento",NA,NA,""
+"tingir","tingimento",NA,NA,NA
+"vazar","vazamento",NA,NA,NA
+"vencer","vencimento",NA,NA,NA
+"xingar","xingamento",NA,NA,NA
