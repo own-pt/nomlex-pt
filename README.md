@@ -7,7 +7,7 @@ University. This project is about the creation of a similar resource
 for Portuguese.
 
 The last version with 2,539 nominalizations is available in the
-nomlex-br.ntriples.gz  and nomlex-br.csv files.
+nomlex-br.rdf file.
 
 See also http://github.com/arademaker/openWordnet-PT. The words on the
 ntriples file are instances of the wn30:Word class from the

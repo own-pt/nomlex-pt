@@ -1,0 +1,28 @@
+
+:Nominalization rdf:type rdfs:Class .
+
+:Lexicalized rdf:type rdfs:Class ;
+	     rdfs:subClass :Nominalization .
+
+:Deverbal rdf:type rdfs:Class ;
+	  rdfs:subClass :Nominalization .
+
+:Agentive rdf:type rdfs:Class ;
+ 	  rdfs:subClass :Nominalization .
+
+:ResultNominalization rdf:type rdfs:Class ;
+ 		      rdfs:subClass :Nominalization .
+
+:EventNominalization rdf:type rdfs:Class ;
+ 		     rdfs:subClass :Nominalization .
+
+:verb rdf:type rdfs:Property ;
+      rdfs:domain :Nominalization ;
+      rdfs:range  wn30:Word .
+
+:noun rdf:type rdfs:Property ;
+      rdfs:domain :Nominalization ;
+      rdfs:range  wn30:Word .
+
+
+
