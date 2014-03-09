@@ -3,15 +3,19 @@
 
 NOMLEX (NOMinalization Lexicon) is a dictionary of English
 nominalizations developed by the Proteus Project at New York
-University. This project is about the creation of a similar resource
+University. This project aims to create a similar resource
 for Portuguese.
 
-The last version with 2,539 nominalizations is available in the
-nomlex-br.rdf file.
+The last version with 3,396 nominalizations is available in the
+**nomlex-br.rdf** file. More statistics at:
 
-See also http://github.com/arademaker/openWordnet-PT. The words on the
-ntriples file are instances of the wn30:Word class from the
-openWordnet-PT.
+http://logics.emap.fgv.br:10035/repositories/nomlex-br#query/r/total
+
+See also http://github.com/arademaker/openWordnet-PT. The words are
+instances of the wn30:Word class from the openWordnet-PT.
+
+The classes and properties, the vocabulary is defined in the
+**nomlex.turtle**.
 
 ## Team
 
