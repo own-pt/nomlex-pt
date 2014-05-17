@@ -5834,13 +5834,6 @@
     <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-esfoladura"/>
     <dc:provenance xml:lang="pt">openWordnet-PT</dc:provenance>
   </Description>
-  <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-conjuntar-conjunção">
-    <nomlex:plural xml:lang="pt">conjunções</nomlex:plural>
-    <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
-    <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-conjuntar"/>
-    <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-conjunção"/>
-    <dc:provenance xml:lang="pt">nomlex</dc:provenance>
-  </Description>
   <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-desentupir">
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">desentupir</wn30:lexicalForm>
@@ -9427,10 +9420,6 @@
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">engorda</wn30:lexicalForm>
   </Description>
-  <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-abstenir">
-    <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
-    <wn30:lexicalForm xml:lang="pt">abstenir</wn30:lexicalForm>
-  </Description>
   <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-abater-abatedouro">
     <nomlex:plural xml:lang="pt">abatedouros</nomlex:plural>
     <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
@@ -9666,13 +9655,6 @@
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">verter</wn30:lexicalForm>
   </Description>
-  <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-revolver-revolução">
-    <nomlex:plural xml:lang="pt">revoluções</nomlex:plural>
-    <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
-    <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-revolver"/>
-    <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-revolução"/>
-    <dc:provenance xml:lang="pt">nomlex</dc:provenance>
-  </Description>
   <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-multiplicar-multiplicador">
     <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
     <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-multiplicar"/>
@@ -9860,10 +9842,6 @@
     <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-recusar"/>
     <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-recusa"/>
     <dc:provenance xml:lang="pt">nomlex</dc:provenance>
-  </Description>
-  <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-acreditação">
-    <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
-    <wn30:lexicalForm xml:lang="pt">acreditação</wn30:lexicalForm>
   </Description>
   <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-redefinir-redefinição">
     <nomlex:plural xml:lang="pt">redefinições</nomlex:plural>
@@ -20579,10 +20557,6 @@
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">decreto</wn30:lexicalForm>
   </Description>
-  <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-revolver">
-    <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
-    <wn30:lexicalForm xml:lang="pt">revolver</wn30:lexicalForm>
-  </Description>
   <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-judicar-judicatura">
     <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
     <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-judicar"/>
@@ -26787,13 +26761,6 @@
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">aniquilamento</wn30:lexicalForm>
   </Description>
-  <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-revoltar-revolução">
-    <nomlex:plural xml:lang="pt">revoluções</nomlex:plural>
-    <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
-    <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-revoltar"/>
-    <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-revolução"/>
-    <dc:provenance xml:lang="pt">nomlex</dc:provenance>
-  </Description>
   <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-cabecear">
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">cabecear</wn30:lexicalForm>
@@ -27016,10 +26983,6 @@
     <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-plagiar"/>
     <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-plagiador"/>
     <dc:provenance xml:lang="pt">Linguateca</dc:provenance>
-  </Description>
-  <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-conjuntar">
-    <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
-    <wn30:lexicalForm xml:lang="pt">conjuntar</wn30:lexicalForm>
   </Description>
   <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-estender">
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
@@ -30440,13 +30403,6 @@
     <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-graduação"/>
     <dc:provenance xml:lang="pt">nomlex</dc:provenance>
   </Description>
-  <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-creditar-acreditação">
-    <nomlex:plural xml:lang="pt">acreditações</nomlex:plural>
-    <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
-    <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-creditar"/>
-    <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-acreditação"/>
-    <dc:provenance xml:lang="pt">nomlex</dc:provenance>
-  </Description>
   <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-projeto">
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
     <wn30:lexicalForm xml:lang="pt">projeto</wn30:lexicalForm>
@@ -31691,13 +31647,6 @@
     <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-ouvir"/>
     <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-ouvidor"/>
     <dc:provenance xml:lang="pt">Linguateca</dc:provenance>
-  </Description>
-  <Description rdf:about="http://arademaker.github.com/nomlex-br/instances/nomlex-abstenir-abstenção">
-    <nomlex:plural xml:lang="pt">abstenções</nomlex:plural>
-    <rdf:type rdf:resource="http://arademaker.github.com/nomlex/schema/Nominalization"/>
-    <nomlex:verb rdf:resource="http://arademaker.github.com/wn30-br/instances/word-abstenir"/>
-    <nomlex:noun rdf:resource="http://arademaker.github.com/wn30-br/instances/word-abstenção"/>
-    <dc:provenance xml:lang="pt">nomlex</dc:provenance>
   </Description>
   <Description rdf:about="http://arademaker.github.com/wn30-br/instances/word-adequabilidade">
     <rdf:type rdf:resource="http://arademaker.github.com/wn30/schema/Word"/>
