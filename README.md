@@ -7,7 +7,7 @@ University. This project aims to create a similar resource
 for Portuguese.
 
 The last version with 4,240 nominalizations is available in the
-**nomlex-br.rdf** file. More statistics at:
+**nomlex-pt.rdf** file. More statistics at:
 
 - http://logics.emap.fgv.br:10035/repositories/nomlex-br#query/r/total
 - http://logics.emap.fgv.br:10035/repositories/nomlex-br#query/r/provenance
