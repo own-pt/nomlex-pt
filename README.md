@@ -30,7 +30,8 @@ The classes and properties, the vocabulary is defined in the
 
 ## References
 
-- http://nlp.cs.nyu.edu/nomlex/
+- NomLex-PT: A Lexicon of Portuguese Nominalizations, by de Paiva, Real, Rademaker and de Melo, http://iiis.tsinghua.edu.cn/~weblt/papers/nomlex-pt.pdf
+- English NomLex project, http://nlp.cs.nyu.edu/nomlex/
 
 ## License
 
