@@ -12,8 +12,9 @@ The latest version with 4,240 nominalizations is available in the
 - http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/total
 - http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/provenance
 
-See also http://github.com/arademaker/openWordnet-PT. 
-The words are instances of the wn30:Word class from the openWordnet-PT.
+See also http://github.com/own-pt/openWordnet-PT for an updated
+version of nomlex-pt embeeded in the openWordnet-PT.  The words are
+instances of the wn30:Word class from the openWordnet-PT.
 
 The classes and properties, the vocabulary is defined in the
 **nomlex.turtle**.
