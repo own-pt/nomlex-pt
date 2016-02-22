@@ -9,8 +9,8 @@ for Portuguese.
 The latest version with 4,240 nominalizations is available in the
 **nomlex-pt.rdf** file. More statistics at:
 
-- http://logics.emap.fgv.br:10035/repositories/nomlex-br#query/r/total
-- http://logics.emap.fgv.br:10035/repositories/nomlex-br#query/r/provenance
+- http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/total
+- http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/provenance
 
 See also http://github.com/arademaker/openWordnet-PT. 
 The words are instances of the wn30:Word class from the openWordnet-PT.
@@ -25,8 +25,6 @@ The classes and properties, the vocabulary is defined in the
 - [Alexandre Rademaker](http://arademaker.github.io)
 - [Claudia Freitas](http://www.letras.puc-rio.br/pag_profs/professores_mariaclaudiafreitas.php)
 - [Gerard de Melo](http://demelo.org)
-
-
 
 ## References
 
