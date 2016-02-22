@@ -2,8 +2,8 @@
 # NOMLEX-PT
 
 NOMLEX (NOMinalization Lexicon) is a dictionary of English
-nominalizations developed by the Proteus Project at New York
-University (link below). The  project NomLex-PT aims to create a similar resource
+nominalizations developed by the Proteus Project (http://http://nlp.cs.nyu.edu/nomlex/) at New York
+University. The  project NomLex-PT aims to create a similar resource
 for (Brazilian) Portuguese.
 
 The latest version with 4,240 nominalizations is available in the
@@ -12,9 +12,8 @@ The latest version with 4,240 nominalizations is available in the
 - http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/total
 - http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/provenance
 
-See also http://github.com/own-pt/openWordnet-PT for a
-version of nomlex-pt somewhat embedded in the openWordnet-PT.  
-The words are instances of the wn30:Word class from the openWordnet-PT.
+See  http://github.com/own-pt/openWordnet-PT for a
+version of NomLex-PT  embedded in the OpenWordNet-PT. The words are instances of the wn30:Word class from the openWordnet-PT.
 
 The classes and properties, the vocabulary are defined in the
 **nomlex.turtle**.
@@ -30,7 +29,8 @@ The classes and properties, the vocabulary are defined in the
 ## References
 
 - NomLex-PT: A Lexicon of Portuguese Nominalizations, by de Paiva, Real, Rademaker and de Melo, http://iiis.tsinghua.edu.cn/~weblt/papers/nomlex-pt.pdf
-- English NomLex project, http://nlp.cs.nyu.edu/nomlex/
+- OpenWordNet-PT: An Open Brazilian Wordnet for Reasoning, de Paiva,  Rademaker,  and de Melo, http://http://arademaker.github.io/bibliography/coling2012.html
+
 
 ## License
 
