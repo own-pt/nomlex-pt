@@ -2,7 +2,7 @@
 # NOMLEX-PT
 
 NOMLEX (NOMinalization Lexicon) is a dictionary of English
-nominalizations developed by the Proteus Project (http://http://nlp.cs.nyu.edu/nomlex/) at New York
+nominalizations developed by the Proteus Project (http://nlp.cs.nyu.edu/nomlex/) at New York
 University. The  project NomLex-PT aims to create a similar resource
 for (Brazilian) Portuguese.
 
