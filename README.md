@@ -27,9 +27,12 @@ The classes and properties, the vocabulary are defined in the
 - [Gerard de Melo](http://demelo.org)
 
 ## References
-
-- NomLex-PT: A Lexicon of Portuguese Nominalizations, by de Paiva, Real, Rademaker and de Melo, http://iiis.tsinghua.edu.cn/~weblt/papers/nomlex-pt.pdf
-- OpenWordNet-PT: An Open Brazilian Wordnet for Reasoning, de Paiva,  Rademaker,  and de Melo, http://http://arademaker.github.io/bibliography/coling2012.html
+ 
+- NomLex-PT: A Lexicon of Portuguese Nominalizations, by de Paiva, Real, Rademaker and de Melo, LREC 2014 http://iiis.tsinghua.edu.cn/~weblt/papers/nomlex-pt.pdf
+- Extending NomLex-PT using AnCora-Nom, Real, Rademaker and de Paiva, ToRPorEsp 2014 http://arademaker.github.io/files/ToRPorEsp-2014-Ancora.pdf
+- Extending a Lexicon of Portuguese Nominalizations with Data from Corpora, Freitas, de Paiva, Rademaker, de Melo,and Silva, PROPOR 2014 http://arademaker.github.io/files/propor-2014.pdf
+- Embedding NomLex-BR nominalizations into OpenWordnet-PT, Coelho, Rademaker, de Paiva and de Melo, GWN 2014, http://arademaker.github.io/files/gwc-2014-nomlex.pdf
+- OpenWordNet-PT: An Open Brazilian Wordnet for Reasoning,  de Paiva,  Rademaker,  and de Melo, COLING 2012 Demo papers, http://www.aclweb.org/anthology/C12-3044
 
 
 ## License
