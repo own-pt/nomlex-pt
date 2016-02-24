@@ -6,15 +6,14 @@ nominalizations developed by the Proteus Project at New York
 University. This project aims to create a similar resource
 for Portuguese.
 
-The latest version with 4,240 nominalizations is available in the
-**nomlex-pt.rdf** file. More statistics at:
+The latest version with 4,240 nominalizations is available embeeded in
+the http://github.com/own-pt/openWordnet-PT. The list can be easly
+obtained with SPARQL:
 
-- http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/total
-- http://wnpt.brlcloud.com:10035/repositories/nomlex-br#query/r/provenance
+http://wnpt.brlcloud.com:10035/repositories/wn30#query/r/all-nomlex
 
-See also http://github.com/own-pt/openWordnet-PT for an updated
-version of nomlex-pt embeeded in the openWordnet-PT.  The words are
-instances of the wn30:Word class from the openWordnet-PT.
+The words are instances of the wn30:Word class from the
+openWordnet-PT.
 
 The classes and properties, the vocabulary is defined in the
 **nomlex.turtle**.
@@ -29,7 +28,7 @@ The classes and properties, the vocabulary is defined in the
 
 ## References
 
-- NomLex-PT: A Lexicon of Portuguese Nominalizations, by de Paiva, Real, Rademaker and de Melo, http://iiis.tsinghua.edu.cn/~weblt/papers/nomlex-pt.pdf
+- http://arademaker.github.io/bibliography/lrec-2014.html
 - English NomLex project, http://nlp.cs.nyu.edu/nomlex/
 
 ## License
