@@ -7,7 +7,7 @@ nominalizations developed by the Proteus Project
 NomLex-PT aims to create a similar resource for (Brazilian)
 Portuguese.
 
-The latest version with 4,240 nominalizations is available embedded in
+The latest version with around 4,240 nominalizations is available integrated in
 the http://github.com/own-pt/openWordnet-PT. The list can be easly
 obtained with SPARQL:
 
@@ -24,6 +24,7 @@ in the *nomlex.turtle*.
 - [Alexandre Rademaker](http://arademaker.github.io)
 - [Claudia Freitas](http://www.letras.puc-rio.br/pag_profs/professores_mariaclaudiafreitas.php)
 - [Gerard de Melo](http://demelo.org)
+- [Fabricio Chalub] (https://github.com/fcbr)
 
 ## References
  
