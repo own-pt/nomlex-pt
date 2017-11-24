@@ -19,12 +19,12 @@ in the *nomlex.turtle*.
 
 ## Team
 
-- [Valeria de Paiva](http://www.valeriadepaiva.org)
+- [Valeria de Paiva](http://vcvpaiva.github.io/)
 - [Livy Real](http://livyreal.com)
 - [Alexandre Rademaker](http://arademaker.github.io)
 - [Claudia Freitas](http://www.letras.puc-rio.br/pag_profs/professores_mariaclaudiafreitas.php)
 - [Gerard de Melo](http://demelo.org)
-- [Fabricio Chalub] (https://github.com/fcbr)
+- [Fabricio Chalub] (http://github.com/fcbr)
 
 ## References
  
